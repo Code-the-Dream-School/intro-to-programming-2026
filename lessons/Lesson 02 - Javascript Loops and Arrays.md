@@ -48,6 +48,8 @@ A version control system is a software tool that tracks and manages changes to f
 Git can be confusing when you first start learning about it. There are quite a few steps which might seem unnecessary, but will definitely make sense when you are working in a team environment.
 
 When you created your GitHub repository, you created a repository in a cloud environment. While you can edit files remotely, you will want to have your code in a local development environment where you can easily run and debug it. This week, we are going to copy our software repository to our local computer.  This is called cloning.  There are gui interfaces that will let you submit git commands, but we are going to learn how to submit the commands through a terminal interface.
+**TODO - Image Add link to image**
+
 
 ## Installing and Setting Up Git
 The following information will help you setup git on your local machine.
@@ -59,7 +61,7 @@ The Odin link does not provide a link to the Windows installer which can be foun
 
 After installing, follow the rest of the instructions on the Odin page for setting up Git.
 
-**TODO - Video - Clone Repo**
+**TODO - Add link to video for clone**
 
 ## Assignment - CLONE your GitHub Repository to your local machine
 Clone the repository you just created in GitHub to your local computer by following these steps:
