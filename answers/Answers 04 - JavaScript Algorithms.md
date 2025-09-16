@@ -309,4 +309,85 @@ function printClassResult(className, student, scores) {
 printClassResult ("History 101", "Jane Doe", [60, 70, 85, 87]);
 printClassResult ("History 101", "Jane Doe", [60, 70, 85, 87, 40, 20]);
 
+// ---------- QUESTION 12 ----------
+// Create a function named findMax() that takes an array of numbers and returns the largest number in the array.
+// If the array is empty, return null.
+
+// EXAMPLE LOG:
+//   console.log("Q12 findMax: ", [3, 7, 2, 9, 5], findMax([3, 7, 2, 9, 5])); 
+// EXAMPLE OUTPUT:
+//   Q12 findMax: [3, 7, 2, 9, 5] 9
+
+// EXAMPLE LOG:
+//   console.log("Q12 findMax: ", [], findMax([]));  //empty array
+// EXAMPLE OUTPUT:
+//   Q12 findMax: [] null
+
+// PUT YOUR CODE HERE
+
+function findMax(arr) { 
+  if(arr.length === 0) {
+    return null;
+  }
+
+  let max = arr[0];
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
+}
+let arr = [3, 7, 2, 9, 5];
+console.log("Q12 findMax: ", `${arr}`, findMax(arr));
+arr = [];
+console.log("Q12 findMax: ", `${arr}`, findMax(arr));
+
+// ---------- QUESTION 13 ----------
+// Create a function named factorial that takes a positive integer as input and returns its factorial(the product of all positive integers up to that number).
+// If the input is 0, return 1.
+
+// EXAMPLE LOG:
+//   console.log("Q13 factorial: ", factorial(4));  
+// EXAMPLE OUTPUT:
+//   24  //4*3*2*1
+
+// PUT YOUR CODE HERE
+function factorial(num) {
+  let product = 1;
+  if(num == 0) {
+    return 1;
+  }
+  
+  for(let i = num; i > 0; i--) {
+    product *= i;
+  }
+  return product;
+}
+console.log("Q13 factorial: ", factorial(4));  
+
+// ---------- QUESTION 14 ----------
+// Create a function named countVowels that takes a string as input and returns the number of vowels (a,e,i,o,u) in the string. Make sure it works for both uppercase and lowercase inputs.
+// Print yes is they have passed and no if they did not.
+
+// EXAMPLE LOG:
+//   console.log("Q14 countVowels: ", "Hello World", countVowels("Hello World"));
+// EXAMPLE OUTPUT:
+//   Q14 countVowels: Hello World 3
+
+// PUT YOUR CODE HERE
+
+function countVowels(word) {
+  let count = 0;
+  const vowels = "aeiouAEIOU";
+  for(let i = 0; i < word.length; i++) {
+    if(vowels.includes(word[i])) {
+      count++;
+    }
+  }
+  return count;
+}
+console.log("Q14 countVowels: ", "Hello World", countVowels("Hello World"));
+
+
 ```
