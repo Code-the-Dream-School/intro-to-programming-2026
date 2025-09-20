@@ -13,7 +13,7 @@
    - [ ] Before the closing `</head>` tag, insert a `<link>` element with a `rel` attribute of "stylesheet" and an `href` attribute that specifies the relative path to your CSS file (i.e. `css/index.css`)
 
 ### Write CSS
-For this assignment, there are some general requirements but the design is up to you! This is your chance to be creative and transform your webpage into a reflection of who you are.  We suggest starting small with background colors, font choices, etc.  Make small changes, confirm they are what you expect, then move on to make another small change.  **TIP:** If you're struggling with visualizing sections of your webpage, put colorful borders around each section so you can see how changing your css code changes a given section.
+For this assignment, there are some general requirements but the design is up to you! This is your chance to be creative and transform your webpage into a reflection of who you are.  We suggest starting small with background colors, font choices, etc.  Make small changes, verify they work as expected, then proceed to the next change.  **TIP:** If you're struggling with visualizing sections of your webpage, put colorful borders around each section so you can see how changing your css code changes a given section.
    - [ ] Change the background color of the page body
    - [ ] Change the default text color
    - [ ] Customize the font family
@@ -55,7 +55,7 @@ Once you've made the above changes to your repository folder structure and added
 ## Submit Assignment
 Now let's make sure that lesson branch will be reviewed.
    - [ ] Go to your GitHub repository page in your web browser now, and you should see a "lesson-6 has a recent push" notice with a green "Compare & pull request" button. Click that button
-   - [ ] Feel free to put notes to yourself or notes for your reviewer in the description (be sure you're including any questions to your reviewer in your assignment submission form though!) and click the green "Create pull request" button.
+   - [ ] Feel free to add personal notes or questions for your reviewer in the description (be sure you're including any questions to your reviewer in your assignment submission form though!) and click the green "Create pull request" button.
    - [ ] Copy the address of your pull request page (should look like `https://github.com/yourUsername/name-classname/pull/#`) and paste it into your assignment submission form.
 
 ## What next?
