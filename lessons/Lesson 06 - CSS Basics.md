@@ -1,7 +1,7 @@
 
 # Cascading Style Sheets (CSS)
 
-*Cascading Style Sheets*, or CSS, is a programming language that was created to supplement HTML. As a *style sheet language*, CSS is the code that explains how a markup language, like HTML, should be presented. When used alongside HTML on a web page, CSS can add a variety of formatting, design, and style details.
+*Cascading Style Sheets*, or CSS, is a style sheet language that was created to supplement HTML. As a *style sheet language*, CSS is the code that explains how a markup language, like HTML, should be presented. When used alongside HTML on a web page, CSS can add a variety of formatting, design, and style details.
 
 # Lessons
 You can either use the written Odin Project lessons or the video lessons in Scrimba.
