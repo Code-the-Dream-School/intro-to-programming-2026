@@ -1,10 +1,10 @@
 ## Get organized and write some code!
-   - [ ] Create a new local branch to house just the work you'll do for this assignment by running `git checkout -b lesson-5` in the terminal
+   - [ ] Create a new local branch to house just the work you'll do for this assignment by running `git checkout -b lesson-5` in the terminal which creates a new branch and automatically switches to it
    - [ ] Open the README.md file in your code editor and add your full name.
-   - [ ] Create a new file in your project directory (same level as your README.md file) and title it `index.html`
+   - [ ] Create a new file in your project directory (at same level as your README.md file) and title it `index.html`
 
 ## Assignment: Task List / Deliverables
-In your index.html, we are going to add "boilerplate" HTML code as a starting point that includes all the required elements and meta tags.  While copy and pasting is common practice, this week we want you to write all the boilerplate code from scratch so you understand the parts of it and what their functions are.  Each line of the boilerplate HTML code is broken down below.  
+In your index.html, we are going to add "boilerplate" HTML code as a starting point that includes all the required elements and meta tags. A boilerplate code provides a standard structure for HTML documents. While copy and pasting is common practice, this week we want you to write all the boilerplate code from scratch so you understand the parts of it and what their functions are.  Each line of the boilerplate HTML code is broken down below.  
 
 REMINDER: HTML uses code called "tags" and "elements". In HTML, an element consists of a "start tag", some content, and an "end tag".  So when describing the `<title>` element, for example, we're referring to this: `<title>Your Title</title>` Also, keep in mind some HTML elements are "self-closing", meaning that they have one tag that opens and closes at the same time (e.g. `<meta name="description" content="Your description" />`. In the Body and Additional Elements sections of these instructions you'll find the bulk of the actual site content (what the user will see when they view your page) listed.
 
@@ -35,7 +35,7 @@ The "body" of an HTML document contains all the page's visible content.
 
 #### - Additional Elements
 HTML describes the structure of a webpage using various semantic elements, such as: headings, paragraphs, lists, and more, as you just saw by writing content for the body of your page.  Now let's organize that content...
-   - [ ] Wrap each of the About, Experience, and Connect sections in a `<section>` element.  You'll use this later when you style your webpage to stay organized and apply different style settings to each of the different settings.
+   - [ ] Wrap each of the About, Experience, and Connect sections in a `<section>` element.  You’ll use this later when styling your webpage to stay organized and apply different style settings to each section.
    - [ ] Give each of these sections an "id" property with the same name as the section.  Example:  The About section would look like this:
 
 ``` jsx
