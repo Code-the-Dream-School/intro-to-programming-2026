@@ -11,7 +11,6 @@ With the DOM, JavaScript can find specific elements, change their content, add n
 - **Facilitates interactivity:**
 By allowing dynamic changes to a web page without needing to reload the entire page, the DOM is essential for features like drop-down menus, search suggestions, and other interactive web experiences. 
 
-
 # Lessons
 You can either use the written Odin Project lessons or the video lessons in Scrimba.
 
