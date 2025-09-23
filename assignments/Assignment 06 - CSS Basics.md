@@ -17,7 +17,7 @@ For this assignment, there are some general requirements but the design is up to
    - [ ] Change the background color of the page body
    - [ ] Change the default text color
    - [ ] Customize the font family
-     - [ ] STRETCH GOAL (optional):load in a font family from [Google Fonts](https://fonts.google.com/)
+     - [ ] STRETCH GOAL (optional): load in a font family from [Google Fonts](https://fonts.google.com/)
    - [ ] Add spacing (padding/margin) between sections
    - [ ] Change the alignment of the content of one of your sections
    - [ ] Change the font size, weight, and color of headings
@@ -29,7 +29,7 @@ For this assignment, there are some general requirements but the design is up to
 
 **_By the end of this section, you should have basic styling and have changed a minimum of one background color, one font, one text color, the padding and margin of one element, the alignment of one element, the look of the heading elements, the look of your name, the look of list items, the look of links._**
 
-### Now lets do a little formatting
+### Now let's do a little formatting
    - [ ] In your index.html file, add a navigational header to your webpage using the `<nav>` element.
    - [ ] Add two sections to your index.html file:
      - [ ] The first section will be "Skills".  Use an h2 tag as you did with your About, Experience, and Connect sections, and be sure to include the id property in the element.  You can leave the section empty for now.  In later weeks we'll use JavaScript to insert a list of your skills.
@@ -60,4 +60,4 @@ Now let's make sure that lesson branch will be reviewed.
 
 ## What next?
    - If you are ready to start on the next lesson and have not gotten your review comments back yet, you can go ahead and merge your pull request and continue working.
-   - if you are unsure about your work this week, schedule a 1:1 session with a mentor and review your work together before merging.
+   - If you are unsure about your work this week, schedule a 1:1 session with a mentor and review your work together before merging.
