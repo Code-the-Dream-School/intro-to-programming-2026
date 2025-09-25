@@ -6,10 +6,10 @@ In programming, a console is a text-based interface used for interacting with a 
 
 Console windows are also knows as terminal windows. You will also sometimes hear the term command-line interface (CLI) which means you are typing commands to interact with the program or system.
 
-We will talk a little more about console windows in future lessons, but for now, all you need to know is that when you run the command.
+We will talk a little more about console windows in future lessons, but for now, all you need to know is that when you run the command:
 
 ```javascript
-console.log("string to log)
+console.log("string to log")
 ```
 The data located between the parenthesis is logged to the console window which is part of the embedded/interactive assignment on the javascript lesson pages.
 

@@ -11,7 +11,7 @@ Strings and numbers may be our building blocks, but as your scripts get more com
 
 - [JS Deep Dive - Module Intro: Arrays](https://scrimba.com/javascript-deep-dive-c0a/~01h)
 - [JS Deep Dive - Build Flexible Collection with Arrays](https://scrimba.com/javascript-deep-dive-c0a/~01i)
-- [JS Deep Dive - Challege: Your First Array](https://scrimba.com/javascript-deep-dive-c0a/~01j)
+- [JS Deep Dive - Challenge: Your First Array](https://scrimba.com/javascript-deep-dive-c0a/~01j)
 - [JS Deep Dive - Check Element Existence in Arrays](https://scrimba.com/javascript-deep-dive-c0a/~01k)
 
 1. [This tutorial](https://www.w3schools.com/js/js_arrays.asp) is a great introduction.
@@ -69,7 +69,7 @@ Clone the repository you just created in GitHub to your local computer by follow
    - [ ] Go to your IDE terminal or your computer terminal.  Make sure you're in the proper directory for where you want to create and store files for your work (ex. your Desktop or a CodeTheDream folder).  Then run `git clone <repository>` where "\<repository\>" is replaced with the last portion you copied in the last step.
 
 ## Git / GitHub Workflow
-The following image shows the steps involved in using Git and Github.  Pay attention to where files are located in each step - either on your local machine or remote in Github.  
+The following image shows the steps involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
 We will work on the entire workflow in pieces over Lessons 2, 3 and 4.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/GitFlow.jpg?raw=true)

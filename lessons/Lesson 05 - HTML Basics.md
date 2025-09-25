@@ -23,7 +23,7 @@
 Watch the following sections:
 - **Let's write some HTML!**
 - **strong and emphasis**
-- **File naming and organizati**
+- **File naming and organization**
 - **Anchors and Attributes!**
 - **Lists**
 - **Images**
@@ -43,9 +43,30 @@ HTML is the foundational component of a website adding these elements to a web p
 
 ### Tags vs Elements
 
-An HTML element is often made up of two **_tags_**: an _opening tag_ and a _closing tag_ (sometimes called a _begin tag_ and an _end tag_, respectively). The opening tag begins the HTML element, and it's enclosed in brackets <>.
+HTML **_elements_** are the basic building blocks of a webpage. Each HTML element represents a different type of content (such as a link, image, heading, list, paragraph, etc.). Each HTML element is represented using 1 or 2 tags.
 
-An HTML **_element_** consists of two tags: an opening tag and a closing tag (such as `<h1>` and `</h1>`). The closing tag will always have a /, which signifies the end of an element. HTML text can be grouped into headings or paragraphs.
+An HTML **_tag_** is how we code an HTML element. All tags use **brackets** <>. Some HTML elements are represented by writing only 1 tag. For example, this 1 tag represents an image element in HTML:
+
+```html
+<img src="myPhoto.jpg" alt="This Is My Photo">
+```
+
+Some HTML elements need 2 tags: an _opening tag_ and a _closing tag_ (sometimes called a _begin tag_ and an _end tag_, respectively). Here are some examples:
+
+```html
+<p>This is my paragraph's content. Notice the opening tag is a bit different from the closing tag.</p>
+```
+
+In the HTML element above, notice that it has an opening tag: `<p>`. The closing tag for this element is very similar to its opening tag, but it has a / in it: `</p>`  Here are more examples of elements with 2 tags:
+
+```html
+<h1>Here is a heading type of HTML element.</h1>
+
+<div class='mySpecialClassName'>Some tags have additional attributes. Notice the end tag remains simple. The end tag doesn't have the extra attributes of the begin tag.</div>
+```
+
+For html elements which require 2 tags, the end tag will look very similar to the begin tag. Except, the end tag will have the `/` character in it.
+
 
 # Visual Studio Code
 

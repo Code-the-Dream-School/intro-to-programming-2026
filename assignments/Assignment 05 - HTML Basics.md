@@ -41,7 +41,9 @@ HTML describes the structure of a webpage using various semantic elements, such 
 ``` jsx
 <section id="About">
    <h2>About</h2>
-      <p>This is a paragraph about me.  Here's more info about me.</p>
+   <p>
+      This is a paragraph about me.  Here's more info about me.
+   </p>
 </section>
 ```
    - [ ] STRETCH GOAL (optional):  Feel free to use even more HTML elements by adding images, navigation menus, etc.

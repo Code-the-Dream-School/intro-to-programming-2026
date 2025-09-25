@@ -2,7 +2,7 @@
 //---------- OVERVIEW AND INSTRUCTIONS ----------
 
 //# JavaScript Objects
-// This is the coding assigment for the fourth week of the Intro to Programming course from Code the Dream. The concepts touched on in this assignment include:
+// This is the coding assignment for the fourth week of the Intro to Programming course from Code the Dream. The concepts touched on in this assignment include:
 //   - Object Basics
 //   - Primitive vs Object Types
 //   - Object Destructuring
@@ -42,7 +42,7 @@
 
 
 // ---------- QUESTION 3 Looping thru properties ---------
-// Now let's see how we can loop thru the properties - this is a common task in JavaScript. Use a for...in loop, a special type of loop in JavasScript designed specifically for iterating over the properties of an object.  See https://www.w3schools.com/js/js_loop_forin.asp for reference.
+// Now let's see how we can loop thru the properties - this is a common task in JavaScript. Use a for...in loop, a special type of loop in JavaScript designed specifically for iterating over the properties of an object.  See https://www.w3schools.com/js/js_loop_forin.asp for reference.
 //  Write a for...in loop that iterates through each property in the myPet object and prints the property name and its value to the console in the following format:
 //Q4: propertyName: propertyValue
 //Use console.log() inside the loop to display each key-value pair.

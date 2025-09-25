@@ -139,9 +139,9 @@
 // Print yes is they have passed and no if they did not.
 
 // EXAMPLE LOG:
-//   printClassResult ("History 101", "Jane Doe", [60, 70, 85, 87]);  // no console.log since the logs are in the function
+//   console.log("Q11: ", printClassResult ("History 101", "Jane Doe", [60, 70, 85, 87]));  
 // EXAMPLE OUTPUT:
-//   Q11: History 101 - Student:Jane Doe, Average: 75.5, Grade: C, Passed: yes
+//   Q11: History 101 - Student: Jane Doe, Average: 75.5, Grade: C, Passed: yes
 
 // PUT YOUR CODE HERE
 
@@ -159,12 +159,12 @@
 
 
 // ---------- QUESTION 13 ----------
-// Now, create a function called simulateButtonPush and pass the function created in question 5 to that function.
+// Now, create a function called simulateButtonPush and pass the function created in question 12 to that function.
 
 // EXAMPLE CALL: (the log is within the function, so you do not need to log the call)
 //    simulateButtonPush(buttonPushed);
 
-// EXAMPLE OUTPUT: (if your 'myPet' object from Question 1 is about any animal other than a dog)
+// EXAMPLE OUTPUT: 
 //   The button was pushed!
 
 // PUT YOUR CODE HERE

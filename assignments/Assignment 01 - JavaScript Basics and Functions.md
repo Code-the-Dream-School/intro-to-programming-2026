@@ -5,7 +5,7 @@
 // LESSON 1 BASICS AND FUNCTIONS
 //----------------------------------
 
-// This is the coding assigment for the first week of the Intro to Programming course from
+// This is the coding assignment for the first week of the Intro to Programming course from
 // Code the Dream. The concepts touched on in this assignment include:
 //   - The basic syntax of the JavaScript programming language
 //   - Basic programming concepts like variables, data types, and conditional statements
@@ -16,7 +16,7 @@
 // In this assignment you will write your own code. Your instructions are listed as "comments", meaning the instructions are grayed out and start with '//' at the beginning of the line of code. Put your answers immediately below the instructions for each question. As mentioned in the Welcome to Class info in the browser on the right, the first few questions have console logs provided. They are currently commented out so they will not show errors in your console.  Please remove the '//' from the left of the console log to "comment them in" making them active code.  Add console logs for all the remaining questions to check your code output. There are sample console logs for all questions, but be sure to use some of your own values and function inputs as well.
 
 // To use a function in a console.log you invoke/call the function as part of the console log like this:
-//  console.log("Q#: ", functionName(anyInput))
+//  console.log("Q#: ", functionName(anyInput));
 
 // ---------- QUESTION 1 ----------
 // Declaring and giving string values to variables.
@@ -38,7 +38,7 @@
 // PUT YOUR CODE HERE
 
 // console.log(
-//   "This is a decimal, also called a floating point number: ",
+//   "Q2: This is a decimal, also called a floating point number: ",
 //   floatingPoint
 // );
 // console.log("Q2: This is a whole number, also called an integer: ", integer);
@@ -51,9 +51,9 @@
 
 // PUT YOUR CODE HERE
 
-// console.log("The variable I made true is: ");
+// console.log("Q3: The variable I made true is: ");
 //The output of the above should be true.
-// console.log("The variable I made false is: ");
+// console.log("Q3: The variable I made false is: ");
 //The output of the above should be false.
 
 // ---------- QUESTION 4 ----------
@@ -62,7 +62,7 @@
 // Suggested text: Hello! My name is (your first name variable and last name variable concatenated here) and I was born in (your country variable here)
 // You can also choose to make the text between the variables strings and concatenate all of them together.
 
-// STRETCH GOAL: For this stretch goal, make a second variable that still concatenates your variable from Q1, but uses template literals.
+// STRETCH GOAL: For this stretch goal, make a second variable that still concatenates your 3 variables from Q1, but uses template literals.
 
 // PUT YOUR CODE HERE
 
@@ -77,9 +77,9 @@
 
 // ---------- QUESTION 6 ----------
 // String Methods
-// Create four variables named "length", "firstInitial", "lastInitial", and "capitalize".  Using string methods, assign the length of your first name (use your variable from Q1) to the "length" variable. Assign the first letter of your first name (use your variable from Q1) to the "firstInitial" variable.  Assign the LAST letter of your first name (use your variable from Q1) to the "lastInitial" variable.  Change your first name to all capital letters and assign it to the "capitalize" variable.
+// Create four variables named "length", "firstInitial", "lastInitial", and "capitalize".  Using string methods, assign the length of your first name (use your variable from Q1) to the "length" variable. Assign the first letter of your first name (use your variable from Q1) to the "firstInitial" variable.  Assign the LAST letter of your first name (use your variable from Q1) to the "lastInitial" variable.  Assign your first name in all capital letters (use your variable from Q1) to the "capitalize" variable.
 
-//STRETCH GOAL: Create a variable called "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names and should be capitalized.  Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
+//STRETCH GOAL: Create a variable called "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names. Both these letters should also be capitalized in "weirdInitials".  Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
 
 // PUT YOUR CODE HERE
 
@@ -97,14 +97,14 @@
 // ---------- QUESTION 8 ----------
 // Declare a variable called "age" and assign it that value of your age in years.  Create a conditional statement that will console.log the phrase "Age is just a number!" if your age is less than or equal to 30 and "Young at heart!" if your age is greater than 30.
 
-//STRETCH GOAL: Combine your skills!  Use template literals to console.log your name in the phrase as in "Sally, age is just a number!" or "Jose, you're young at heart!"
+//STRETCH GOAL: Combine your skills!  Use template literals to console.log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
 
 // PUT YOUR CODE HERE
 
 // Don't forget your console.logs!
 
 // ---------- QUESTION 9 ----------
-// Create a variable "randomNum" to be a random number generator that randomly returns either the number 1, 2, or 3 (you can use this resource to help you solve how to do this part: https://www.w3schools.com/js/js_random.asp). Now let's make a "Magic 8 Ball" using if elseif else that returns a different phrase for each of the three possible numbers.
+// Create a variable "randomNum" to be a random number generator that randomly returns either the number 1, 2, or 3 (you can use this resource to help you solve how to do this part: https://www.w3schools.com/js/js_random.asp). Now let's make a "Magic 8 Ball" using if, else if, and else that returns a different phrase for each of the three possible numbers.
 // If your random number is 1, console.log the phrase "It is certain.".
 // If it is 2, console.log "Perhaps.".
 // If it is 3, console.log "Absolutely not.".
@@ -132,7 +132,7 @@
 // Don't forget your console.logs!
 
 // ---------- QUESTION 12 ----------
-// Create a function titled 'messageString'.  Inside the function,  declare a variable named 'message' and assign it the string "Welcome to Code the Dream".  Return the 'message' variable.
+// Create a function titled 'messageString'.  Inside the function, declare a variable named 'message' and assign it the string "Welcome to Code the Dream!".  Return the 'message' variable.
 
 // EXAMPLE LOG:
 //    console.log("Q12: ", messageString());

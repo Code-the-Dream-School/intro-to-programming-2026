@@ -24,7 +24,7 @@ This week, we are going to make some changes in our repository, commit them and 
 
 **TODO - Video - Commit and Push Updates**
 
-## Assignment - Making changes in our respository
+## Assignment - Making changes in our repository
    - [ ] Navigate into the directory you cloned last week by typing `cd <name-classname>` in the terminal where the <name-classname> portion is the name of your repository.
    - [ ] Create a new local branch to house just the work you'll do for this assignment by running `git checkout -b lesson-3` in the terminal
    - [ ] Open the README.md file in your code editor and add your full name.
@@ -38,7 +38,7 @@ This week, we are going to make some changes in our repository, commit them and 
 
 
 ## Git / GitHub Workflow
-The following image shows the steps involved in using Git and Github.  Pay attention to where files are located in each step - either on your local machine or remote in Github.  
+The following image shows the steps involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
 We will work on the entire workflow in pieces over Lessons 2, 3 and 4.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/GitFlow.jpg?raw=true)

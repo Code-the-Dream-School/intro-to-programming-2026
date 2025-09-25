@@ -133,11 +133,11 @@ You can also think of it as requesting that a branch pull your updated code into
 
 After the PR (Pull Request) has been approved (generally by some type of review process), then the owner of the target branch can merge the code.  In the case of multiple people working in the same area of code, there may potentially be conflicts that have to be resolved during the merge process.
 
-**Github: About Pull Requests:**
+**GitHub: About Pull Requests:**
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 
-**TODO - Creating Github PR Video**
+**TODO - Creating GitHub PR Video**
 
 ## Assignment - Create and Submit a PR
 Now, let's submit a PR.
@@ -154,7 +154,7 @@ Now, let's submit a PR.
 - [ ] Update your local main branch to include your lesson-3 work by pulling your changes from your GitHub repository main. Use the following git command in your terminal to do this: `git pull origin main`.
 
 ## Git / GitHub Workflow
-The following image shows the steps involved in using Git and Github.  Pay attention to where files are located in each step - either on your local machine or remote in Github.  
+The following image shows the steps involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
 We will work on the entire workflow in pieces over Lessons 2, 3 and 4.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/GitFlow.jpg?raw=true)
