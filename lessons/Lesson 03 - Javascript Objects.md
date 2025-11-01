@@ -18,7 +18,7 @@ Last week, we cloned our repository to our local machine.
 This week, we are going to make some changes in our repository, commit them and push them back to our remote repository.  
 
 ### Watch this video on how to make changes in your repository: ###
-[Making Changes in Your Repository](https://www.youtube.com/watch?v=Uqn8Ws_jzmg&list=PLYvE5YXWTfw88MpcXKPmPPJtqm_gQ3ex8&)
+[Making Changes in Your Repository](https://www.youtube.com/watch?v=Uqn8Ws_jzmg&list=PLYvE5YXWTfw88MpcXKPmPPJtqm_gQ3ex8)
 
 ## Assignment - Making changes in our repository
    - [ ] Navigate into the directory you cloned last week by typing `cd <name-classname>` in the terminal where the <name-classname> portion is the name of your repository.

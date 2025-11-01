@@ -13,7 +13,7 @@ There is a lot of freedom on this page to be creative.  You may structure and st
 ## CONTENT:
  - [ ] Display the data for at least 2 endpoints in the API
  - [ ] Include navigation (e.g. button or link) from each type of data to the other (For Example: if using the weather app, one navigation button/link should display the temperature details and the second navigation button/link should display the weather condition)
- - [ ] Issue new GET requests each time the user click a navigation link, meaning you should have 2 GET requests - one for each navigation, that requests only the needed information (Example: if using the weather app, clicking temperature navigation link should pull only data that allows user to see temperatures and clicking conditions navigation link should pull only data that allows user to see weather conditions)
+ - [ ] Issue new GET requests each time the user clicks a navigation link, meaning you should have 2 GET requests - one for each navigation, that requests only the needed information (Example: if using the weather app, clicking temperature navigation link should pull only data that allows user to see temperatures and clicking conditions navigation link should pull only data that allows user to see weather conditions)
 
 ## FUNCTIONALITY:
  - [ ] Code runs without issues by following the instructions in the README file
