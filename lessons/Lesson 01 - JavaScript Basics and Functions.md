@@ -63,4 +63,4 @@ The following image shows the entire workflow involved in using Git and GitHub. 
 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line. We will work on the remaining workflow in Lessons 2, 3 and 4.
 
-![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson01/GitFlow-Lesson01.jpg?raw=true)
+![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson01/GitFlow-Lesson01.png?raw=true)
