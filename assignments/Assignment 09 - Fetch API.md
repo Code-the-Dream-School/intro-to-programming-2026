@@ -24,7 +24,7 @@
  - [ ] Chain a `catch()` function to your `fetch` call to handle errors from the server so the user would know what happened if your Projects section was empty.
 
 #### Display Repositories in List
- - [ ] Create a variable names `projectSection`; using "DOM Selection" to select the projects section by id
+ - [ ] Create a variable named `projectSection`; using "DOM Selection" to select the projects section by id
  - [ ] Create a variable named `projectList`; using "DOM Selection" query the projectSection (instead of the entire document) to select the <ul> element
  - [ ] Create a for loop to iterate over your repositories Array, starting at index 0
    - [ ] Inside the loop, create a variable named `project` to make a new list item (li) element
