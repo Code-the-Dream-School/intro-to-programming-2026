@@ -4,7 +4,7 @@
 
 # JavaScript Basics
 
-**You can _either_ use the written Odin Project lessons _or_ the video lessons in Scrimba. You can do both if you have them time and want to, but using just one or the other will teach what is needed to complete the coding assignments.**
+**You can _either_ use the written Odin Project lessons _or_ the video lessons in Scrimba. You can do both if you have the time and want to, but using just one or the other will teach what is needed to complete the coding assignments.**
 
 For the Odin Project, Go to each link in this list and read through the content on that page. If there are links you are redirected to as you read/work through the content, follow those links as well and read the content there too.
 
