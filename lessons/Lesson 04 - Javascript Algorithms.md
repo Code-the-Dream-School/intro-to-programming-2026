@@ -137,7 +137,8 @@ After the PR (Pull Request) has been approved (generally by some type of review 
 
 https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 
-## TODO - Creating GitHub PR Video
+### Watch this video on creating a Pull Request: ###
+[Creating a Pull Request Video](https://www.youtube.com/watch?v=89hjRfX0dS4)
 
 ## Assignment - Create and Submit a PR
 Now, let's submit a PR.
