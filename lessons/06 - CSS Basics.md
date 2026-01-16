@@ -1,5 +1,5 @@
 
-# 1.1 Cascading Style Sheets (CSS)
+# 6.1 Cascading Style Sheets (CSS)
 
 *Cascading Style Sheets*, or CSS, is a style sheet language that was created to supplement HTML. As a *style sheet language*, CSS is the code that explains how a markup language, like HTML, should be presented. When used alongside HTML on a web page, CSS can add a variety of formatting, design, and style details.
 
