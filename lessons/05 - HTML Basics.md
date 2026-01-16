@@ -1,20 +1,62 @@
 
-# HTML Basics
+# 1.1 How the Web Works
 
-**[How Does the Web Work?](../assets/Lesson05/Lesson05-How-Does-the-Web-Work.md)**
+Read then following article: **[How Does the Web Work?](../assets/Lesson05/Lesson05-How-Does-the-Web-Work.md)**
+
+Then, reflect on what you've learned using the Check for Understanding questions and AI Learning Prompts.
+
+## Check for Understanding: How the Web Works
+
+**Question 1**: When you type a URL like `https://www.example.com` into your browser, what is the first major thing that happens?
+
+* A) The server sends back HTML, CSS, and JavaScript files
+* B) The browser executes JavaScript
+* C) The browser contacts a DNS server to find the IP address
+* D) The browser builds the DOM
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: C) The browser contacts a DNS server to find the IP address
+
+</details>
+
+**Question 2**: Which best describes the client-server model?
+
+* A) The client requests resources and the server responds
+* B) The client and server store the same files
+* C) The server requests data from the client
+* D) The browser and server run the same code
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: A) The client requests resources and the server responds
+
+</details>
+
+## AI Learning Prompt: Retrieval Practice
+
+1. Open your preferred AI chatbot (CTD’s AI Reviewer is a great choice).
+2. In your own words, explain what happens when you load a webpage — from typing in a URL to seeing an interactive page. Try to include DNS, HTTP/HTTPS, and the roles of HTML, CSS, and JavaScript.
+3. Share your explanation with the AI and ask it to tell you what you explained clearly and point out anything that’s missing or slightly incorrect.
+4. Revise your explanation based on the feedback.
+
+**Example Prompt**:
+
+>“I just learned how the web works. Here’s my understanding of what happens when I load a website:[your explanation]. Can you tell me what I got right, what I might be missing, and where I could improve my understanding?”
+
+# 1.2 HTML Basics
 
 ### The Odin Project Links:
 
 - **[The Odin Project - Introduction to HTML and CSS](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-html-and-css)**
-
 - **[The Odin Project - Elements and Tags](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/elements-and-tags)**
-
 - **[The Odin Project - HTML Boilerplate](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-boilerplate)**
-
 - **[The Odin Project - Working with Text](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/working-with-text)**
-
 - **[The Odin Project - Lists](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/lists)**
-
 - **[The Odin Project - Links and Images](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/links-and-images)**
 
 ### Scrimba Links:
@@ -29,7 +71,7 @@ Watch the following sections:
 - **Lists**
 - **Images**
 
-### HTML
+## HTML Overview
 
 *Hypertext Markup Language (created in 1989)*, commonly called *HTML*, is a markup language that is used to create the structure of a web page. The basic idea of HTML is that the brackets < > surrounding the code of a web page tell the web browser what information it's working with.
 
@@ -68,11 +110,40 @@ In the HTML element above, notice that it has an opening tag: `<p>`. The closing
 
 For html elements which require 2 tags, the end tag will look very similar to the begin tag. Except, the end tag will have the `/` character in it.
 
-# Visual Studio Code
+## AI Learning Prompt: Predict-then-Check
 
-Visual Studio Code is an IDE (Integrated Development Environment).  IDEs are helpful programs that combine several tools (a text editor, the command line/terminal, file organization, and more) into one program.  If you aren't currently using an IDE of your own preference, you should watch the video below and install Visual Studio Code and suggested extensions in the video before you start this week's assignment.
+Study this snippet of HTML code without opening it in a browser:
 
-[Visual Studio Code Info Session with Shawn Clary](https://www.youtube.com/watch?v=R8lusLkuWJQ)
+```html
+<ul>
+  <li>Apples</li>
+  <li>Bananas</li>
+</ul>
+```
 
-[Browser debugging in VS Code](https://code.visualstudio.com/docs/nodejs/browser-debugging)
+1. Predict how this will look on a web page.
+2. Explain to an AI chatbot why you think it will look that way, specifically identifying what the `<ul>`and `<li>` tags represent.
+3. Ask: "Is my reasoning about how these list tags work correct?"
+4. Check your prediction by searching for "HTML list elements" or running the code in a text editor.
 
+# 1.3 IDEs and Visual Studio Code
+
+To write HTML and JavaScript effectively, developers use an **IDE (Integrated Development Environment)**. IDEs are helpful programs that combine several tools (a text editor, the command line/terminal, file organization, and more) into one program. The most popular IDE is **Visual Studio Code** (abbreviated VS Code).
+
+If you aren't currently using an IDE of your own preference, watch the video below and install VS Code and the suggested extensions before you start this week's assignment.
+
+* [Visual Studio Code Info Session with Shawn Clary](https://www.youtube.com/watch?v=R8lusLkuWJQ)
+* [Browser debugging in VS Code](https://code.visualstudio.com/docs/nodejs/browser-debugging)
+
+## 5.4 AI Learning Prompt: Scaffold Removal
+As you begin writing your own HTML files in Visual Studio Code, you may find that your images don't appear or your links don't work. Instead of asking an AI to write the code for you, use it to guide your troubleshooting.
+
+**Example Prompt for a Bug**:
+
+> "I'm trying to add an image to my HTML page, but it's showing a 'broken' icon instead of the picture. Here is my code: [paste code]. Can you ask me 3 questions that will help me figure out why the path might be wrong?"
+
+**Example Prompt for a Hint:**
+> "I'm stuck on how to nest a link inside a paragraph. Can you give me 3 high-level hints for how to structure the tags without giving me the final code?"
+
+# 🥳 Great job on Lesson 5!
+You're well on your way to becoming a skilled developer. Attend a mentor session and ask for help – we're rooting for you!
