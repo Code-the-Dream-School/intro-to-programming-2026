@@ -1,12 +1,12 @@
 # Algorithms
 
-This week we are going to look at algorithms. An algorithm sounds like it might be something hard and complex, but it really is just a set of steps that you are going to code in order to accomplish an end goal - a set of step-by-step instructions to solve a specific problem or perform a task.
+This week we are going to look at **algorithms**. An algorithm sounds like it might be something hard and complex, but it really is just a set of steps that you are going to code in order to accomplish an end goal - a set of step-by-step instructions to solve a specific problem or perform a task.
 
 Here is a non-coding explanation of algorithms, which can be a helpful way to think about some of the problems we are trying to solve.
 
-https://www.learning.com/blog/7-examples-of-algorithms-in-everyday-life-for-students/
+* [Algorithms in Everyday Life](https://www.learning.com/blog/7-examples-of-algorithms-in-everyday-life-for-students/)
 
-### A real world example of an algorithm - Making a peanut butter and jelly sandwich
+### Real-world example of an algorithm: Making a peanut butter and jelly sandwich
 - Check if you have bread, peanut butter, and jelly
 - If any ingredient is missing:
   - Make a note of what to buy
@@ -25,18 +25,27 @@ https://www.learning.com/blog/7-examples-of-algorithms-in-everyday-life-for-stud
 - Cut sandwich in half (optional)
 - Serve on plate
 
-## 🌍 Real World Algorithms You Use Daily:
+### Real World Algorithms You Use Daily:
 - Following a recipe (step-by-step instructions)
 - Using a GPS (algorithm finds best route)
 - ATM withdrawal (checks balance, dispenses cash, updates account)
 - Doing laundry (sort, wash, dry, fold - in that order!)
 
-Also, here are some examples for students to practice their pseudo-code thinking:
-## 💡 Practice Tip:
-Before coding, try writing out the steps for these everyday tasks:
+###  Practice Tip:
+Practice your pseudo-code thinking! Before coding, try writing out the steps for these everyday tasks:
 - Making a cup of coffee
 - Brushing your teeth
 - Checking if you need an umbrella (hint: check weather!)
+
+## AI Learning Prompt: Retrieval Practice
+
+1. Open your preferred AI chatbot.
+2. **Explain the concept of an algorithm** using an everyday example (like making a sandwich or doing laundry).
+3. Ask the AI to provide feedback on whether your example accurately represents how a computer follows a set of instructions.
+
+**Example Prompt**: 
+
+>"I’m learning about algorithms. My understanding is that an algorithm is like a recipe for a computer. For example, the 'algorithm' for making coffee would be: [insert your steps]. Does this explanation accurately capture the concept of an algorithm? How could I make it more precise?"
 
 # Pseudocode
 
@@ -55,6 +64,22 @@ function tipCalculator(billTotal, tipPercentage) {
   // Return the final amount paid
 }
 ```
+
+## Check for Understanding: Pseudocode
+
+**Question:** What is the primary purpose of using pseudocode?
+* A) To make the code run faster on the computer
+* B) To write instructions in plain language to plan logic before coding
+* C) To create a backup of your JavaScript files
+* D) To define new variables in a global scope 
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: B) To write instructions in plain language to plan logic before coding
+
+</details>
 
 # Callbacks
 
@@ -122,6 +147,21 @@ processNumber(5, (n) => console.log("The number is " + n));  // or anything else
 
 // Callbacks let us write flexible, reusable code!
 ```
+## Check for Understanding: Callbacks
+
+**Question:** In JavaScript, what is a "callback"?
+• A) A function that calls itself repeatedly until it crashes
+• B) A function passed into another function to be executed later
+• C) A way to undo the last Git commit
+• D) A type of variable that can only store numbers 
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: B) A function passed into another function to be executed later
+
+</details>
 
 # Continuing with Git - What is a Pull Request?
 
@@ -135,9 +175,9 @@ After the PR (Pull Request) has been approved (generally by some type of review 
 
 **GitHub: About Pull Requests:**
 
-https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+[About Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 
-### Watch this video on creating a Pull Request: ###
+**Watch this video on creating a Pull Request:**
 [Creating a Pull Request Video](https://www.youtube.com/watch?v=89hjRfX0dS4)
 
 ## Assignment - Create and Submit a PR
@@ -160,3 +200,15 @@ The following image shows the entire workflow involved in using Git and GitHub. 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line, which completed the entire workflow.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson04/GitFlow-Lesson04.jpg?raw=true)
+
+## AI Learning Prompt: Scaffold Removal
+
+If you encounter a "merge conflict" or an error while trying to `git pull`, use the AI to help you think, not just give the answer.
+
+**Example Prompt:**
+
+>"I just merged my pull request on GitHub, but when I try to run `git pull origin main` in my terminal, I get this error: [paste error]. Can you ask me 3 questions that will help me figure out how to sync my local repository correctly?"
+
+# 🕶️ Great job with Lesson 4!
+
+As always, book a session with your mentor if you need extra help. 
