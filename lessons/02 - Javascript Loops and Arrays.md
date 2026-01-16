@@ -1,11 +1,38 @@
-# **Loops**
+# **2.1 Loops**
 
 Computers don’t get tired, and they’re really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours. (Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself). One way to make a computer do a repetitive task is using a **loop**.
 
 1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It’s a longer one, but make sure you tackle the ‘Active Learning’ sections at the bottom of the page.
 2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for). (Skim the info if you think you know it all, but **don’t forget the tasks at the end of the page**. You learn best by *doing*.)
 
-# **Arrays**
+## Check for Understanding: Loops
+
+**Queston**: Why are loops useful in programming?
+* A) To name variables according to style guides
+* B) To store multiple values in a single variable
+* C) To execute a task multiple times efficiently
+* D) To make the code run slower for debugging
+
+<details>
+<summary>View answer</summary>
+
+**Answer**: C) To execute a task multiple times efficiently
+
+</details>
+
+## AI Learning Prompt: Retrieval Practice
+
+Now that you've read about for loops and while loops, let's reinforce that knowledge:
+
+1. Open your preferred AI chatbot (CTD's AI Reviewer, ChatGPT, etc.).
+2. Explain the difference between for loops and while loops in your own words, including when you would choose one over the other.
+3. Ask the AI to give you feedback on your explanation.
+
+**Example Prompt:**
+
+>"I just learned about for loops and while loops in JavaScript. Here's my understanding of the difference: [your explanation]. Can you tell me what I got right and what I should refine in my understanding?"
+
+# **2.2 Arrays**
 
 Strings and numbers may be our building blocks, but as your scripts get more complex, you’re going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is simply an ordered collection of items (Strings, numbers, or other things).
 
@@ -18,7 +45,7 @@ Strings and numbers may be our building blocks, but as your scripts get more com
 2. [This article](https://www.w3schools.com/js/js_array_methods.asp) covers some of the most useful built-in array methods. These fundamentals are something you’ll use every day, so don’t rush too much and miss out!
 3. [Web Dev Simplified video](https://www.youtube.com/watch?v=7W4pQQ20nJg) explains an overview of arrays in JavaScript in about 6 minutes.
 
-# **Knowledge Check**
+## **Knowledge Check**
 
 This section contains questions for you to check your understanding of the lessons from this week and last week on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
@@ -32,14 +59,28 @@ This section contains questions for you to check your understanding of the lesso
 - [What is the break statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#exiting_loops_with_break)
 - [What is the continue statement?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code#skipping_iterations_with_continue)
 
-# Scope
+## AI Learning Prompt: Predict-then-Check
+
+Study this code without running it:
+
+```js
+let colors = ["red", "blue", "green"];
+colors[6] = "yellow";
+console.log(colors[6]);
+```
+1. **Predict** what will be printed to the console.
+2. Explain to an AI chatbot **why** you think that output will appear.
+3. **Ask**: "Is my reasoning about how array indexing and assignment work correct?"
+4. Run the code and see if you were right!
+
+# 2.3 Scope
 
 In JavaScript, scope defines the accessibility of variables, functions, and objects within different parts of your code. It determines where these elements are visible and can be referenced. 
 
 [Javascript Scope](https://www.w3schools.com/js/js_scope.asp)
 
 
-# Version Control System / Git
+# 2.4 Version Control and Git
 
 Last week, we learned about GitHub which is an online platform used to host software repositories. You created your first repository. This week, we are going to learn about Git which is the version control system used by GitHub to manage your software repository. Although there are other version control systems, Git is the most widely used.
 
@@ -75,3 +116,33 @@ The following image shows the entire workflow involved in using Git and GitHub. 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line. We will work on the remaining workflow in Lessons 3 and 4.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson02/GitFlow-Lesson02.jpg?raw=true)
+
+## Check for Understanding: Git Concepts
+
+**Question**: What is "cloning" in the context of Git?
+* A) Creating an exact copy of a variable in JavaScript
+* B) Copying a software repository from a cloud environment (like GitHub) to your local machine
+* C) Deleting a repository to start over
+* D) Sharing your password with a teammate
+
+<details>
+<summary>View answer</summary>
+
+**Answer:** B) Copying a software repository from a cloud environment to your local machine
+
+</details>
+
+## AI Learning Prompt: Scaffold Removal
+
+As you practice cloning your repository or writing your first loops, you may run into errors. Instead of asking the AI to fix it for you, try this:
+
+Example Prompt:
+
+>"I'm trying to clone my repository using the terminal and I'm getting this error: [paste error]. Can you ask me 3 questions that will help me figure out the solution myself?"
+
+Or: 
+
+>"I'm stuck on how to use an array method. Can you give me 3 high-level hints for how to approach this without giving me the answer?"
+
+# 😎 Lesson 2 is in the books! 
+Celebrate your progress, then complete this week's coding assignment. As always, reach out to your mentor if you have questions or need help! Everyone at CTD wants to see you succeed.
