@@ -1,11 +1,11 @@
 # Lesson 1 Mentor Resource: JavaScript Basics and Functions
 
+[How to use this template, and tips on holding effective mentor sessions.](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+
 ## Lesson Overview
 This is the first week of the course. Students are learning the fundamentals of JavaScript: variables, data types, conditionals, and functions. They also get an introduction to problem-solving strategies, debugging basics, naming conventions, and software repositories (GitHub). The assignment asks students to practice declaring variables, using string methods, writing conditionals, and creating simple functions. Students also create their first GitHub repository this week.
 
 This lesson sets the foundation for everything that follows. Students who build strong habits around variable naming, console logging, and debugging this week will have a much easier time in later lessons.
-
----
 
 ## Group Mentor Sessions
 
@@ -37,8 +37,6 @@ This lesson sets the foundation for everything that follows. Students who build 
 - Preview next week: loops and arrays — the tools for doing things repeatedly and working with collections of data.
 - Remind students to reach out on Slack if they get stuck on the assignment.
 
----
-
 ### Apply Session
 
 **Warm-Up** (5-10 minutes)
@@ -62,8 +60,6 @@ This lesson sets the foundation for everything that follows. Students who build 
 - Ask: "Did anyone discover something surprising while working on the assignment?"
 - Remind students about the GitHub repository setup if they haven't done it yet.
 - Point ahead: next week they'll learn loops and arrays, which will let them solve more complex problems.
-
----
 
 ## 1:1 Session Guide
 
