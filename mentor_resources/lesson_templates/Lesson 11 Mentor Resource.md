@@ -1,5 +1,10 @@
 # Lesson 11 Mentor Resource: Final Project
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This is the final week of the course. Students focus on finishing their portfolio and Open API pages, ensuring both meet the rubric requirements. They take a final assessment, record a 3-5 minute project demo video, and submit everything. There is no new lesson content — this week is all about polish, completion, and presentation.
 
@@ -15,7 +20,7 @@ This week is about celebration as much as it is about completion. Students have 
 - Ask: "What are you most proud of about your project? What was the hardest part of the course?"
 - Or: "If you had one more week, what would you add to your portfolio?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) - **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Walk through both rubrics (portfolio and Open API) together as a group. Highlight the key requirements.
 - Demo the project presentation format: walk through your own example or a sample portfolio showing each element the demo should cover:
   1. Scroll through the portfolio
