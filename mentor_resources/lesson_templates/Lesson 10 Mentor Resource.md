@@ -1,5 +1,10 @@
 # Lesson 10 Mentor Resource: Open API
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week students explore open-source APIs and build a second page for their project. They choose from several API options (weather, Star Wars, Marvel, art, dogs/cats, soccer), learn about API keys, and create a new HTML/CSS/JS file that makes two distinct API calls and displays the returned data. They also link this new page to their portfolio via navigation. This is a creative, open-ended assignment that lets students apply everything they've learned.
 
@@ -15,7 +20,7 @@ This lesson is designed to give students autonomy and ownership. It's less presc
 - Ask: "Which of the API options sounds most interesting to you? Has anyone already picked one?"
 - Or: "What kind of data would you love to be able to pull into a website?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) - **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Walk through the list of available APIs. Briefly show the documentation for 2-3 of them (e.g., Open-Meteo for simplicity, TheDogAPI for fun).
 - Explain what an API key is and why some APIs require one. Show how to get a key from one of the APIs.
 - Demo making a fetch call to one of the APIs and exploring the returned data in the console.
