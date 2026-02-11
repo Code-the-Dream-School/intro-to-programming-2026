@@ -1,5 +1,10 @@
 # Lesson 5 Mentor Resource: HTML Basics
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week marks a major transition: students move from pure JavaScript exercises to building web pages. They learn about how the web works, HTML elements, tags, attributes, the HTML boilerplate, headings, paragraphs, lists, links, images, and semantic elements like `<section>`. They also install Visual Studio Code (or a similar IDE). The assignment has students create an `index.html` file for a personal portfolio with their name, an About section, an Experience section, and a Connect section with social media links.
 
@@ -15,7 +20,7 @@ This is the beginning of the portfolio project that students will build on for t
 - Ask: "Have you ever looked at the source code of a website? What did you notice?"
 - Or: "What's your favorite website? What do you think makes it look the way it does?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) - **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Give a brief overview of how the web works: browsers, servers, HTML/CSS/JS as the building blocks.
 - Demo creating a basic HTML file from scratch: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`. Open it in a browser to show the result.
 - Walk through common elements: `<h1>` through `<h6>`, `<p>`, `<ul>/<li>`, `<a>`, `<img>`. Show the difference between elements that need closing tags and self-closing elements.
