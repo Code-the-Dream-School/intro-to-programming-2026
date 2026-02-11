@@ -18,7 +18,7 @@ This lesson sets the foundation for everything that follows. Students who build 
 - Since this is the first week, focus on rapport-building. Ask students to introduce themselves: name, where they're from, and one thing they're hoping to learn in this course.
 - Alternatively, ask: "Have you ever tried to explain how to do something simple (like making a sandwich) in exact, step-by-step instructions? What made it hard?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) – **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Give a brief overview of what JavaScript is and where it runs (browsers, Node.js).
 - Demo declaring variables with `let` and `const` in a browser console or code editor. Show the difference between strings, numbers, and booleans.
 - Walk through a simple `if/else` statement. Emphasize reading code from top to bottom.
