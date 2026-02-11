@@ -1,11 +1,14 @@
 # Lesson 4 Mentor Resource: JavaScript Algorithms
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week students learn about algorithms (step-by-step problem-solving), pseudocode, and callbacks. On the Git side, students learn about pull requests — creating, submitting, merging, and pulling updates back to their local repo. This completes the full Git workflow. The assignment covers practical algorithm functions (temperature conversion, string reversal, tip calculator, prime number checking, grade calculation) and introduces callbacks through a simulated button push.
 
 This is a pivotal week. Students are combining everything they've learned (variables, conditionals, loops, arrays, objects, functions) to solve more complex, multi-step problems. The pseudocode approach is especially important to reinforce here.
-
----
 
 ## Group Mentor Sessions
 
@@ -15,7 +18,7 @@ This is a pivotal week. Students are combining everything they've learned (varia
 - Pose a real-world scenario: "How would you explain to someone who has never cooked how to make a peanut butter and jelly sandwich? Write out the steps." This connects directly to the lesson content on algorithms.
 - Or ask: "What's the hardest problem you've had to solve in this course so far? How did you approach it?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) – **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Explain what an algorithm is using everyday examples (the lesson provides several: making a sandwich, following a recipe, using GPS).
 - Demo the pseudocode approach: take a problem like the tip calculator and write out the steps in plain English as comments before writing any code.
 - Briefly introduce callbacks: "A callback is just a function you pass to another function to be called later." Show a simple example.
@@ -33,8 +36,6 @@ This is a pivotal week. Students are combining everything they've learned (varia
 - Ask: "What is one problem-solving strategy you learned this week that you want to keep using?"
 - Preview next week: HTML — they'll start building actual web pages.
 - Remind students about the pull request process: this is how their assignments get reviewed.
-
----
 
 ### Apply Session
 
@@ -58,8 +59,6 @@ This is a pivotal week. Students are combining everything they've learned (varia
 - Ask: "Which assignment question taught you the most?"
 - Remind students to create and submit their pull request.
 - Point ahead: HTML Basics — they'll transition from pure JavaScript to building web pages.
-
----
 
 ## 1:1 Session Guide
 
