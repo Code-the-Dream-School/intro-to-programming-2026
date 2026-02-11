@@ -1,5 +1,10 @@
 # Lesson 9 Mentor Resource: Fetch API
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week students learn the Fetch API: making HTTP GET requests, working with JSON data, chaining `.then()` calls, handling errors with `.catch()`, and using `async/await` syntax. They also learn about the `response.json()` method and the `try/catch` pattern. The assignment has students fetch their own GitHub repositories using the GitHub API and display them in the Projects section of their portfolio. The lesson also points students to the portfolio rubric to start thinking about their final project.
 
@@ -15,7 +20,7 @@ This is where everything comes together: JavaScript, DOM manipulation, and async
 - Ask: "Have you ever used an app that shows data from somewhere else — like a weather app or a social media feed? Where do you think that data comes from?"
 - Or review: "What's a promise? What are the three states it can be in?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) - **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Explain what an API is at a high level: a way for programs to request data from a server.
 - Demo a `fetch` call in the browser console using a simple public API (like `https://jsonplaceholder.typicode.com/posts/1`).
 - Walk through the chain: `fetch(url).then(response => response.json()).then(data => console.log(data))`.
