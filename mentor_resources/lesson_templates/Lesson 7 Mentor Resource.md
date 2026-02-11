@@ -1,5 +1,10 @@
 # Lesson 7 Mentor Resource: The DOM API
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week students learn about the Document Object Model (DOM): what it is, how to select elements, create elements, modify them, add styles dynamically, and handle events. They also learn about browser developer tools. The assignment is significant — students create a `js/index.js` file linked to their portfolio, use DOM manipulation to add a footer with the current year, dynamically populate a skills list from a JavaScript array, and build a "Leave a Message" form with full event handling (submit, display, and remove functionality).
 
@@ -15,7 +20,7 @@ This is where JavaScript and HTML/CSS come together in a powerful way. Students 
 - Ask: "When you click a button on a website and something changes without the page reloading, how do you think that works?"
 - Or: "Have you ever used 'Inspect Element' in your browser? What did you see?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) - **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Explain the DOM as a tree structure: the HTML document is represented as objects that JavaScript can interact with.
 - Demo key DOM methods in the browser console:
   - `document.querySelector()` to select an element
