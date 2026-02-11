@@ -1,5 +1,10 @@
 # Lesson 6 Mentor Resource: CSS Basics
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week students learn CSS: selectors, properties, the cascade, the box model (margin, padding, border), block vs. inline elements, positioning, and Flexbox. The assignment has students create a `css/index.css` file, link it to their HTML, and style their portfolio page. They also add a navigation bar, a "Skills" section (empty for now), and a "Projects" section (with an empty `<ul>` for later). They use Flexbox to lay out the Experience and Connect sections.
 
@@ -15,7 +20,7 @@ This is where the portfolio starts to come alive visually. Students often find C
 - Ask: "When you look at a well-designed website, what catches your eye first? Colors? Layout? Fonts?"
 - Or show two versions of the same HTML page — one unstyled, one with CSS — and ask: "What's the difference? How do you think this was done?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) – **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Demo linking a CSS file to HTML (the `<link>` tag in `<head>`).
 - Show basic CSS syntax: selector, property, value. Change the `background-color` and `font-family` of the body.
 - Walk through the box model: show how margin, padding, and border affect element spacing. Use the browser's developer tools to visualize it.
