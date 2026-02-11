@@ -1,5 +1,10 @@
 # Lesson 8 Mentor Resource: Asynchronous Programming and Promises
 
+**Resources:**
+* [How to use this template, and tips on holding effective mentor sessions](https://github.com/reidrussom/intro-to-programming-2026/tree/main/mentor-resources)
+* [CTD AI Reviewer](https://ai-review.codethedream.org/)
+* [Link to slide decks](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides)
+
 ## Lesson Overview
 This week is primarily conceptual. Students learn the difference between synchronous and asynchronous code, why asynchronous programming matters for web applications, and how promises work as a way to handle async operations. The lesson revisits callbacks (from Lesson 4) and explains how promises improve on them. Students don't write promises from scratch — the focus is on understanding the concept as a foundation for next week's Fetch API lesson. There is no heavy coding assignment this week; the assignment focuses on the form and message functionality from the DOM lesson.
 
@@ -15,7 +20,7 @@ This is one of the more abstract weeks. Students may struggle because there's le
 - Pose a scenario: "Imagine you're at a restaurant. You order food, then sit and wait. Is that synchronous or asynchronous? Now imagine you order food and check your phone while waiting — which is that?"
 - Or ask: "Has anyone ever had a website freeze while loading? Why do you think that happens?"
 
-**I Do** (~15 minutes)
+**I Do** (~15 minutes) - **check out the [slides](https://github.com/reidrussom/intro-to-programming-2026/tree/main/slides) for this portion!**
 - Explain synchronous vs. asynchronous code using the lesson's analogies:
   - Synchronous: phone calls, face-to-face conversations (blocking — you wait for a response)
   - Asynchronous: text messages, emails (non-blocking — you send and continue with your day)
