@@ -1,7 +1,6 @@
+# Lesson 8 – Asynchronous Programming and Promises
 
-# Asynchronous Programming and Promises
-
-## Synchronous vs. Asynchronous Code
+## 8.1 Synchronous vs. Asynchronous Code
 
 ### Synchronous Code
 
@@ -21,7 +20,32 @@
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson08/Asynchronous%20Flow.JPG?raw=true)
 
-## Promises
+### Check for Understanding: Sync vs. Async
+
+**Question**: Based on the real-life examples provided in the sources, which of the following is an example of asynchronous communication?
+- A) A face-to-face conversation
+- B) A standard telephone call
+- C) Sending an email or text message
+- D) A live video meeting
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: C) Sending an email or text message
+
+</details>
+
+### AI Learning Prompt: Retrieval Practice
+
+1. Open your preferred AI chatbot (like CTD’s AI Reviewer).
+2. **Explain the difference between "blocking" and "non-blocking" execution** in your own words.
+3. Ask the AI to give you feedback on your explanation and suggest where your understanding could be improved.
+
+**Example Prompt:**
+> "I’m learning about Lesson 8. Here is my understanding of the difference between blocking and non-blocking code: [your explanation]. Based on my explanation, what am I getting right and what should I refine?"
+
+## 8.2 Promises
 
 We talked about callbacks in lesson 4.  There are some disadvanatages to callbacks.  Promises are another way to manage asynchronous operations by providing a cleaner way to handle errors and chain multiple asynchronous steps, thereby avoiding the complexity of nested callbacks - often referred to as "callback hell".
 
@@ -30,8 +54,35 @@ We talked about callbacks in lesson 4.  There are some disadvanatages to callbac
 
 It's important to understand the concept of promises, but we won't be creating them in this lesson.  They are the basis for the fetch API which we will learn about in the next lesson.
 
-## Lesson Materials
+### Check for Understanding: Promises
+
+**Question**: Why are Promises often preferred over traditional callbacks for complex tasks?
+- A) They allow the code to run strictly in alphabetical order.
+- B) They provide a cleaner way to chain multiple steps and avoid "callback hell."
+- C) They prevent the user from needing to use a web browser.
+- D) They automatically fix syntax errors in your JavaScript.
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: B) They provide a cleaner way to chain multiple steps and avoid "callback hell."
+
+</details>
+
+### AI Learning Prompt: Predict-then-Check
+
+Consider the concept of a Promise as a "placeholder object" for a result that hasn't arrived yet.
+1. Predict: If you try to `console.log()` the direct result of an asynchronous operation before it has finished, what do you think you will see?
+2. Explain to an AI chatbot why you made that prediction based on the idea of a "placeholder".
+3. Ask: "Is my reasoning about the state of a Promise before it resolves correct?"
+
+## 8.3 Lesson Materials
 
 Remember to please go to each link in this list and read through the content on that page. If there are links you are redirected to as you read/work through the content, follow those links as well and read the content there too.
 
 - **[The Odin Project – Asynchronous Code](https://www.theodinproject.com/lessons/node-path-javascript-asynchronous-code)**
+
+### 🥂 Great job on Lesson 8!
+
+Next week, we'll start **Fetch API**, which you will use to retrieve data from the web. Make sure to book a mentor session if you feel stuck!
