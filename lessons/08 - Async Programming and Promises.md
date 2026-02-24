@@ -20,22 +20,6 @@
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson08/Asynchronous%20Flow.JPG?raw=true)
 
-### Check for Understanding: Sync vs. Async
-
-**Question**: Based on the real-life examples provided in the sources, which of the following is an example of asynchronous communication?
-- A) A face-to-face conversation
-- B) A standard telephone call
-- C) Sending an email or text message
-- D) A live video meeting
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) Sending an email or text message
-
-</details>
-
 ### AI Learning Prompt: Retrieval Practice
 
 1. Open your preferred AI chatbot (like CTD’s AI Reviewer).
@@ -53,22 +37,6 @@ We talked about callbacks in lesson 4.  There are some disadvanatages to callbac
 - **Promises** are objects representing the eventual success or failure of an asynchronouse operation with methods for handling these outcomes.  They are called *promises* because they guarantee that an asynchronous operation, which has not yet completed, will eventaully produce a value or a reason for its failure.  A promise is a placeholder object for a result that is not yet available.
 
 It's important to understand the concept of promises, but we won't be creating them in this lesson.  They are the basis for the fetch API which we will learn about in the next lesson.
-
-### Check for Understanding: Promises
-
-**Question**: Why are Promises often preferred over traditional callbacks for complex tasks?
-- A) They allow the code to run strictly in alphabetical order.
-- B) They provide a cleaner way to chain multiple steps and avoid "callback hell."
-- C) They prevent the user from needing to use a web browser.
-- D) They automatically fix syntax errors in your JavaScript.
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) They provide a cleaner way to chain multiple steps and avoid "callback hell."
-
-</details>
 
 ### AI Learning Prompt: Predict-then-Check
 

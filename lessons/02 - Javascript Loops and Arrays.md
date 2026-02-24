@@ -5,21 +5,6 @@ Computers don’t get tired, and they’re really, *really* fast! For that rea
 1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It’s a longer one, but make sure you tackle the ‘Active Learning’ sections at the bottom of the page.
 2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for). (Skim the info if you think you know it all, but **don’t forget the tasks at the end of the page**. You learn best by *doing*.)
 
-## Check for Understanding: Loops
-
-**Queston**: Why are loops useful in programming?
-* A) To name variables according to style guides
-* B) To store multiple values in a single variable
-* C) To execute a task multiple times efficiently
-* D) To make the code run slower for debugging
-
-<details>
-<summary>View answer</summary>
-
-**Answer**: C) To execute a task multiple times efficiently
-
-</details>
-
 ## AI Learning Prompt: Retrieval Practice
 
 Now that you've read about for loops and while loops, let's reinforce that knowledge:
@@ -116,21 +101,6 @@ The following image shows the entire workflow involved in using Git and GitHub. 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line. We will work on the remaining workflow in Lessons 3 and 4.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson02/GitFlow-Lesson02.jpg?raw=true)
-
-## Check for Understanding: Git Concepts
-
-**Question**: What is "cloning" in the context of Git?
-* A) Creating an exact copy of a variable in JavaScript
-* B) Copying a software repository from a cloud environment (like GitHub) to your local machine
-* C) Deleting a repository to start over
-* D) Sharing your password with a teammate
-
-<details>
-<summary>View answer</summary>
-
-**Answer:** B) Copying a software repository from a cloud environment to your local machine
-
-</details>
 
 ## AI Learning Prompt: Scaffold Removal
 

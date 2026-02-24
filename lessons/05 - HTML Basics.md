@@ -3,40 +3,6 @@
 
 Read then following article: **[How Does the Web Work?](../assets/Lesson05/Lesson05-How-Does-the-Web-Work.md)**
 
-Then, reflect on what you've learned using the Check for Understanding questions and AI Learning Prompts.
-
-## Check for Understanding: How the Web Works
-
-**Question 1**: When you type a URL like `https://www.example.com` into your browser, what is the first major thing that happens?
-
-* A) The server sends back HTML, CSS, and JavaScript files
-* B) The browser executes JavaScript
-* C) The browser contacts a DNS server to find the IP address
-* D) The browser builds the DOM
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) The browser contacts a DNS server to find the IP address
-
-</details>
-
-**Question 2**: Which best describes the client-server model?
-
-* A) The client requests resources and the server responds
-* B) The client and server store the same files
-* C) The server requests data from the client
-* D) The browser and server run the same code
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: A) The client requests resources and the server responds
-
-</details>
-
 ## AI Learning Prompt: Retrieval Practice
 
 1. Open your preferred AI chatbot (CTD’s AI Reviewer is a great choice).

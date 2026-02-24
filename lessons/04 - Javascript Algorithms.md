@@ -64,23 +64,6 @@ function tipCalculator(billTotal, tipPercentage) {
   // Return the final amount paid
 }
 ```
-
-## Check for Understanding: Pseudocode
-
-**Question:** What is the primary purpose of using pseudocode?
-* A) To make the code run faster on the computer
-* B) To write instructions in plain language to plan logic before coding
-* C) To create a backup of your JavaScript files
-* D) To define new variables in a global scope 
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) To write instructions in plain language to plan logic before coding
-
-</details>
-
 # Callbacks
 
 Callbacks are functions that you provide to another function or system to be executed when a certain condition or event occurs. They are a way of saying, "Hey, when this thing happens, do this specific task.”
@@ -147,21 +130,6 @@ processNumber(5, (n) => console.log("The number is " + n));  // or anything else
 
 // Callbacks let us write flexible, reusable code!
 ```
-## Check for Understanding: Callbacks
-
-**Question:** In JavaScript, what is a "callback"?
-• A) A function that calls itself repeatedly until it crashes
-• B) A function passed into another function to be executed later
-• C) A way to undo the last Git commit
-• D) A type of variable that can only store numbers 
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) A function passed into another function to be executed later
-
-</details>
 
 # Continuing with Git - What is a Pull Request?
 
