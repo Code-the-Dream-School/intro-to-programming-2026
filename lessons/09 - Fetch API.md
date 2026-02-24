@@ -52,21 +52,6 @@ The second parameter is optional it defines the other components of the request 
 
 The `fetch` function returns a Promise that will be fulfilled when a response comes back from the server. The resolved value of the returned Promise is a [fetch Response object](https://developer.mozilla.org/en-US/docs/Web/API/Response) containing information about the response components.
 
-### Check for Understanding: The Fetch Function
-**Question:** If you only provide a URL to the fetch function (without an options object), what kind of HTTP request is made by default?
-- A) POST
-- B) DELETE
-- C) GET
-- D) PATCH
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) GET
-
-</details>
-
 ### AI Learning Prompt: Retrieval Practice
 1. Open your preferred AI chatbot (like CTD’s AI Reviewer).
 2. Explain the purpose of the fetch API in your own words, and list the three components you can define in the optional "options" parameter.
@@ -107,21 +92,6 @@ fetchData();
 In this example, we define an **`async`** function called **`fetchData`**. Inside the function, we use the **`await`** keyword to make a GET request to the JSONPlaceholder API to fetch the post with an ID of 1. We also handle any potential errors using a **`try...catch`** block.
 
 The response is first checked for its status using **`response.ok`**. If the response is successful, we use **`await response.json()`** to parse the JSON data. Finally, we log the data to the console.
-
-### Check for Understanding: Promises and Responses
-**Question:** What does the fetch function return once it is called?
-- A) A string of the raw data from the server
-- B) A Promise that resolves to a Response object
-- C) An immediate error if the server is slow
-- D) A CSS file
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) A Promise that resolves to a Response object
-
-</details>
 
 ### AI Learning Prompt: Predict-then-Check
 

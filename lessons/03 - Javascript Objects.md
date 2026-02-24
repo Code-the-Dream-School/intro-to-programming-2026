@@ -12,22 +12,6 @@ Scrimba Videos for those who find them helpful:
 - [JS Deep Dive - Understand Primitive vs Object Types](https://scrimba.com/javascript-deep-dive-c0a/~018)
 - [JS Deep Dive - Get and Modify Object Data](https://scrimba.com/javascript-deep-dive-c0a/~019)
 
-## Check for Understanding: Objects
-
-**Question**: What is the primary purpose of an object in JavaScript?
-* A) To repeat a task a specific number of times
-* B) To store ordered lists of data using index numbers
-* C) To manage and store data as a collection of key-value pairs
-* D) To define if a condition is true or false
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) To manage and store data as a collection of key-value pairs
-
-</details>
-
 ## AI Learning Prompt: Retrieval Practice
 
 Now that you have explored the basics of objects, let's reinforce your understanding of how they differ from other data types:
@@ -86,37 +70,6 @@ The following image shows the entire workflow involved in using Git and GitHub. 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line. We will work on the remaining workflow in Lesson 4.
 
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson03/GitFlow-Lesson03.jpg?raw=true)
-
-## Check for Understanding: GitHub Workflow
-
-**Question 1**: Which command is used to stage all your recent changes before committing them?
-* A) `git commit -m`
-* B) `git status`
-* C) `git add`
-* D) `git checkout -b` 
-
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) `git add`
-
-</details>
-
-**Question 2:** What is the purpose of the command `git push origin lesson-3`?
-* A) To delete the "lesson-3" branch from your computer
-* B) To upload your local branch and its commits to your remote GitHub repository
-* C) To create a new file named "lesson-3"
-* D) To see which files have been modified Answer: B) To upload your local branch and its commits to your remote GitHub repository
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) To upload your local branch and its commits to your remote GitHub repository
-
-</details>
 
 # 💪🏾 Nice job on Lesson 3!
 Next, complete this week's coding assignment. Reach out to your mentor if you have questions or need help – you're making great progress!

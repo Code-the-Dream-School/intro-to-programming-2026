@@ -31,21 +31,6 @@ Some APIs require an **API Key**, which is a unique identifier used to authentic
 
 This video mentions that you should keep API Keys private and protected.  In this case, it is fine to create a constant to hold the key.
 
-### Check for Understanding: API Keys
-**Question:** What is the primary purpose of an API Key?
-- A) To change the background color of your website.
-- B) To act as a unique identifier that authenticates your program to the API.
-- C) To act as a shortcut for writing async/await functions.
-- D) To link your HTML file to your CSS file.
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) To act as a unique identifier that authenticates your program to the API.
-
-</details>
-
 ### AI Learning Prompt: Predict-then-Check
 Study this logic based on how API keys work: If you make a fetch request to a service that requires an API key, but you forget to include the key in your URL or header:
 1. Predict what the server will send back as a response.

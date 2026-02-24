@@ -2,11 +2,10 @@ Welcome to Code the Dream's **Intro to Programming** class!
 
 # How to Follow this Content
 
-* Start by reading the lesson's **learning objective** in the `Lesson Overview` section. Each weekly assignment will measure your skills related to the learning objective.
-* Lessons are split into **subsections**, labeled like this: `1.1`, `1.2`, etc. Each subsection contains links to written **Odin Project** lessons and links to video lessons in **Scrimba**. You can choose to complete either the Odin Project or Scrimba materials based on which you like more. You don't need to work through both the text and videos.
-* Throughout the lesson, you'll find multiple-choice **"Check for Understanding"** questions. Complete these questions and review the material if your answer is not correct!
-* You'll also find **AI Learning Prompts** in these lessons. These are interactive prompts that let you get immediate feedback from an AI tool on your learning so far.
-* After reading through the lesson content and correctly answering the "Check for Understanding" questions, complete the **Assignment**.
+- Start by reading the lesson's **learning objective** in the `Lesson Overview` section. Each weekly assignment will measure your skills related to the learning objective.
+- Lessons are split into **subsections**, labeled like this: `1.1`, `1.2`, etc. Each subsection contains links to written **Odin Project** lessons and links to video lessons in **Scrimba**. You can choose to complete either the Odin Project or Scrimba materials based on which you like more. You don't need to work through both the text and videos.
+- Throughout the lesson, you'll also find **AI Learning Prompts**. These are interactive prompts that let you get immediate feedback from an AI tool on your learning so far.
+- After reading through the lesson content, complete the **Assignment**.
 
 If you have questions at any point, ask a question in the `discussion` Slack channel or reach out to your mentor!
 
@@ -15,23 +14,6 @@ If you have questions at any point, ask a question in the `discussion` Slack cha
 Read this short article on the most important skill in a software developer's toolkit: problem-solving. As you read, look for the three steps in the problem-solving process!
 
 - [Problem-Solving](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Problem-Solving)
-
-### Check for Understanding: Problem-Solving
-
-**Question**: What are the three steps in the problem-solving process?
-
-* A) Understand the problem, Plan, Pseudocode
-* B) Understand the problem, Ask for Help, Solve the Problem
-* C) Plan, Pseudocode, Divide and Conquer
-* D) Understand the problem, Plan, Divide and Conquer
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: D) Understand the problem, Plan, Divide and Conquer
-
-</details>
 
 # 1.2 JavaScript Basics
 
@@ -51,39 +33,8 @@ For the Odin Project, Go to each link in this list and read through the content 
 - [V2 Scrimba - JS Deep Dive - Types & Conditionals](https://v2.scrimba.com/javascript-deep-dive-c0a/~0g)
 - [V2 Scrimba - JS Deep Dive - Functions](https://v2.scrimba.com/javascript-deep-dive-c0a/~0q)
 
-### Check for Understanding: Variables and Data Types
-
-**Question 1**: What's a key difference between declaring a variable with `let` and `const`?
-
-* A) `let` is for numbers and `const` is for strings
-* B) `let` is newer than `const`
-* C) `let` allows you to reassign the variable's value, while `const` does not
-* D) `const` variables must always be written in capital letters
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) `let` allows you to reassign the variable's value, while `const` does not
-
-</details>
-
-**Question 2**: When would you use an `if...else` statement in your code?
-
-* A) When you want to repeat code multiple times
-* B) When you want to execute different code based on whether a condition is true or false
-* C) When you want to store multiple values
-* D) When you want to create a function
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) When you want to execute different code based on whether a condition is true or false
-
-</details>
-
 ### AI Learning Prompt: Retrieval Practice
+
 Now that you've learned about JavaScript variables and data types, let's reinforce your understanding:
 
 1. Open your preferred AI chatbot (CTD's AI Reviewer, ChatGPT, Microsoft Copilot, etc.)
@@ -104,13 +55,14 @@ Study this code without running it:
 let temperature = 75;
 
 if (temperature > 80) {
-    console.log("It's hot outside!");
+  console.log("It's hot outside!");
 } else if (temperature > 60) {
-    console.log("Nice weather!");
+  console.log("Nice weather!");
 } else {
-    console.log("It's cold!");
+  console.log("It's cold!");
 }
 ```
+
 Before running it:
 
 1. Predict what will be printed to the console
@@ -125,17 +77,17 @@ Before running it:
 
 # 1.3 JavaScript Naming and Style Conventions
 
-### Read this page on Naming and Style Conventions: ###
+### Read this page on Naming and Style Conventions:
 
 [Naming and Style Conventions](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Naming-Conventions)
 
 # 1.4 Debugging Basics
 
-### Read this page on debugging basics: ###
+### Read this page on debugging basics:
 
 [Debugging Basics](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Debugging-Basics)
 
-### Watch this video on debugging basics: ###
+### Watch this video on debugging basics:
 
 [Debugging Basics Video](https://www.youtube.com/watch?v=RI_QQZlk4gk)
 
@@ -163,11 +115,12 @@ Software repositories are especially important on projects being developed by a 
 
 There are many cloud based software repositories. In this class we will use GitHub which is based on git which is a distributed version control system. We will learn more about git in lesson 2.
 
-### Watch this video on how to create a new GitHub Repository: ###
+### Watch this video on how to create a new GitHub Repository:
 
 [Creating a New GitHub Repository Video](https://www.youtube.com/watch?v=0AVVOi3hUmE)
 
 ## Assignment - Create a New GitHub Repository
+
 Create a new repository in your GitHub account by following these steps:
 
 - [ ] Go to your GitHub page and click the Repositories tab
@@ -178,47 +131,14 @@ Create a new repository in your GitHub account by following these steps:
 - [ ] When you submit your assignment this week, please copy and paste the link to the repository you created in the "second link to assignment" field.
 
 ## Git / GitHub Workflow
-The following image shows the entire workflow involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
+
+The following image shows the entire workflow involved in using Git and GitHub. Pay attention to where files are located in each step - either on your local machine or remote in GitHub.
 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line. We will work on the remaining workflow in Lessons 2, 3 and 4.
 ![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson01/GitFlow-Lesson01.jpg?raw=true)
-
-### Check for Understanding: Git and GitHub Concepts
-
-You've set up your first repository! Repositories are where developers store and track their code.
-
-**Question 1**: What is a software repository?
-
-* A) A website where you download pre-made code
-* B) A centralized storage location for code that tracks changes and versions
-* C) A type of database for storing user information
-* D) A tool for making code run faster
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) A centralized storage location for code that tracks changes and versions
-
-</details>
-
-**Question 2**: Why is a software repository especially important for team projects?
-
-* A) It makes the code run on multiple computers simultaneously
-* B) It automatically fixes merge conflicts
-* C) It allows multiple developers to work on the same codebase while tracking changes
-* D) It prevents team members from seeing each other's code
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: C) It allows multiple developers to work on the same codebase while tracking changes
-
-</details
 
 ---
 
 ## 🎉 Congratulations on finishing your first lesson in Intro to Programming!
 
-Your next step is to complete the coding assignment. As always, reach out to your mentor if you have questions, and take time to celebrate your hard work. 
+Your next step is to complete the coding assignment. As always, reach out to your mentor if you have questions, and take time to celebrate your hard work.

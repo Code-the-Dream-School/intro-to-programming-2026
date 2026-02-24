@@ -26,22 +26,6 @@ Remember to please go to each link in this list and read through the content on 
 - **[Dynamically Adding Styles](https://v2.scrimba.com/javascript-deep-dive-c0a/~02i)**
 - **[Understand and Work with Events](https://v2.scrimba.com/javascript-deep-dive-c0a/~02j)**
 
-### Check for Understanding: The DOM
-
-**Question**: Which of the following best describes the DOM?
-- A) A backup copy of your HTML file stored on GitHub
-- B) A tree-like data representation of a web document that JavaScript can manipulate
-- C) A CSS tool used exclusively for layout and alignment
-- D) A JavaScript function that only handles mathematical calculations
-
-<details>
-
-<summary>View answer</summary>
-
-**Answer**: B) A tree-like data representation of a web document that JavaScript can manipulate
-
-</details>
-
 ### AI Learning: Retrieval Practice - The DOM
 
 1. Open your preferred AI chatbot.
