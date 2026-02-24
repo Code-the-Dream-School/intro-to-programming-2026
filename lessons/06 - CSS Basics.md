@@ -1,9 +1,9 @@
 
-# Cascading Style Sheets (CSS)
+# 6.1 Cascading Style Sheets (CSS)
 
 *Cascading Style Sheets*, or CSS, is a style sheet language that was created to supplement HTML. As a *style sheet language*, CSS is the code that explains how a markup language, like HTML, should be presented. When used alongside HTML on a web page, CSS can add a variety of formatting, design, and style details.
 
-# Lessons
+## Lesson Content
 You can either use the written Odin Project lessons or the video lessons in Scrimba.
 
 Remember to please go to each link in this list and read through the content on that page. If there are links you are redirected to as you read/work through the content, follow those links as well and read the content there too.
@@ -17,8 +17,6 @@ Remember to please go to each link in this list and read through the content on 
 - **[The Odin Project - More CSS Properties](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-more-css-properties)**
 - **[The Odin Project - Positioning](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-positioning)**
 - **[The Odin Project - Introduction to Flexbox](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/introduction-to-flexbox)**
-
-
 
 ### Scrimba Links:
 
@@ -38,4 +36,71 @@ Remember to please go to each link in this list and read through the content on 
 - **[Creating the layout - The CSS](https://v2.scrimba.com/html-css-crash-course-c02l/~0s)**
 - **[Scrimba - Learn Flexbox](https://v2.scrimba.com/learn-flexbox-c0k/~00)**
 
+## Check for Understanding: CSS
 
+**Question 1**: How does CSS interact with HTML on a web page?
+
+* A) CSS provides the raw text content while HTML provides the styling.
+* B) CSS is a style sheet language that explains how the HTML should be presented.
+* C) CSS replaces HTML so that developers only have to write one type of code.
+* D) CSS is used to manage the GitHub repository where the code is stored.
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: B) CSS is a style sheet language that explains how the HTML should be presented.
+
+</details>
+
+**Question 2**: Which of the following are components of the CSS Box Model?
+
+* A) Content, Padding, Border, Margin
+* B) Input, Output, Function, Variable
+* C) HTML, CSS, JavaScript, Git
+* D) Repository, Branch, Commit, Push
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: A) Content, Padding, Border, Margin
+
+</details>
+
+**Question 3:** What is the primary benefit of using Flexbox in CSS?
+* A) It allows you to create complex algorithms for your website.
+* B) It is used to create a new branch in Git.
+* C) It provides an easy way to align elements and create layouts like columns.
+* D) It automatically translates your website into different languages.
+
+<details>
+
+<summary>View answer</summary>
+
+**Answer**: C) It provides an easy way to align elements and create layouts like columns.
+
+</details>
+
+## AI Learning Prompt: Predict-then-Check
+
+Study this CSS code without running it:
+
+```css
+p {
+  color: blue;
+}
+.red-text {
+  color: red;
+}
+```
+
+If you have an HTML element `<p class="red-text">Hello World</p>`:
+
+1. Predict what color the text "Hello World" will be.
+2. Explain to an AI chatbot why you think that specific color will appear (Hint: look up "CSS Specificity" or "The Cascade").
+3. Ask: "Is my reasoning about how CSS determines which style 'wins' correct?".
+4. Test the code in a text editor to see if your prediction was right.
+
+# 🤠 You've finished Lesson 6!
+Next, complete this week's assignment and schedule a mentor session if you need help.
