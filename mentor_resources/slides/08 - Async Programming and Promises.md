@@ -2,49 +2,22 @@
 marp: true
 theme: default
 paginate: true
-style: |
-  section {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
-    color: #333333;
-  }
-  h1 { color: #1a73e8; }
-  h2 { color: #1a73e8; }
-  code {
-    background-color: #f0f4f8;
-    padding: 2px 6px;
-    border-radius: 4px;
-  }
-  pre code { padding: 16px; }
-  section.title-slide {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  blockquote {
-    border-left: 4px solid #1a73e8;
-    padding-left: 16px;
-    color: #555;
-  }
 ---
 
-<!--
-FOR MENTORS: Using These Slides
+# Mentor Instructions - Using Marp
 
-IN VS CODE:
-1. Install the "Marp for VS Code" extension
-2. Open this .md file
-3. Command Palette > "Marp: Open Preview to the Side"
-4. Export: Command Palette > "Marp: Export Slide Deck"
+**Option 1: VS Code**
+- Install the Marp extension
+- Open this .md file
+- Click "Open Preview"
+- Present in full screen
 
-IN THE BROWSER:
-1. Go to https://web.marp.app/
-2. Paste or upload this file
-3. Present directly or export
--->
+**Option 2: Marp Web App**
+- Go to https://marp.app/
+- Paste this markdown
+- Present from browser
 
-<!-- _class: title-slide -->
+---
 
 # Lesson 8: Async Programming and Promises
 
