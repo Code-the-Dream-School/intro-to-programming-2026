@@ -90,7 +90,6 @@ It is the process where the instructions you have written cause the computer to 
 **Examples of running code:**
 - Hitting the red "< RUN" button from within the Learns App  (this is how you will run your first 4 javascript lessons)
 - Clicking the "Run" button in Visual Studio Code
-- Running HTML code by opening it in a web browser to render a page
 
 **The steps in completing the first 4 javasciprt assignments are:**:
 - Write your code
