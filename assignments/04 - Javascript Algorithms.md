@@ -70,7 +70,7 @@
 
 // ---------- QUESTION 6 ----------
 // Create a function named 'isPrime' that returns true or false based on whether the number is prime or not.
-// Hint: To determine if a number is prime, you can check if it's divisible by any number from 2 up to the square root of the number.  0 and 1 are not prime numbers.
+// Hint: Prime numbers are numbers that are divisible by any number from 2 up to the square root of the number.  0 and 1 are not prime numbers. Wikipedia has a handy list of the first 1,000 prime numbers in an article called "List of prime numbers."
 // Make sure you test several prime and non prime numbers along with 0 and 1.
 
 // EXAMPLE LOG:
