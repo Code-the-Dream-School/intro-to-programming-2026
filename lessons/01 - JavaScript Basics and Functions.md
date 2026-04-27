@@ -81,7 +81,26 @@ Before running it:
 
 [Naming and Style Conventions](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Naming-Conventions)
 
-# 1.4 Debugging Basics
+# 1.4 Running Your Code
+
+It's important to understand what "running your code" actually means.
+
+It is the process where the instructions you have written cause the computer to perform actions. It is not using the AI Reviewer to analyze your code and point out potential errors in your code.  You must run and debug your code (see more information in the next section), before running the AI Reviewer and finally submitting your assignment.
+
+**Examples of running code:**
+- Hitting the red "< RUN" button from within the Learns App  (this is how you will run your first 4 javascript lessons)
+- Clicking the "Run" button in Visual Studio Code
+- Running HTML code by opening it in a web browser to render a page
+
+**The steps in completing the first 4 javasciprt assignments are:**:
+- Write your code
+- Run your code with debugging statements so that you can see the output of those statements in the console
+- Make corrections based on the console output 
+- Once you feel the code is correct based on those debug statements, run the AI Reivewer 
+- Make additional corrections based on the AI Reviewer
+- Submit your code
+
+# 1.5 Debugging Basics
 
 ### Read this page on debugging basics:
 
@@ -107,7 +126,7 @@ Or:
 
 **Remember**: The goal is for YOU to solve the problem. AI tools should guide your thinking, not do the thinking for you.
 
-# 1.5 Software Repositories
+# 1.6 Software Repositories
 
 A software repository, often called a "repo", is a centralized storage location for code and related files used in software development. Software repositories allows developers to track changes to code, revert to previous versions of code and merge different branches of development.
 
