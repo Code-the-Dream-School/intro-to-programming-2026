@@ -177,6 +177,45 @@ If you encounter a "merge conflict" or an error while trying to `git pull`, use 
 
 >"I just merged my pull request on GitHub, but when I try to run `git pull origin main` in my terminal, I get this error: [paste error]. Can you ask me 3 questions that will help me figure out how to sync my local repository correctly?"
 
+## The Full Cycle — Your Weekly Reference
+
+Starting in Week 5, you will repeat this sequence for every assignment. Bookmark this section!
+
+**At the start of each week, get a clean starting point:**
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b lesson-5       # replace "5" with the current lesson number
+```
+
+**As you work, save your progress:**
+
+```bash
+git status                     # see what's changed (run this often)
+git add .                      # stage all changes
+git commit -m "describe what you did and why"
+git push origin lesson-5       # send your branch to GitHub
+```
+
+You can repeat the `add → commit → push` steps as many times as you like within a week. You don't have to wait until you're finished to commit; committing often gives you more points to return to if something goes wrong.
+
+**After your PR is merged on GitHub, close the loop:**
+
+```bash
+git checkout main
+git pull origin main           # bring the merged changes back to your local machine
+```
+
+This last step is important: it keeps your local `main` branch up to date so that next week's starting point is clean.
+
+> **Why does the order matter?** Each step moves your code between three places: your working files, your local git history, and GitHub. `add` moves changes into the staging area. `commit` saves a snapshot to your local history. `push` sends that history to GitHub. Skipping a step means your changes don't make it all the way through.
+
+> **Common errors:**
+> - *"nothing to commit, working tree clean"* — You haven't made any changes since your last commit, or you forgot to save the file.
+> - *"fatal: The current branch has no upstream branch"* — Run the full push command: `git push --set-upstream origin lesson-5`
+> - *"Your branch is behind 'origin/main'"* — Run `git pull origin main` to sync before continuing.
+
 # 🕶️ Great job with Lesson 4!
 
 As always, book a session with your mentor if you need extra help. 

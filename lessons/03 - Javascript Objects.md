@@ -64,6 +64,22 @@ This week, we are going to make some changes in our repository, **commit** them 
    - [ ] **NOTE:** if you get a "fatal: The current branch..." error message.  READ the message and follow the instructions in that message to confirm that you push your work to your GitHub account.
    - [ ] When you submit your assignment this week, please copy and paste the link to the branch you created in the "second link to assignment" field.
 
+**Reading `git status` output:** Git uses three states to describe your files:
+- **Untracked** — Git sees the file but has never been asked to track it. Newly created files (like your `index.html`) appear here until you stage them.
+- **Modified (not staged)** — Git is tracking the file and has detected changes, but those changes are not yet included in your next commit. Your edited `README.md` will appear here.
+- **Staged** — Changes are queued up and ready to be saved in your next commit.
+
+Think of staging like packing a box before shipping it. `git add` puts things in the box. `git commit` seals and labels the box.
+
+- [ ] Stage all your changes for commit by running `git add .` in your terminal
+- [ ] Run `git status` again to see how things have changed. Both files should now appear under "Changes to be committed" — this means they are staged.
+- [ ] Create a commit message for reference.  Run `git commit -m "add index.html and update README with my name"`
+
+**Writing good commit messages:** A commit message should describe *what changed and why*, not just "my first commit." A future teammate (or future you) should be able to read the message and understand what that commit contains without opening it.
+   - [ ] Push these changes to your GitHub repository from your local computer by running `git push origin lesson-3`
+   - [ ] **NOTE:** if you get a "fatal: The current branch..." error message.  READ the message and follow the instructions in that message to confirm that you push your work to your GitHub account.
+   - [ ] When you submit your assignment this week, please copy and paste the link to the branch you created in the "second link to assignment" field.
+
 ## Git / GitHub Workflow
 The following image shows the entire workflow involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
 
