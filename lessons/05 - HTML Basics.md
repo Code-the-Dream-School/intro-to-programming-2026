@@ -1,7 +1,7 @@
 
 # 1.1 How the Web Works
 
-Read then following article: **[How Does the Web Work?](../assets/Lesson05/Lesson05-How-Does-the-Web-Work.md)**
+Read then following article: **[How Does the Web Work?](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/How-Does-the-Web-Work)**
 
 ## AI Learning Prompt: Retrieval Practice
 
