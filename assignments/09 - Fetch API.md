@@ -1,8 +1,8 @@
 ## Get organized and write some code!
-- [ ] In your GitHub repository, if you have not yet merged your pull request from last week, merge your open lesson-08 pull request by going to the "Pull Requests" tab of your repository. Click on your open pull request, then click on the green 'Merge Pull Request" and confirm the merge. This will update your main branch with the work you did on your lesson-08 branch.
-- [ ] Open your code editor and, in the terminal, make sure you're on your main branch. If you're still on your lesson-08 branch, you can switch to your main branch by using the git command `git checkout main`.
-- [ ] Update your local main branch to include your lesson-10 work by pulling your changes from your GitHub repository main. Use the following git command in your terminal to do this: `git pull origin main`
-- [ ] Still in your terminal, create a new local branch to keep track of just the work you'll do for this assignment by running `git checkout -b lesson-09` in the terminal. Doing this also copies the lesson-08 work you merged to main and pulled to your local machine so now all your branches should be identical on your local machine.
+- [ ] In your GitHub repository, if you have not yet merged your pull request from last week, merge your open lesson-8 pull request by going to the "Pull Requests" tab of your repository. Click on your open pull request, then click on the green 'Merge Pull Request" and confirm the merge. This will update your main branch with the work you did on your lesson-8 branch.
+- [ ] Open your code editor and, in the terminal, make sure you're on your main branch. If you're still on your lesson-8 branch, you can switch to your main branch by using the git command `git checkout main`.
+- [ ] Update your local main branch to include your lesson-8 work by pulling your changes from your GitHub repository main. Use the following git command in your terminal to do this: `git pull origin main`
+- [ ] Still in your terminal, create a new local branch to keep track of just the work you'll do for this assignment by running `git checkout -b lesson-9` in the terminal. Doing this also copies the lesson-8 work you merged to main and pulled to your local machine so now all your branches should be identical on your local machine.
 
 ### Assignment: Task List / Deliverables
 
