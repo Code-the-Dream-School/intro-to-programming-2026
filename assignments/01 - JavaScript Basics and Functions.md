@@ -22,7 +22,7 @@
 // Declaring and giving string values to variables.
 // Create three variables.  First let's make sure we're using "camel case" where all letters are lowercase except for the first letter of words that are in the middle.  This is the accepted standard for JavaScript code.  Your first variable should be titled "firstName" with the value of your first name as a string.  Your second variable should be titled "lastName" with the value of your last name as a string.  The last variable should be titled "country" with the value of the name of the country where you were born as a string.
 
-//PUT YOUR CODE HERE
+// PUT YOUR CODE HERE
 
 // console.log("Q1: My first name is: ", firstName);
 // console.log("Q1: My last name is: ", lastName);
@@ -31,9 +31,9 @@
 // ---------- QUESTION 2 ----------
 // Declaring and giving numerical values to variables.
 // Create four variables.  One titled "floatingPoint" with the value of any floating point number you choose.  One titled "integer" with the value of any integer number you choose.  One titled "negative" with the value of any negative number you choose.  One titled "notANumber" with the value of 4 multipled by a string of your choice.
-//NOTE: Remember from your lessons that JavaScript can treat large numbers differently than you might expect.
+// NOTE: Remember from your lessons that JavaScript can treat large numbers differently than you might expect.
 
-//STRETCH GOAL: You'll see "Stretch Goal"s throughout the course. Stretch Goals are optional, but are encouraged as they help you try your hand at something a little more advanced for the week/assignment/question. Create a fifth variable titled "bigNumber" that is 16 or more numbers long. Then write your console.log and see what happens as you play and practice working with large numbers.
+// STRETCH GOAL: You'll see "Stretch Goal"s throughout the course. Stretch Goals are optional, but are encouraged as they help you try your hand at something a little more advanced for the week/assignment/question. Create a fifth variable titled "bigNumber" that is 16 or more numbers long. Then write your console.log and see what happens as you play and practice working with large numbers.
 
 // PUT YOUR CODE HERE
 
@@ -77,9 +77,13 @@
 
 // ---------- QUESTION 6 ----------
 // String Methods
-// Create four variables named "length", "firstInitial", "lastInitial", and "capitalize".  Using string methods, assign the length of your first name (use your variable from Q1) to the "length" variable. Assign the first letter of your first name (use your variable from Q1) to the "firstInitial" variable.  Assign the LAST letter of your first name (use your variable from Q1) to the "lastInitial" variable.  Assign your first name in all capital letters (use your variable from Q1) to the "capitalize" variable.
+// Create four variables named "length", "firstInitial", "lastInitial", and "capitalize".  For each variable below, use the firstName variable from Q1.
+// - Using string methods, assign the length of your first name to the "length" variable.
+// - Assign the first letter of your first name to the "firstInitial" variable.
+// - Assign the LAST letter of your first name to the "lastInitial" variable.
+// - Assign your first name in all capital letters to the "capitalize" variable.
 
-//STRETCH GOAL: Create a variable called "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names. Both these letters should also be capitalized in "weirdInitials".  Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
+// STRETCH GOAL: Create a variable called "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names. Both these letters should also be capitalized in "weirdInitials".  Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
 
 // PUT YOUR CODE HERE
 
@@ -97,7 +101,7 @@
 // ---------- QUESTION 8 ----------
 // Declare a variable called "age" and assign it that value of your age in years.  Create a conditional statement that will console.log the phrase "Age is just a number!" if your age is less than or equal to 30 and "Young at heart!" if your age is greater than 30.
 
-//STRETCH GOAL: Combine your skills!  Use template literals to console.log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
+// STRETCH GOAL: Combine your skills!  Use template literals to console.log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
 
 // PUT YOUR CODE HERE
 
@@ -139,7 +143,7 @@
 // EXAMPLE OUTPUT:
 //    Q12: Welcome to Code the Dream!
 
-//PUT YOUR CODE HERE
+// PUT YOUR CODE HERE
 
 // ---------- QUESTION 13 ----------
 // Create a function called 'combineStrings'.  Inside the function, declare two variables named 'string1' and 'string2'.  Assign them the strings 'Good' and 'Evening' respecitvely.  Return the two strings concatenated with a space in between.
