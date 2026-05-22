@@ -1,8 +1,8 @@
 # **2.1 Loops**
 
-Computers don’t get tired, and they’re really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer will be able to repeat a task *thousands* or even *millions* of times in just a few short seconds where it might take a human many hours. (Obviously, speed here depends on the complexity of the calculation and the speed of the computer itself). One way to make a computer do a repetitive task is using a **loop**.
+Computers don’t get tired, and they’re really, *really* fast! For that reason, they are well suited to solving problems that involve doing calculations multiple times. In some cases, a computer can repeat a task thousands or even millions of times in just a few seconds. The same task might take a human many hours. One way to make a computer do a repetitive task is using a **loop**.
 
-1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It’s a longer one, but make sure you tackle the ‘Active Learning’ sections at the bottom of the page.
+1. Read this [MDN (Mozilla Developer Network) article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code). It’s long, but valuable. Make sure you read the ‘Active Learning’ sections at the bottom of the page.
 2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for). (Skim the info if you think you know it all, but **don’t forget the tasks at the end of the page**. You learn best by *doing*.)
 
 ## AI Learning Prompt: Retrieval Practice
@@ -19,7 +19,7 @@ Now that you've read about for loops and while loops, let's reinforce that knowl
 
 # **2.2 Arrays**
 
-Strings and numbers may be our building blocks, but as your scripts get more complex, you’re going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An Array is simply an ordered collection of items (Strings, numbers, or other things).
+Strings and numbers may be our building blocks, but as your scripts get more complex, you’re going to need a way to deal with large quantities of them. Luckily, JavaScript has a couple of data types that are used for just that. An **Array** is an ordered collection of items (strings, numbers, etc.).
 
 - [JS Deep Dive - Module Intro: Arrays](https://scrimba.com/javascript-deep-dive-c0a/~01h)
 - [JS Deep Dive - Build Flexible Collection with Arrays](https://scrimba.com/javascript-deep-dive-c0a/~01i)
@@ -67,13 +67,15 @@ In JavaScript, scope defines the accessibility of variables, functions, and obje
 
 # 2.4 Version Control and Git
 
-Last week, we learned about GitHub which is an online platform used to host software repositories. You created your first repository. This week, we are going to learn about Git which is the version control system used by GitHub to manage your software repository. Although there are other version control systems, Git is the most widely used.
+Last week, you created your first repository on GitHub. This week, we are introducing **Git**, the actual **version control system** behind GitHub.
 
-A version control system is a software tool that tracks and manages changes to files and directories over time. It allows multiple developers to collaborate on a project, maintain a history of all changes, and easily revert to previous versions if needed. It is essential for a development team that is working in the same code base.
+A version control system tracks and manages changes to your files over time. It is essential for teamwork because it keeps everyone's contributions organized and makes it easy to resolve conflicting code.
 
-Git can be confusing when you first start learning about it. There are quite a few steps which might seem unnecessary, but will definitely make sense when you are working in a team environment.
+While other version control systems exist, Git is the industry standard.
 
-When you created your GitHub repository, you created a repository in a cloud environment. While you can edit files remotely, you will want to have your code in a local development environment where you can easily run and debug it. This week, we are going to copy our software repository to our local computer.  This is called cloning.  There are GUI interfaces that will let you submit git commands, but we are going to learn how to submit the commands through a terminal interface.
+Git can be challenging for new students, and some steps might feel redundant at first. However, its value becomes clear the moment you start collaborating with others.
+
+Right now, your GitHub repository lives entirely in the cloud. To easily run and debug your code, you need a copy of it on your own computer — a process called **cloning**. Visual tools exist to manage Git, but we are going to learn how to use Git through the terminal (command line) to give you a foundational understanding of how it works.
 
 ## Installing and Setting Up Git
 The following information will help you setup git on your local machine.
@@ -91,7 +93,7 @@ After installing, follow the rest of the instructions on the Odin page for setti
 ## Assignment - CLONE your GitHub Repository to your local machine
 Clone the repository you just created in GitHub to your local computer by following these steps:
    - [ ] On the main Code page of your GitHub repository, click the green "Code" button
-   - [ ] Your lesson walked you through setting up an SSH key with GitHub.  You should select "SSH" as the Local Clone type (not HTTPS or GitHub CLI).
+   - [ ] Your lesson walked you through setting up an SSH (Secure Shell) key with GitHub.  You should select "SSH" as the Local Clone type (not HTTPS or GitHub Command Line Interface).
    - [ ] Click the copy button (two overlapping squares icon) to copy your repository address.  It should look something like `git@github.com:yourUsernameHere/firstname-lastname-class.git`
    - [ ] Go to your IDE terminal or your computer terminal.  Make sure you're in the proper directory for where you want to create and store files for your work (ex. your Desktop or a CodeTheDream folder).  Then run `git clone <repository>` where "\<repository\>" is replaced with the last portion you copied in the last step.
 
@@ -114,5 +116,5 @@ Or:
 
 >"I'm stuck on how to use an array method. Can you give me 3 high-level hints for how to approach this without giving me the answer?"
 
-# 😎 Lesson 2 is in the books! 
+# 😎 You've finished Lesson 2! 
 Celebrate your progress, then complete this week's coding assignment. As always, reach out to your mentor if you have questions or need help! Everyone at CTD wants to see you succeed.
