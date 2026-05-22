@@ -50,35 +50,31 @@ This week, we are going to make some changes in our repository, **commit** them 
 ### Watch this video on how to make changes in your repository: ###
 [Making Changes in Your Repository](https://www.youtube.com/watch?v=Uqn8Ws_jzmg)
 
-## Assignment - Making changes in our repository
-   - [ ] Navigate into the directory you cloned last week by typing `cd <name-classname>` in the terminal where the <name-classname> portion is the name of your repository.
-   - [ ] Create a new local branch to house just the work you'll do for this assignment by running `git checkout -b lesson-3` in the terminal
-   - [ ] You can run `git status` or `git branch --show-current` to verify that you are currently working in the correct branch.
-   - [ ] Open the README.md file in your code editor and add your full name.
-   - [ ] Create a new file in your project directory (same level as your README.md file) and title it `index.html`
-   - [ ] Check the status of the changes you just made (editing the readme.md file and making a new index.html file) by running `git status` in your terminal
-   - [ ] Stage all your changes for commit by running `git add .` in your terminal
-   - [ ] Run `git status` again to see how things have changed.  You should get a response indicating changes staged for commit.
-   - [ ] Create a commit message for reference.  Run `git commit -m "my first commit"`
-   - [ ] Push these changes to your GitHub repository from your local computer by running `git push origin lesson-3`
-   - [ ] **NOTE:** if you get a "fatal: The current branch..." error message.  READ the message and follow the instructions in that message to confirm that you push your work to your GitHub account.
-   - [ ] When you submit your assignment this week, please copy and paste the link to the branch you created in the "second link to assignment" field.
+## Assignment - Making changes in your repository
+
+- [ ] Navigate into the directory you cloned last week by typing `cd <name-classname>` in your terminal, where `<name-classname>` is the name of your repository.
+- [ ] Create a new local branch for this assignment by running `git checkout -b lesson-3` in the terminal.
+- [ ] Run `git status` or `git branch --show-current` to confirm you are on the `lesson-3` branch.
+- [ ] Open the `README.md` file in your code editor and add your full name.
+- [ ] Create a new file in your project directory (at the same level as `README.md`) and name it `index.html`.
+- [ ] Run `git status` to see how Git describes your changes.
 
 **Reading `git status` output:** Git uses three states to describe your files:
-- **Untracked** — Git sees the file but has never been asked to track it. Newly created files (like your `index.html`) appear here until you stage them.
-- **Modified (not staged)** — Git is tracking the file and has detected changes, but those changes are not yet included in your next commit. Your edited `README.md` will appear here.
-- **Staged** — Changes are queued up and ready to be saved in your next commit.
+- **Untracked** — Git knows the file exists but has not started tracking it. Your new `index.html` will appear here.
+- **Modified (not staged)** — Git is tracking the file and has detected changes, but they will not be saved until you stage them. Your edited `README.md` will appear here.
+- **Staged** — Changes are ready to be saved in your next commit.
 
-Think of staging like packing a box before shipping it. `git add` puts things in the box. `git commit` seals and labels the box.
+Think of staging like packing a box before shipping it. `git add` puts things in the box. `git commit` seals and labels it.
 
-- [ ] Stage all your changes for commit by running `git add .` in your terminal
-- [ ] Run `git status` again to see how things have changed. Both files should now appear under "Changes to be committed" — this means they are staged.
-- [ ] Create a commit message for reference.  Run `git commit -m "add index.html and update README with my name"`
+- [ ] Stage your changes by running `git add .` in your terminal.
+- [ ] Run `git status` again. Both files should now appear under "Changes to be committed."
 
-**Writing good commit messages:** A commit message should describe *what changed and why*, not just "my first commit." A future teammate (or future you) should be able to read the message and understand what that commit contains without opening it.
-   - [ ] Push these changes to your GitHub repository from your local computer by running `git push origin lesson-3`
-   - [ ] **NOTE:** if you get a "fatal: The current branch..." error message.  READ the message and follow the instructions in that message to confirm that you push your work to your GitHub account.
-   - [ ] When you submit your assignment this week, please copy and paste the link to the branch you created in the "second link to assignment" field.
+**Writing good commit messages:** A commit message should describe what changed and why. A future teammate — or future you — should be able to read it and understand what that commit contains without opening it.
+
+- [ ] Commit your changes: `git commit -m "add index.html and update README with my name"`
+- [ ] Push your changes to GitHub: `git push origin lesson-3`
+- [ ] **Note:** If you get a `fatal: The current branch...` error, read the message carefully — it will include the exact command to run.
+- [ ] When you submit your assignment, paste the link to your `lesson-3` branch in the "second link to assignment" field.
 
 ## Git / GitHub Workflow
 The following image shows the entire workflow involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
