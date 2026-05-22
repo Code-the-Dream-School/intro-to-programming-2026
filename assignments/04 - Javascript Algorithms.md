@@ -57,7 +57,7 @@
 
 
 // ---------- QUESTION 5 ----------
-// Create a function called 'getAverage' that takes 2 parameters and returns their average.  NOTE: In some programming languages, the types of numbers you use in equations can effect what type of number (integer/floating point) you get as a result.  We suggest using 2.0 instead of 2 as you're calculating the average.
+// Create a function called 'getAverage' that takes 2 parameters and returns their average.  NOTE: In some programming languages, the types of numbers you use in equations can affect what type of number (integer/floating point) you get as a result.  We suggest using 2.0 instead of 2 as you're calculating the average.
 
 // EXAMPLE LOG:
 //    console.log("Q5 getAverage: ", 3, 6, getAverage(3.0, 6.0));
@@ -97,7 +97,7 @@
 // Now, we're going to write several functions that calculate a student's grade.  
 // First, write a function named 'calculateAverage' that takes an input array of scores and calculates a student's average based on those scores.
 // Check all of the grades in the array and ignore any values that are not in the range 0 - 100.
-// Also, make sure that an empty array or no valid values in the array do not result in an error (hint: make sure you aren't dividing by 0)
+// Also, make sure that an empty array or no valid values in the array do not result in an error (hint: watch out for dividing by zero)
 
 // EXAMPLE LOG:
 //   console.log("Q8 calculateAverage: ", calculateAverage(scores));
@@ -124,7 +124,7 @@
 
 
 // ---------- QUESTION 10 ----------
-// Create a 3rd function named - passed(letterGrade) - that returns true if a student's grade is A, B or C, false otherwise.  Make sure you handle a value other than A,B,C,D or F passed in.
+// Create a 3rd function named - passed(letterGrade) - that returns true if a student's grade is A, B or C, false otherwise.  Handle unexpected input values other than A,B,C,D or F.
 
 // EXAMPLE LOG:
 //   console.log("Q10 passed('A'): ", passed('A'));
@@ -136,12 +136,12 @@
 
 // ---------- QUESTION 11 ----------
 // Create a function named printClassResult (className, student, scores) that utilizes all three functions to output information on a student.
-// Print yes is they have passed and no if they did not.
+// Print yes if they have passed and no if they did not.
 
 // EXAMPLE LOG:
-//   console.log("Q11: ", printClassResult ("History 101", "Jane Doe", [60, 70, 85, 87]));  
+//   console.log("Q11: ", printClassResult ("History 101", "Yuki Kawamura", [60, 70, 85, 87]));  
 // EXAMPLE OUTPUT:
-//   Q11: History 101 - Student: Jane Doe, Average: 75.5, Grade: C, Passed: yes
+//   Q11: History 101 - Student: Yuki Kawamura, Average: 75.5, Grade: C, Passed: yes
 
 // PUT YOUR CODE HERE
 
