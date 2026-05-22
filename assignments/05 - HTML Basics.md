@@ -4,9 +4,19 @@
    - [ ] Create a new file in your project directory (at same level as your README.md file) and title it `index.html`
 
 ## Assignment: Task List / Deliverables
-In your index.html, we are going to add "boilerplate" HTML code as a starting point that includes all the required elements and meta tags. A boilerplate code provides a standard structure for HTML documents. While copy and pasting is common practice, this week we want you to write all the boilerplate code from scratch so you understand the parts of it and what their functions are.  Each line of the boilerplate HTML code is broken down below.  
+In your `index.html`, you will write the HTML "boilerplate" - the standard, required structure used as a starting point for all web pages. While copying and pasting this code is common in professional development, you will write it from scratch this week to fully understand how each element functions. 
 
-REMINDER: HTML uses code called "tags" and "elements". In HTML, an element consists of a "start tag", some content, and an "end tag".  So when describing the `<title>` element, for example, we're referring to this: `<title>Your Title</title>` Also, keep in mind some HTML elements are "self-closing", meaning that they have one tag that opens and closes at the same time (e.g. `<meta name="description" content="Your description" />`. In the Body and Additional Elements sections of these instructions you'll find the bulk of the actual site content (what the user will see when they view your page) listed.
+Below is a line-by-line breakdown of the HTML boilerplate:
+
+> **Quick Review: HTML Anatomy**
+> 
+> Before diving into the breakdown, remember these three key concepts:
+> 
+> * **Elements vs. Tags:** An **element** is the whole package. It usually consists of an **opening tag**, the **content**, and a **closing tag**. 
+>   * *Example:* `<title>My Web Page</title>` is a `<title>` element.
+> * **Self-Closing Tags:** Some elements don't wrap around text and close themselves in a single tag.
+>   * *Example:* `<meta charset="utf-8">` or `<img src="logo.png">`
+> * **The Visible Page:** The boilerplate contains background setup data, but the bulk of your actual website content (what users see) will always live inside the `<body>` element.
 
 ### HTML Boilerplate
 
@@ -24,7 +34,7 @@ The "head" of an HTML document contains all the page's meta information, such as
 The "body" of an HTML document contains all the page's visible content.
    - [ ] After the closing `</head>` tag, begin the body of your page by adding the opening `<body>` element. 
    - [ ] Close the body of your page by adding the closing `</body>` element right before the closing `</html>` tag
-   - [ ] Make sure all of the following content is inside the `<body>` tags, in this order:
+   - [ ] Confirm that all of the following content is inside the `<body>` tags, in this order:
      - [ ] Your name in an `h1` element
      - [ ] The word 'About' in an `h2` element
      - [ ] A paragraph about you in a `p` element
@@ -48,10 +58,19 @@ HTML describes the structure of a webpage using various semantic elements, such 
 ```
    - [ ] STRETCH GOAL (optional):  Feel free to use even more HTML elements by adding images, navigation menus, etc.
 
-**_By the end of these instructions, your index.html page should have boilerplate code that allows your web browser to identify what kind of document it's displaying and the meta data about your page (ex. title, keywords, etc.). You should have your Name, and three sections: (1) an About header with a paragraph about yourself, (2) an Experience header with a list of your experiences, and (3) a Connect header with at least two links.  All of this should be written in HTML in your index.html file._**
+By the end of this lesson, your `index.html` file must include:
 
+**1. Page Setup & Metadata**
+* The HTML boilerplate code so the browser knows how to render the page.
+* Metadata about your page (such as the `<title>` and keywords).
+
+**2. Visible Page Content**
+* **Your Name** as the main heading.
+* **About Section:** An "About" header followed by a short paragraph about yourself.
+* **Experience Section:** An "Experience" header followed by a list of your professional or personal experiences.
+* **Connect Section:** A "Connect" header containing at least two working links (e.g., your LinkedIn or GitHub).
 ## Back up to the cloud
-Once you've made the above changes to your html file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment.  Make sure your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
+Once you've made the above changes to your html file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment.  Confirm that your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
    - [ ] Check the status of the changes you just made (editing the index.html file) by running `git status` in your terminal
    - [ ] Stage all your changes for commit by running `git add .` in your terminal
    - [ ] Run `git status` again to see how things have changed.  You should get a response indicating changes staged for commit.
