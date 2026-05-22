@@ -1,7 +1,7 @@
 
-# 1.1 How the Web Works
+# 5.1 How the Web Works
 
-Read then following article: **[How Does the Web Work?](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/How-Does-the-Web-Work)**
+Read the following article: **[How Does the Web Work?](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/How-Does-the-Web-Work)**
 
 ## AI Learning Prompt: Retrieval Practice
 
@@ -14,7 +14,7 @@ Read then following article: **[How Does the Web Work?](https://github.com/Code-
 
 >“I just learned how the web works. Here’s my understanding of what happens when I load a website:[your explanation]. Can you tell me what I got right, what I might be missing, and where I could improve my understanding?”
 
-# 1.2 HTML Basics
+# 5.2 HTML Basics
 
 ### The Odin Project Links:
 
@@ -39,11 +39,11 @@ Watch the following sections:
 
 ## HTML Overview
 
-*Hypertext Markup Language (created in 1989)*, commonly called *HTML*, is a markup language that is used to create the structure of a web page. The basic idea of HTML is that the brackets < > surrounding the code of a web page tell the web browser what information it's working with.
+*Hypertext Markup Language (created in 1989)*, commonly called *HTML*, creates the structure of a web page. The basic idea of HTML is that the brackets < > surrounding the code of a web page tell the web browser what information it's working with.
 
 At its core, hypertext is digital text that can link to other places, such as one website connecting to another. HTML, a markup language, uses tags like **`<head>`** and **`<body>`** to structure web content in a way that browsers can display. Unlike technical programming code, HTML uses human-readable words, making it user-friendly for web content creation.
 
-HTML is the foundational component of a website adding these elements to a web page:
+HTML builds a webpage by adding these elements:
 
 - Text: Words and written content
 - Media: Images, videos, and other visual or auditory elements
@@ -92,7 +92,7 @@ Study this snippet of HTML code without opening it in a browser:
 3. Ask: "Is my reasoning about how these list tags work correct?"
 4. Check your prediction by searching for "HTML list elements" or running the code in a text editor.
 
-# 1.3 IDEs and Visual Studio Code
+# 5.3 IDEs and Visual Studio Code
 
 To write HTML and JavaScript effectively, developers use an **IDE (Integrated Development Environment)**. IDEs are helpful programs that combine several tools (a text editor, the command line/terminal, file organization, and more) into one program. The most popular IDE is **Visual Studio Code** (abbreviated VS Code).
 
@@ -112,4 +112,4 @@ As you begin writing your own HTML files in Visual Studio Code, you may find tha
 > "I'm stuck on how to nest a link inside a paragraph. Can you give me 3 high-level hints for how to structure the tags without giving me the final code?"
 
 # 🥳 Great job on Lesson 5!
-You're well on your way to becoming a skilled developer. Attend a mentor session and ask for help – we're rooting for you!
+You're well on your way to becoming a skilled developer. Attend a mentor session and ask for help – everyone at CTD is glad you're here!
