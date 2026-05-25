@@ -1,15 +1,19 @@
 # Final Project Submission Details
 
-### Final week!  
+## Final week!  
 
-This week you'll finish any work on your Final Project (including both portfolio and Open API pages).  Be sure you've merged any open pull requests to the main branch of your project when your work is completed and before you submit.  When you submit your project, you'll use your usual Assignment Submission process (the button at the bottom of your lesson page) and put your Final Project repository link in the "Link to your Coding Assignment / Pull Request / Final Project Repository" field.  
-It should look like `https://github.com/yourUsername/yourRepositoryName`.  
+This week, you will put the finishing touches on your Final Project. Follow these steps to ensure a successful submission:
 
-As long as your final projects meet rubric requirements and you've taken/passed your assessment (which was emailed to you at the start of this lesson week) you will advance to the next course of your choosing.
+1. **Finish the Code**: Complete all work on both your portfolio and Open API pages.
+2. **Merge Your Work**: Confirm that all open pull requests are merged into your main branch before you submit.
+3. **Submit the Link**: Click the submission button at the bottom of this page and paste your Final Project repository URL into the project link field. It should look like `https://github.com/yourUsername/yourRepositoryName`.  
 
-### Project Demo Details
+Once your final project meets the rubric requirements and you have passed your course assessment (check Slack for the link sent at the start of the week), you will officialy graduate from this course and be ready to advance to your next coding adventure!
 
-It is good practice to talk about what you have learned and know about project as you will be asked to talk about your experiences in job interviews.  This is why we ask all students to give a short demo of their final projects.  This demo is NOT graded and your performance in the demo will have no bearing on your graduation.  Please record a 3-5 minute presentation that touches on all of the following:
+## Project Demo Details
+
+Talking about your projects is an important skill for job interviews. Record a 3–5 minute demo of your final projects that covers the following:
+
  - [ ] Scroll the length of your portfolio to show your format and styling of your content
  - [ ] Demonstrate your form section by entering one or two user entries and showing if/how entries can be edited or deleted
  - [ ] Switch to your Open API page
@@ -20,15 +24,17 @@ It is good practice to talk about what you have learned and know about project a
 
 Rubric details for the Portfolio Project and the Open API Project can be seen below.  Be sure both your projects meet the requirements specified for each.
 
-### How to record your presentation
+### Record your presentation
+
 You can record your presentation in any of these three ways: 
  1. Logging into your personal Zoom account and record your personal meeting where only you are in attendance and you are screensharing your work ([this is a link to a video on how to do this](https://www.youtube.com/watch?v=njwbjFYCbGU))
  2. Use a screen recording program already on your machine
     * [Mac users can use this link to watch a how-to video](https://www.youtube.com/watch?v=w9Byefp51tY)
     * [Windows users can use this link to watch a how-to video](https://www.youtube.com/watch?v=PJB7pM5bvNI)
- 4. Use an online option such as loom ([link to a how to video on loom here](https://www.youtube.com/watch?v=oAdLPbfXcQo)).
+ 3. Use an online option such as loom ([link to a how to video on loom here](https://www.youtube.com/watch?v=oAdLPbfXcQo)).
 
-### How to upload your video so it can be shared
+### Upload your video
+
 <details>
 <summary>Click here to expand detailed instructions on how to upload your recording</summary>
 <br>
@@ -55,7 +61,7 @@ You can record your presentation in any of these three ways:
 
 ![Adjust video settings](https://github.com/Code-the-Dream-School/intro-to-programming-2025/blob/d2f9b35d7206eeb0af24f85a8e8e5d97d43cbfad/images/Screenshot%202025-01-27%20at%204.02.30%E2%80%AFPM.png?raw=true)
 
-<h4>6. You'll want to be sure the following options for some of the sections that appear after click `Show more` are set to the following:</h4>
+<h4>6. You'll want to be sure the following options for some of the sections that appear after clicking `Show more` are set to the following:</h4>
 
  - [ ] Altered content: select "No" since you have not used AI to alter reality in your video
  
@@ -63,7 +69,7 @@ You can record your presentation in any of these three ways:
       
  - [ ] Shorts remixing: select "Don't allow remixing"
        
- - [ ] Comments and ratings: if you would like classmates to leave comments, leave comments "On", otherwise you can turn them off by selecting "Off".  _NOTE: we do not and cannot monitor comments.  Please report anything concerning to Code the Dream but have screenshots if needed._  You can also UNcheck the "Show how many viewers like this video if you wish.
+ - [ ] Comments and ratings: if you would like classmates to leave comments, leave comments "On", otherwise you can turn them off by selecting "Off".  _NOTE: we do not and cannot monitor comments.  Please report anything concerning to Code the Dream but have screenshots if needed._  You can also uncheck 'Show how many viewers like this video' if you prefer.
        
  - [ ] Click the black `Next` button in the bottom right to proceed from the Details section of the upload through the Video elements and Checks portion.
        
@@ -76,9 +82,3 @@ You can record your presentation in any of these three ways:
 ![Save and copy](https://github.com/Code-the-Dream-School/intro-to-programming-2025/blob/d2f9b35d7206eeb0af24f85a8e8e5d97d43cbfad/images/Screenshot%202025-01-27%20at%204.05.09%E2%80%AFPM.png?raw=true)
  
 </details>
-
-### Submitting your recording
-Once you have recorded your presentation, please use your regular Lesson Assignment Submission Form for this week (Lesson 15) to turn in your final projects and your recording. The parts of the form regarding the video are at the very bottom.  You will also indicating what class you'd like to take next.  Your final projects will be reviewed during the week following the official last day of class and you'll receive email(s) with results of that review and any next steps with our program. 
-
-You can view the gallery of your and your classmates' final project presentations here: [Kepler Final Project Presentations](https://airtable.com/appoSRJMlXH9KvE6w/shrq95dhzEdxNRsvc)
-
