@@ -45,17 +45,17 @@ For this assignment, there are some general requirements but the design is up to
 **NOTE:** This is the basic rubric, but we encourage you to think beyond this list and come up with your own ideas to make your webpage unique!
 
 ## Back up to the cloud
-Once you've made the above changes to your repository folder structure and added your css file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment. Make sure your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
-   - [ ] Check the status of the changes you just made (adding and editing the index.css file and the css folder) by running `git status` in your terminal
+Once you've made the above changes to your html file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment.  Confirm that your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
+   - [ ] Check the status of the changes you just made (editing the index.html file) by running `git status` in your terminal
    - [ ] Stage all your changes for commit by running `git add .` in your terminal
-   - [ ] Run `git status` again to see how things have changed. You should get a response indicating changes staged for commit.
-   - [ ] Create a commit message for reference. You can use a different message if you wish. Run `git commit -m "styling added"`
+   - [ ] Run `git status` again to see how things have changed.  You should get a response indicating changes staged for commit.
+   - [ ] Create a commit message for reference.  You can use a different message if you wish.  Run `git commit -m "boilerplate and content added"`
    - [ ] Push these changes to your GitHub repository from your local computer by running `git push`
 
 ## Submit Assignment
 Now let's make sure that lesson branch will be reviewed.
-   - [ ] Go to your GitHub repository page in your web browser now, and you should see a "lesson-6 has a recent push" notice with a green "Compare & pull request" button. Click that button
-   - [ ] Feel free to add personal notes or questions for your reviewer in the description (be sure you're including any questions to your reviewer in your assignment submission form though!) and click the green "Create pull request" button.
+   - [ ] Go to your GitHub repository page in your web browser now, and you should see a "lesson-5 has a recent push" notice with a green "Compare & pull request" button.  Click that button
+   - [ ] Feel free to put notes to yourself or notes for your reviewer in the description (be sure you're including any questions to your reviewer in your assignment submission form though!) and click the green "Create pull request" button.
    - [ ] Copy the address of your pull request page (should look like `https://github.com/yourUsername/name-classname/pull/#`) and paste it into your assignment submission form.
 
 ## What next?
