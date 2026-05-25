@@ -4,7 +4,7 @@
 
 ### Synchronous Code
 
-- **Blocking execution:** In synchronous code, tasks are executed sequentially. Each operation must complete before the next one can begin.
+- **Blocking execution:** In synchronous code, tasks run sequentially — each operation must complete before the next one begins.
 - **Real life examples:** Phones calls, face to face conversation
 - **Predictable flow:** The order of execution is clear and straightforward, making it easier to reason about and debug.
 - **Predictability:** The sequential nature of sync operations ensures that tasks are executed in a predictable order, which can be important for tasks requiring strict sequencing.
@@ -27,14 +27,14 @@
 3. Ask the AI to give you feedback on your explanation and suggest where your understanding could be improved.
 
 **Example Prompt:**
-> "I’m learning about Lesson 8. Here is my understanding of the difference between blocking and non-blocking code: [your explanation]. Based on my explanation, what am I getting right and what should I refine?"
+> "I’m learning about asynchronous JavaScript. Here is my understanding of the difference between blocking and non-blocking code: [your explanation]. Based on my explanation, what am I getting right and what should I refine?"
 
 ## 8.2 Promises
 
-We talked about callbacks in lesson 4.  There are some disadvanatages to callbacks.  Promises are another way to manage asynchronous operations by providing a cleaner way to handle errors and chain multiple asynchronous steps, thereby avoiding the complexity of nested callbacks - often referred to as "callback hell".
+We talked about callbacks in lesson 4.  There are some disadvantages to callbacks.  Promises are another way to manage asynchronous operations by providing a cleaner way to handle errors and chain multiple asynchronous steps, thereby avoiding "callback hell" — a pattern where callbacks are nested so deeply that code becomes hard to read and maintain.
 
 - **Callbacks** are functions passed to other functions to be executed later
-- **Promises** are objects representing the eventual success or failure of an asynchronouse operation with methods for handling these outcomes.  They are called *promises* because they guarantee that an asynchronous operation, which has not yet completed, will eventaully produce a value or a reason for its failure.  A promise is a placeholder object for a result that is not yet available.
+- **Promises** are objects representing the eventual success or failure of an asynchronous operation with methods for handling these outcomes. They are called *promises* because they guarantee that an asynchronous operation will eventually produce a value or a reason for its failure.
 
 It's important to understand the concept of promises, but we won't be creating them in this lesson.  They are the basis for the fetch API which we will learn about in the next lesson.
 
