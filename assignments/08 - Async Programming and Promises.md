@@ -76,9 +76,9 @@
 #### Style your Message Form
  - [ ] Open your `index.css` file
  - [ ] Style your message form fields and buttons keeping in mind:
-   - [ ] adequate specing so form fields aren't crowded
+   - [ ] adequate spacing so form fields aren't crowded
    - [ ] appropriate sizing in media queries so a user on a mobile device can easily touch/tap into the fields to type
-   - [ ] button sizing to accomodate click and touch/tap interactions
+   - [ ] button sizing to accommodate click and touch/tap interactions
 
 #### Stretch Goals
 These tasks are **entirely optional**, but if you'd like a challenge then do your best to complete each item.
