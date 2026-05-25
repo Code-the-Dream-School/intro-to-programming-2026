@@ -42,7 +42,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/1')
   });
 ```
 
-`fetch` has two parameters, url and options. The first parameter is required it defines the URL of the request that you want to send. If the URL is the only argument passed into the `fetch` function then a GET request will be made. 
+`fetch` has two parameters, url and options. The first parameter is required - it defines the URL of the request that you want to send. If the URL is the only argument passed into the `fetch` function, then a GET request will be made. 
 
 The second parameter is optional it defines the other components of the request besides the URL:
 
@@ -139,5 +139,5 @@ To ensure you have a clear roadmap for your project, let's practice retrieving t
 **Example Prompt:**
 > "I am reviewing my portfolio project rubric. Based on my reading, I need to use JavaScript to: 1) [Task 1], 2) [Task 2], 3) [Task 3], and 4) [Task 4]. Am I missing any technical requirements regarding the footer or the projects section? Based on these, which one is the best to start with now that I've learned about Fetch?".
 
-## 🙌 That's lesson 9 in the books!
+## 🙌 Great work with Lesson 9!
 You're nearing the end of Intro to Programming! As always, reach out if you need help, and congrats on your hard work so far.
