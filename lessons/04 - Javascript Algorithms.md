@@ -161,6 +161,13 @@ Now, let's submit a PR.
 - [ ] In your terminal, make sure you're on your main branch. You can use `git status` to see. If you're still on your lesson-3 branch, you can switch to your main branch by using the git command `git checkout main`.
 - [ ] Update your local main branch to include your lesson-3 work by pulling your changes from your GitHub repository main. Use the following git command in your terminal to do this: `git pull origin main`.
 
+## Git / GitHub Workflow
+The following image shows the entire workflow involved in using Git and GitHub.  Pay attention to where files are located in each step - either on your local machine or remote in GitHub.  
+
+In this lesson, we have completed the portion of the workflow outlined with the red dashed line, which completed the entire workflow.
+
+![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson04/GitFlow-Lesson04.jpg?raw=true)
+
 ## AI Learning Prompt: Scaffold Removal
 
 If you encounter a "merge conflict" or an error while trying to `git pull`, use the AI to help you think, not just give the answer.
