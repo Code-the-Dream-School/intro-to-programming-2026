@@ -14,9 +14,11 @@
 
 //  console.log("Q#: ", functionName(anyInput))
 
+// Note: If a question says ‘return’, your function should use return. If it says ‘print’, use console.log.” Test your functions with several different inputs to make sure they work in all cases.
+
 
 // ---------- QUESTION 1 ----------
-// Write a function called 'repeat' that takes 1 integer parameter and, using a for or while loop, prints out the string "Hello World!" to the console the same number of times as the parameter. NOTE: for this question, since your console log should be inside your function, you only need to call/invoke the function after you write it rather than call/invoke it inside of a console.log.
+// Write a function called 'repeat' that takes 1 integer parameter and, using a for or while loop, prints out the string "Hello World!" to the console the same number of times as the parameter. Place your console.log inside the function so the message prints during each loop iteration. NOTE: for this question, since your console log should be inside your function, you only need to call/invoke the function after you write it rather than call/invoke it inside of a console.log.
 
 // EXAMPLE "LOG":
 //    repeat(3);
@@ -28,7 +30,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 2 ----------
-// Write a function called 'pyramidCounting' that takes 1 integer parameter and returns the sum of all of the numbers between 0 and the parameter.
+// Write a function called 'pyramidCounting' that takes 1 integer parameter and returns the sum of all of the numbers between 0 and the parameter. Your loop should include the parameter value itself (e.g., if the input is 4, include 4 in the sum.
 
 // EXAMPLE LOG:
 //    console.log("Q2: ", pyramidCounting(4));
@@ -39,17 +41,17 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 3 ----------
-// Write a function called 'noVowels' that take a string parameter and removes vowels from that string using a loop.
+// Write a function called 'noVowels' that take a string parameter and removes vowels from that string using a loop. Assume the input will be lowercase, but bonus if you handle uppercase too.
 
 // EXAMPLE LOG:
-//    console.log("Q3: ", noVowels(adventurous));
+//    console.log("Q3: ", noVowels("adventurous"));
 // EXAMPLE OUTPUT:
 //    Q3: dvntrs
 
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 4 ----------
-// Write a function called 'vowelCount' that takes 1 string parameter and returns the number of vowels in that string.
+// Write a function called 'vowelCount' that takes 1 string parameter and returns the number of vowels in that string. Your function should count both uppercase and lowercase vowels.
 
 // EXAMPLE LOG:
 //    console.log("Q4: ", vowelCount('I love to code.'));
@@ -59,7 +61,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 5 ----------
-// Write a function called 'numOfOdds' that takes 1 integer parameter and returns the number of odd numbers between 0 and that number, including the number if it's odd. (Hint: Use the modulo operator)
+// Write a function called 'numOfOdds' that takes 1 integer parameter and returns the number of odd numbers between 0 and that number, including the number if it's odd. (Hint: Use the modulo operator). 
 
 // EXAMPLE LOG:
 //    console.log("Q5: ", numOfOdds(15));
@@ -69,7 +71,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 6 ----------
-// Create two variables named 'empty' and 'full'.  Assign an empty array to the 'empty' variable and any array of strings or numbers to the 'full' variable.  Write a function called 'arrayChecker' that returns true if the array passed as a parameter is empty and false if not.  Check both the 'empty' and 'full' variables to make sure they are returning the expected values.
+// Create two variables named 'empty' and 'full'.  Assign an empty array to the 'empty' variable and any array of strings or numbers to the 'full' variable.  Write a function called 'arrayChecker' that returns true if the array passed as a parameter is empty and false if not.  Check both the 'empty' and 'full' variables to make sure they are returning the expected values. Return the boolean values true or false (not strings)
 
 // EXAMPLE LOGS:
 //    console.log("Q6 empty: ", arrayChecker(empty));
@@ -81,7 +83,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 7 ----------
-// Write a function called 'getElementAt' that takes an array parameter and an integer parameter.  The function should return the element in the array at the given number index or 'null' if it doesn't exist.  Use your 'full' variable from Question 6 to test.
+// Write a function called 'getElementAt' that takes an array parameter and an integer parameter.  The function should return the element in the array at the given number index or 'null' if it doesn't exist. If the index is out of range, return null (not undefined). Use your 'full' variable from Question 6 to test.
 
 // EXAMPLE LOGS:
 //    console.log("Q7: ", getElementAt(full, 2));
@@ -92,7 +94,7 @@
 //    Q7: null
 
 // ---------- QUESTION 8 ----------
-// Write a function called 'insertInArray' that takes an array parameter, makes a NEW array with the value '0' inserted at the second position in the NEW array.  The function should return the NEW array.  Use your 'full' variable from Question 6 to test.  NOTE: Assigning an array to a new variable does not make a copy, it's another reference to the same array.  To make a copy you can use the slice() method as in this example:
+// Write a function called 'insertInArray' that takes an array parameter, makes a NEW array with the value '0' inserted at the second position in the NEW array.  The function should return the NEW array. Do not modify the original array — see slice hint.  Use your 'full' variable from Question 6 to test.  NOTE: Assigning an array to a new variable does not make a copy, it's another reference to the same array.  Hint: To make a copy you can use the slice() method as in this example:
 // let newArray = originalArray.slice()
 // LEARNING MOMENT: Also console log the variable 'full' to compare the new array to the original.
 
@@ -107,7 +109,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 9 ----------
-// Write a function called 'compareArrays' that takes two Array parameters (containing numbers or strings only) and returns true if they are equal, false if not.  The purpose of this function should be to look at each element of the two arrays and compare them, returning false when they either hit two items that don't match, or returning false if the two arrays themselves are different lengths. You can test this with the 'empty' and 'full' variables from Question 6, and/or you can create a variable called 'compare' and assign it an array identical to 'full' to compare those.  To further test your function's accuracy, create a new variable called 'part' that is a partial copy of the 'full' variable and test that as well.
+// Write a function called 'compareArrays' that takes two Array parameters (containing numbers or strings only) and returns true if they are equal, false if not.   The purpose of this function should be to look at each element of the two arrays and compare them, returning false when they either hit two items that don't match, or returning false if the two arrays themselves are different lengths. You can test this with the 'empty' and 'full' variables from Question 6, and/or you can create a variable called 'compare' and assign it an array identical to 'full' to compare those.  To further test your function's accuracy, create a new variable called 'part' that is a partial copy of the 'full' variable and test that as well. Hint: First check whether the arrays are the same length. If not, return false immediately.
 
 // REMEMBER: In JavaScript, 1 === '1' is false, but 1 == '1' is true. You'll need to use the triple equals operator which is more strict because it compares data type.
 
@@ -129,7 +131,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 10 ----------
-// Create a variable called 'numbers' and assign it an array with at least 3 numbers as elements (example: [10, 3, 4]).  Write a function called 'calculateTotal' that takes one array parameter and loops through the array in order to return the sum of all the array elements.
+// Create a variable called 'numbers' and assign it an array with at least 3 numbers as elements (example: [10, 3, 4]).  Write a function called 'calculateTotal' that takes one array parameter and loops through the array in order to return the sum of all the array elements. Hint: Start your total at 0 before looping
 
 // EXAMPLE LOG:
 //    console.log("Q10: ", calculateTotal(numbers));
@@ -140,7 +142,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 11 ----------
-// Write two functions called 'findEvens' and 'findOdds' that each take one array parameter and each returns a NEW Array of all the even or odd numbers as indicated.  NOTE: Assigning an array to a new variable does not make a copy, it's another reference to the same array.  To make a copy you can use the slice() method as in this example:
+// Write two functions called 'findEvens' and 'findOdds' that each take one array parameter and each function returns a NEW Array of only the even or odd numbers as indicated.  NOTE: Assigning an array to a new variable does not make a copy, it's another reference to the same array.  To make a copy you can use the slice() method as in this example:
 // let newArray = originalArray.slice()
 
 // EXAMPLE LOG:
@@ -166,7 +168,7 @@
 
 // ---------- QUESTION 13 ----------
 // Write a function called 'displaySkills' that takes an array of string values that correspond to skills that you have.
-// Iterate through the array and display each skill.
+// Iterate through the array and display each skill. This function should print each skill, not return anything.
 
 // EXAMPLE CALL:
 //    const skills = ["JavaScript", "HTML", "CSS", "Adobe Photoshop", "GitHub"];
@@ -191,6 +193,7 @@
 // - If the current value in the loop is divisible by both, the function will add the value "fizzbuzz" to the array.
 // - If the number isn't divisible by 3, 5, OR both, it will add the number to the array.
 // The function will return the array of values.
+// Hint: Check for ‘divisible by both 3 and 5’ first, before checking each individually
 
 // EXAMPLE LOG:
 //    console.log("Q13: ", fizzBuzz();
