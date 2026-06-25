@@ -15,6 +15,7 @@ Read this short article on the most important skill in a software developer's to
 
 - [Problem-Solving](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Problem-Solving)
 
+
 # 1.2 JavaScript Basics
 
 **Reminder: You can _either_ use the written Odin Project lessons _or_ the video lessons in Scrimba. You can do both if you have the time and want to, but using just one or the other will teach what is needed to complete the coding assignments.**
@@ -90,12 +91,12 @@ Running your code is the process where the instructions you have written cause t
 - Clicking the "Run" button in Visual Studio Code
 
 **The steps in completing the first 4 JavaScript assignments are:**:
-1. Write your code
-2. Run your code with debugging statements so that you can see the output of those statements in the console
-3. Make corrections based on the console output 
-4. Once you feel the code is correct based on those debug statements, run the AI Reivewer 
-5. Make additional corrections based on the AI Reviewer
-6. Submit your code
+- Write your code
+- Run your code with debugging statements so that you can see the output of those statements in the console
+- Make corrections based on the console output 
+- Once you feel the code is correct based on those debug statements, run the AI Reivewer 
+- Make additional corrections based on the AI Reviewer
+- Submit your code
 
 # 1.5 Debugging Basics
 
@@ -145,6 +146,27 @@ Create a new repository in your GitHub account by following these steps:
 - [ ] Be sure PUBLIC is selected and check the "Initialize this repository with: Add a README file" check box.
 - [ ] Click "Create Repository"
 - [ ] When you submit your assignment this week, please copy and paste the link to the repository you created in the "second link to assignment" field.
+
+## Computer File Structure
+As you start using git, it's important to understand computer file structure.
+
+- [File-Structure](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/File-Structure)
+
+
+## Why Do We Even Use a Version Control System?
+
+Git can seem confusing when you first encounter the workflow, especially when you are working by yourself on a project. It can feel like there are a lot of steps when you are not doing very much.
+
+However, in real development environments, you are usually working on a team where multiple developers are making changes to the same codebase at the same time. Git is designed to manage this complexity safely and efficiently.
+
+Version control systems like Git:
+- Allow multiple developers to work on the same codebase without overwriting each other’s work
+- Track changes over time so you can see exactly what changed, when it changed, and why
+- Allow you to revert to previous versions of your code if something breaks
+- Show who made specific changes, which is important for collaboration and accountability
+- Let developers work on new features or bug fixes in isolation without affecting the main working version of the code
+
+
 
 ## Git / GitHub Workflow
 
