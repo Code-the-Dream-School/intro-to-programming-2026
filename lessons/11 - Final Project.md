@@ -1,8 +1,10 @@
 # Final Project
 
-This is the final week of class.  Focus on any final touches you want to add to your portfolio and open api pages.
+This is the final week of class. Use this week to complete your portfolio and Open API pages and verify they meet the rubric requirements below
 
-## Make sure you review the rubric details:
+## Project Rubrics
+
+Review the rubric for each project before submitting:
 
 [Portfolio Rubric](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Portfolio-Rubric)
 

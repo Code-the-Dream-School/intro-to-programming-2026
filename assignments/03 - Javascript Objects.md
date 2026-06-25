@@ -2,7 +2,7 @@
 //---------- OVERVIEW AND INSTRUCTIONS ----------
 
 //# JavaScript Objects
-// This is the coding assignment for the fourth week of the Intro to Programming course from Code the Dream. The concepts touched on in this assignment include:
+// This is the coding assignment for the third week of the Intro to Programming course from Code the Dream. The concepts touched on in this assignment include:
 //   - Object Basics
 //   - Primitive vs Object Types
 //   - Manipulating Objects
@@ -39,7 +39,7 @@
 
 
 // ---------- QUESTION 3 ---------
-// Now let's see how we can loop thru the properties - this is a common task in JavaScript. Use a for...in loop, a special type of loop in JavaScript designed specifically for iterating over the properties of an object.  See https://www.w3schools.com/js/js_loop_forin.asp for reference.
+// Use a for...in loop to iterate through the propertie of myPet. (See https://www.w3schools.com/js/js_loop_forin.asp for reference.)
 //  Write a for...in loop that iterates through each property in the myPet object and prints the property name and its value to the console in the following format:
 //Q4: propertyName: propertyValue
 //Use console.log() inside the loop to display each key-value pair.
@@ -55,7 +55,7 @@
 
 
 // ---------- QUESTION 4 ----------
-//Let’s explore how to work with object data inside a function. Your task is to define a method called 'describe' in the myPet object. This method should take no parameters and return a sentence using a template literal that describes your pet using its properties.
+// Define a method called 'describe' in the myPet object. This method should take no parameters and return a sentence using a template literal that describes your pet using its properties.
 
 //Add a method named 'describe' to the myPet object.
 //Inside the method, use a template literal to construct a sentence using the name, color, and species properties.
@@ -81,7 +81,7 @@
 
 
 //---------- QUESTION 6 ----------
-//Create a variable named pets and assign it an array containing three pet objects. Each object should include three properties: name, species, and color with appropriate values. Then, define a function called printPets that uses the forEach method to loop through the array and log each pet’s details to the console. Note: console.log is called within the function
+//Create a variable named pets and assign it an array containing three pet objects. Each object should include three properties: name, species, and color with appropriate values. Then, define a function called printPets that uses the forEach method to loop through the array and log each pet’s details to the console. Call console.log inside the function.
 
 //EXAMPLE CALL:
 //   const pets = [
@@ -121,7 +121,7 @@
 // PUT YOUR CODE HERE
 
 //---------- QUESTION 8 ----------
-//Write a function that compares two Dog instances objects and checks if they have the same keys and values. Write a function called areObjectsEqual(obj1, obj2) that returns true if both objects have the same keys and values, and false otherwise. 
+// Write a function that compares two Dog objects and checks if they have the same keys and values. Write a function called areObjectsEqual(obj1, obj2) that returns true if both objects have the same keys and values, and false otherwise. 
 //Reuse:
 // - dog1 from question 7
 // - dog2 from question 7

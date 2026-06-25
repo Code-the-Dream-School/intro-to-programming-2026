@@ -1,8 +1,8 @@
 ### Get organized and write some code!
-- [ ] In your GitHub repository, if you have not yet merged your pull request from last week, merge your open lesson-10 pull request by going to the "Pull Requests" tab of your repository. Click on your open pull request, then click on the green 'Merge Pull Request" and confirm the merge. This will update your main branch with the work you did on your lesson-10 branch.
+- [ ] In your GitHub repository, if you have not yet merged your pull request from last week, merge your open lesson-9 pull request by going to the "Pull Requests" tab of your repository. Click on your open pull request, then click on the green 'Merge Pull Request" and confirm the merge. This will update your main branch with the work you did on your lesson-10 branch.
 - [ ] Open your code editor and, in the terminal, make sure you're on your main branch. If you're still on your lesson-10 branch, you can switch to your main branch by using the git command `git checkout main`.
 - [ ] Update your local main branch to include your lesson-10 work by pulling your changes from your GitHub repository main. Use the following git command in your terminal to do this: `git pull origin main`
-- [ ] Still in your terminal, create a new local branch to keep track of just the work you'll do for this assignment by running `git checkout -b lesson-11` in the terminal. Doing this also copies the lesson-10 work you merged to main and pulled to your local machine so now all your branches should be identical on your local machine.
+- [ ] Still in your terminal, create a new local branch to keep track of just the work you'll do for this assignment by running `git checkout -b lesson-10` in the terminal. Doing this also copies the lesson-10 work you merged to main and pulled to your local machine so now all your branches should be identical on your local machine.
 
 ### Assignment: Task List / Deliverables
 
@@ -13,7 +13,7 @@ and use your own creativity and skills you have learned so far in the class to c
 ### Back up to the cloud
 Once you've made the above changes to your html file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment. Make sure your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
 
-- [ ] Check the status of the changes you just made (creating a js folder and the index.js file within, linking the index.js to your html file) by running git status in your terminal
+- [ ] Check the status of the changes you just made by running git status in your terminal
 - [ ] Stage all your changes for commit by running `git add .` in your terminal
 - [ ] Run `git status` again to see how things have changed. You should get a response indicating changes staged for commit.
 - [ ] Create a commit message for reference. You can use a different message if you wish. Run `git commit -m "added open api page"`

@@ -4,7 +4,7 @@ Welcome to Code the Dream's **Intro to Programming** class!
 
 - Start by reading the lesson's **learning objective** in the `Lesson Overview` section. Each weekly assignment will measure your skills related to the learning objective.
 - Lessons are split into **subsections**, labeled like this: `1.1`, `1.2`, etc. Each subsection contains links to written **Odin Project** lessons and links to video lessons in **Scrimba**. You can choose to complete either the Odin Project or Scrimba materials based on which you like more. You don't need to work through both the text and videos.
-- Throughout the lesson, you'll also find **AI Learning Prompts**. These are interactive prompts that let you get immediate feedback from an AI tool on your learning so far.
+- Throughout the lesson, you'll also find **AI (Artificial Intelligence) Learning Prompts**. These are interactive prompts that let you get immediate feedback from an AI tool on your learning so far.
 - After reading through the lesson content, complete the **Assignment**.
 
 If you have questions at any point, ask a question in the `discussion` Slack channel or reach out to your mentor!
@@ -84,9 +84,7 @@ Before running it:
 
 # 1.4 Running Your Code
 
-It's important to understand what "running your code" actually means.
-
-It is the process where the instructions you have written cause the computer to perform actions. It is not using the AI Reviewer to analyze your code and point out potential errors in your code.  You must run and debug your code (see more information in the next section), before running the AI Reviewer and finally submitting your assignment.
+Running your code is the process where the instructions you have written cause the computer to perform actions. Do not use the AI Reviewer as a substitute for running your code — the AI Reviewer *reads* your code, but it does not run the code.  Run and debug your code (see more information in the next section), before running the AI Reviewer and finally submitting your assignment.
 
 **Examples of running code:**
 - Hitting the red "< RUN" button from within the Learns App  (this is how you will run your first 4 javascript lessons)
@@ -128,7 +126,7 @@ Or:
 
 # 1.6 Software Repositories
 
-A software repository, often called a "repo", is a centralized storage location for code and related files used in software development. Software repositories allows developers to track changes to code, revert to previous versions of code and merge different branches of development.
+A software repository, often called a "repo", is a centralized storage location for code and related files used in software development. A software repository lets you track changes to your code, revert to previous versions, and merge work from different branches.
 
 Software repositories are especially important on projects being developed by a software team where multiple people are working on the same code base. This is true for the majority of software projects.
 

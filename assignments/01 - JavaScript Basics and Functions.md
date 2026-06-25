@@ -38,7 +38,7 @@
 //   Q1: My last name is Doe
 //   Q1: I was born in Canada
 
-//PUT YOUR CODE HERE
+// PUT YOUR CODE HERE
 
 
 // ---------- QUESTION 2 ----------
@@ -248,7 +248,7 @@
 // EXAMPLE OUTPUT:
 //    Q12: HELLO
 
-//PUT YOUR CODE HERE
+// PUT YOUR CODE HERE
 
 // ---------- QUESTION 13 ----------
 // - Create two variables named 'word1' and 'word2' and assign them any strings you want.  

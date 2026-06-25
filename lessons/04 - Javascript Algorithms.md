@@ -1,29 +1,28 @@
 # Algorithms
 
-This week we are going to look at **algorithms**. An algorithm sounds like it might be something hard and complex, but it really is just a set of steps that you are going to code in order to accomplish an end goal - a set of step-by-step instructions to solve a specific problem or perform a task.
+This week we are going to look at **algorithms**. An algorithm is a set of steps you write in code to solve a specific problem.
 
 Here is a non-coding explanation of algorithms, which can be a helpful way to think about some of the problems we are trying to solve.
 
 * [Algorithms in Everyday Life](https://www.learning.com/blog/7-examples-of-algorithms-in-everyday-life-for-students/)
 
-### Real-world example of an algorithm: Making a peanut butter and jelly sandwich
-- Check if you have bread, peanut butter, and jelly
-- If any ingredient is missing:
-  - Make a note of what to buy
-  - Stop (can't make sandwich)
+### Real-world example of an algorithm: Making a cup of tea
+- Check if you have tea (bags or leaves), water, a cup, and a kettle
+- If any item is missing:
+  - Make a note of what you need
+  - Stop (can't make tea)
 - Take out the following things:
-  - Two slices of bread
-  - Jar of peanut butter
-  - Jar of jelly
-  - knife
-  - plate
-- Open the peanut butter jar
-- Spread peanut butter on first slice
-- Open the jelly jar  
-- Spread jelly on second slice
-- Put the slices together
-- Cut sandwich in half (optional)
-- Serve on plate
+  - Tea bag or tea leaves
+  - Cup or mug
+  - Kettle
+  - Spoon
+- Fill the kettle with water and heat it
+- Place the tea into the cup
+- Pour the hot water into the cup
+- Wait 3–5 minutes for the tea to steep
+- Remove the tea bag or strain the leaves
+- Add milk or sugar (optional)
+- Serve
 
 ### Real World Algorithms You Use Daily:
 - Following a recipe (step-by-step instructions)
@@ -49,9 +48,9 @@ Practice your pseudo-code thinking! Before coding, try writing out the steps for
 
 # Pseudocode
 
-As the problems you are trying to solve become more complex, it can be helpful to write the steps of your program down in plain language instead of jumping straight to code. Even experienced developers do this as a way of thinking about the problem they are trying to solve without having to drill down into the specifics of how to code it.
+As the problems you are trying to solve become more complex, it is helpful to write the steps of your program down in plain language instead of jumping straight to code. Even experienced developers do this as a way of thinking about the problem they are trying to solve without having to drill down into the specifics of how to code it.
 
-Pseudocode will not compile or run, but can be made as a set of comments with code filled in later in the appropriate places. It is also helpful that the pseudocode can simply become the comments for your code once it is written.
+Pseudocode will not compile or run. Start by writing pseudocode as comments, then fill in the code below each one. Once you fill in the code, the pseudocode naturally becomes your comments.
 
 Let's take the simple example of a tip calculator which will be one of your questions for assignment 4.
 
@@ -99,9 +98,9 @@ Callbacks are a versatile and powerful concept in programming, and they can be u
 4. **Iterations and Loops:** Callbacks can be used in iterations and loops to execute a function for each element in a collection, like an array or a list. This is known as "callback-based iteration."
 5. **Promises and Promisified Code:** In JavaScript, promises often work with callbacks to handle asynchronous tasks more cleanly. Promises provide a structured way to handle callbacks and make asynchronous code easier to read and maintain.
 
-Overall, callbacks are a fundamental building block in software development, enabling you to define what should happen when a particular event or operation occurs, making your code more flexible, modular, and responsive.
+Callbacks are a fundamental building block in software development, enabling you to define what should happen when a particular event or operation occurs. They ensure your code is flexible, modular, and responsive.
 
-Don't worry if each of these uses doesn't make complete sense yet. It's just helpful to become familiar with some of the terminology. We will be covering callbacks again in some of the later lessons.
+Don't worry if each of these uses doesn't make complete sense yet. It is helpful to become familiar with some of the terminology. We will cover callbacks again in later lessons.
 
 ## Why callbacks are useful:
 
@@ -139,7 +138,7 @@ You can also think of it as requesting that a branch pull your updated code into
 - **Source Branch**: The branch containing the new or modified code that the developer wants to contribute. 
 - **Target Branch**: The branch into which the changes will be merged, typically the main or development branch of the project. 
 
-After the PR (Pull Request) has been approved (generally by some type of review process), then the owner of the target branch can merge the code.  In the case of multiple people working in the same area of code, there may potentially be conflicts that have to be resolved during the merge process.
+After a reviewer approves the PR (Pull Request), then the owner of the target branch can merge the code.  In the case of multiple people working in the same area of code, there may potentially be conflicts that have to be resolved during the merge process.
 
 **GitHub: About Pull Requests:**
 

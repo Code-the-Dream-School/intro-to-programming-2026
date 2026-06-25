@@ -4,7 +4,7 @@
 // LESSON 2 LOOPS AND ARRAYS
 //----------------------------------
 
-//# JavaScript Loops and Arrays
+// # JavaScript Loops and Arrays
 // This is the coding assignment for the second week of the Intro to Programming course from Code the Dream. The concepts touched on in this assignment include:
 //   - Simplify Repetitive Tasks with Loops
 //   - Working with ‘for’ Loops
@@ -36,7 +36,7 @@
 //    Q2: 10
 // The mathematical explanation of this is 0+1+2+3+4 = 10.
 
-//PUT YOUR CODE HERE
+// PUT YOUR CODE HERE
 
 // ---------- QUESTION 3 ----------
 // Write a function called 'noVowels' that take a string parameter and removes vowels from that string using a loop.
@@ -182,7 +182,15 @@
 
 
 // ---------- QUESTION 14 ----------
-// Back in the "old days", the early 2000s, this was a famous technical interview question. Write a function definition that takes NO parameters. The function will loop from 1 to 15 and return an array of numbers. While looping, the function will check if the current value in the loop is divisible by 3, by 5, or by both. If the current value in the loop is divisible by 3, the function will add the string "fizz" to an array. If the current value in the loop is divisible by 5, the function will add the string "buzz" to the array. If the current value in the loop is divisible by both, the function will add the value "fizzbuzz" to the array. If the number isn't divisible by 3, 5, OR both, it will add the number to the array.  The function will return the array of values.
+// In the early 2000s, this was a famous technical interview question: 
+// Write a function definition that takes NO parameters. 
+// - The function will loop from 1 to 15 and return an array of numbers. 
+// - While looping, the function will check if the current value in the loop is divisible by 3, by 5, or by both.
+// - If the current value in the loop is divisible by 3, the function will add the string "fizz" to an array.
+// - If the current value in the loop is divisible by 5, the function will add the string "buzz" to the array.
+// - If the current value in the loop is divisible by both, the function will add the value "fizzbuzz" to the array.
+// - If the number isn't divisible by 3, 5, OR both, it will add the number to the array.
+// The function will return the array of values.
 
 // EXAMPLE LOG:
 //    console.log("Q13: ", fizzBuzz();

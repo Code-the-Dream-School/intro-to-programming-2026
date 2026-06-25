@@ -11,7 +11,7 @@
 - [ ] Inside the js folder, create a JavaScript file called `index.js`
 - [ ] Open your `index.html` file
 - [ ] Before the closing `</body>` tag, insert a `<script>` element with a `src` attribute that specifies the relative path to your JavaScript file (i.e. `js/index.js`)
-- [ ] Save and open the index.html in your browser so you can check your changes to your html page as you build the js code below.  _If you're using VSCode or similar, you should be able to install/may already have an extension that allows you to have a "live" version of your index.html running in your browser that will automatically update when changes in your files are saved so you don't have to keep refreshing your file in your browser._
+- [ ] Save and open the index.html in your browser so you can check your changes to your html page as you build the js code below.  _If you are using VS Code, you can install an extension called Live Server. This creates a "live" version of your index.html file in your browser that automatically updates every time you save your code—saving you from constantly hitting the refresh button._
 
 ### Add a Footer Element
 - [ ] In your index.js file, using DOM manipulation, add a 'footer' child element to your index.html.  Be careful on this step, as different DOM methods (append, appendChild, lastChild, etc.) have different placements.
@@ -33,7 +33,7 @@
   - hint: `appendChild` method or similar
 - [ ] STRETCH GOAL: Use unicode to also include the copyright symbol ( &copy; ) in your footer content
 - [ ] Save and refresh your browser
-  - You should see the text "_Your Name_ 2024" at the bottom of the page
+  - You should see the text your name and the current year at the bottom of the page.
 
 ### Add to your Skills Section
 - [ ] Open your `index.html` file
@@ -49,7 +49,7 @@
   - Example: `["JavaScript", "HTML", "CSS", "Adobe Photoshop", "GitHub"]`
 - [ ] Create a variable named `skillsSection` and use "DOM Selection" to select the skills section by id
   - hint: `querySelector` or `getElementById` method
-- [ ] Create a variable named `skillsList` and use "DOM Selection" to query the `skillsSection` (instead of the entire `document`) to select the `<ul>` element you created earlier in this assignment
+- [ ] Create a variable named `skillsList`. Use 'DOM Selection' to query `skillsSection` — not the entire document — and select the `<ul>` element.
 - [ ] Create a `for` loop to iterate over your `skills` Array
 - [ ] Inside the loop, create a variable named `skill` to create a new list item (`li`) element
   - hint: `createElement` method
