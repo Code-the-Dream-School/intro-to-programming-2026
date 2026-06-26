@@ -1,6 +1,3 @@
-
-``` javascript
-
 //----------------------------------
 // LESSON 1 BASICS AND FUNCTIONS
 //----------------------------------
@@ -168,7 +165,7 @@
 //   Q7 answer: true
 //   Q7 answer type: boolean
 //   Q7 stretchAnswer: greater than
-//   Q7 answer type: string
+//   Q7 stretchAnswer type: string
 
 // PUT YOUR CODE HERE
 
@@ -199,8 +196,6 @@
 // - Give it the value of a floating point number with 4 decimal places.  
 // - Using a Number method round it to the nearest two decimal place. HINT: Look up the Number method toFixed().
 // - Example if the number is 21.4572, exampleNum should become 21.46.
-
-// STRETCH GOAL: Achieve the same results as Q10 using Math methods instead of Number methods. HINT: you may need to alter the variable over a series of calculations/method uses.
 
 // EXAMPLE LOG:
 //   console.log ("Q9 exampleNum before round: ", exampleNum);
@@ -266,13 +261,15 @@
 
 // ---------- QUESTION 14 ----------
 // Random Number Generator
-// - Create a function named "returnRandomNum"
-// - Inside your function declare a variable "randomNum" to hold the value returned from a random number generator
-// - Use Math.random() which returns a number between 0 and 1 (greater or equal to 0, less than 1)
-// - 'Math.random() * 10' gives a range from 0 up to but not including 10
+// - Create a function named "returnRandomNum" which will return a random integer between 1 and 3 inclusive (1, 2 or 3)
+
+//  You'll want to use the following methods:
+// - Math.random() which returns a number between 0 and 1 (greater or equal to 0, less than 1)
 // - Math.floor() rounds a number down to the nearest whole integer
-// - Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both included)
-// - return a randomNum from the function that is between 1 and 3
+// - For example: Math.floor(Math.random() * 10) returns a random integer between 0 and 9 (both included)
+// - HINT: you'll need to adjust the range above. 'Math.random() * 3' gives a range from 0 up
+//   to but not including 3. Math.floor() of that gives a whole number from 0 to 2. Think about
+//   what you need to add to shift that range so it becomes 1 to 3 instead of 0 to 2.
 
 // EXAMPLE LOG:
 //   Log this several times so you see different numbers being logged
@@ -293,13 +290,13 @@
 // Magic8Ball
 // - Create a function named "shakeMagic8Ball" that will return one of the strings described below
 // - Using the random number function created in Q14, code the logic for a Magic 8 Ball 
-// - If your random number is 1, console.log the phrase "It is certain"
-// - If it is 2, console.log "Perhaps"
-// - If it is 3, console.log "Absolutely not"
+// - If your random number is 1, return the phrase "It is certain"
+// - If it is 2, return "Perhaps"
+// - If it is 3, return "Absolutely not"
 
 // EXAMPLE LOG:
 //   Log this several times so you see different answers being logged
-//   console.log ("Q15 Magic 8 Ball: ", shakeMagic8Ball()");
+//   console.log ("Q15 Magic 8 Ball: ", shakeMagic8Ball());
 
 // EXAMPLE OUTPUT:
 //   Q15 Magic 8 Ball: It is certain
@@ -307,6 +304,3 @@
 //   Q15 Magic 8 Ball: Absolutely not
 
 // PUT YOUR CODE HERE
-
-
-```

@@ -1,5 +1,3 @@
-
-``` javascript
 //----------------------------------
 // LESSON 2 LOOPS AND ARRAYS
 //----------------------------------
@@ -16,7 +14,7 @@
 
 
 // ---------- QUESTION 1 ----------
-// Write a function called 'repeat' that takes 1 integer parameter and, using a for or while loop, prints out the string "Hello World!" to the console the same number of times as the parameter. NOTE: for this question, since your console log should be inside your function, you only need to call/invoke the function after you write it rather than call/invoke it inside of a console.log.
+// Write a function called 'repeat' that takes 1 integer parameter and, using a for or while loop, prints out the string "Hello World!" to the console the same number of times as the parameter. NOTE: use console.log INSIDE your loop to print each line directly, rather than returning a value and logging it outside the function. Because of this, you only need to call/invoke the function after you write it rather than call/invoke it inside of a console.log.
 
 // EXAMPLE "LOG":
 //    repeat(3);
@@ -28,7 +26,7 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 2 ----------
-// Write a function called 'pyramidCounting' that takes 1 integer parameter and returns the sum of all of the numbers between 0 and the parameter.
+// Write a function called 'pyramidCounting' that takes 1 integer parameter and returns the sum of all of the numbers between 0 and the parameter (inclusive of the parameter itself).
 
 // EXAMPLE LOG:
 //    console.log("Q2: ", pyramidCounting(4));
@@ -42,7 +40,7 @@
 // Write a function called 'noVowels' that take a string parameter and removes vowels from that string using a loop.
 
 // EXAMPLE LOG:
-//    console.log("Q3: ", noVowels(adventurous));
+//    console.log("Q3: ", noVowels("adventurous"));
 // EXAMPLE OUTPUT:
 //    Q3: dvntrs
 
@@ -59,12 +57,13 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 5 ----------
-// Write a function called 'numOfOdds' that takes 1 integer parameter and returns the number of odd numbers between 0 and that number, including the number if it's odd. (Hint: Use the modulo operator)
+// Write a function called 'numOfOdds' that takes 1 integer parameter and returns the number of odd numbers between 0 and that number, including the number itself if it's odd. (Hint: Use the modulo operator)
 
 // EXAMPLE LOG:
 //    console.log("Q5: ", numOfOdds(15));
 // EXAMPLE OUTPUT:
 //    Q5: 8
+// The numbers being counted are 1, 3, 5, 7, 9, 11, 13, 15 - that's 8 odd numbers, including 15 itself.
 
 // PUT YOUR CODE HERE
 
@@ -90,6 +89,8 @@
 // EXAMPLE OUTPUT: (if the array assigned to variable 'full' is ["dream", 19, "code", 24, 180])
 //    Q7: code
 //    Q7: null
+
+// PUT YOUR CODE HERE
 
 // ---------- QUESTION 8 ----------
 // Write a function called 'insertInArray' that takes an array parameter, makes a NEW array with the value '0' inserted at the second position in the NEW array.  The function should return the NEW array.  Use your 'full' variable from Question 6 to test.  NOTE: Assigning an array to a new variable does not make a copy, it's another reference to the same array.  To make a copy you can use the slice() method as in this example:
@@ -124,7 +125,7 @@
 // EXAMPLE LOG:
 //    console.log("Q9 partial: ", compareArrays(full, part));
 // EXAMPLE OUTPUT: (if 'full' variable is ["dream", 19, "code", 24] and if 'part' variable is ["dream", 19, "code"])
-//    Q9 different: false
+//    Q9 partial: false
 
 // PUT YOUR CODE HERE
 
@@ -183,7 +184,7 @@
 
 // ---------- QUESTION 14 ----------
 // In the early 2000s, this was a famous technical interview question: 
-// Write a function definition that takes NO parameters. 
+// Write a function called 'fizzBuzz' that takes NO parameters. 
 // - The function will loop from 1 to 15 and return an array of numbers. 
 // - While looping, the function will check if the current value in the loop is divisible by 3, by 5, or by both.
 // - If the current value in the loop is divisible by 3, the function will add the string "fizz" to an array.
@@ -193,7 +194,7 @@
 // The function will return the array of values.
 
 // EXAMPLE LOG:
-//    console.log("Q13: ", fizzBuzz();
+//    console.log("Q14: ", fizzBuzz());
 // EXAMPLE OUTPUT:
 //    Q14: [1,2,'fizz',4,'buzz','fizz',7,8,'fizz','buzz',11,'fizz',13,14,'fizzbuzz']
 
@@ -206,8 +207,13 @@
 //   let globalVar = "globarVar";
 //   let functionVar = "functionVar";
 //   let blockVar = "blockVar";
-// Place the variables correctly in your code and log them.
-// Also, place 2 log statements for the functionVar and blockVar that are commented out, but would result in an error if uncommented - because the variable they are referencing is out of scope.
+// Place the variables correctly in your code (think about where each one needs to be declared
+// so its name matches its scope) and log them from within the scope where they're accessible.
+// Also, place 2 log statements for the functionVar and blockVar that are commented out, but
+// would result in an error if uncommented - because the variable they are referencing is out
+// of scope at that point in the code.
+
+// There is no single example output for this question - the "right answer" is the structure of
+// your code itself, including the two commented-out lines that demonstrate scope errors.
 
 // PUT YOUR CODE HERE
-
