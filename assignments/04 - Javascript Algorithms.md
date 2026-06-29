@@ -1,4 +1,3 @@
-
 ``` javascript
 
 //----------------------------------
@@ -86,7 +85,7 @@
 // Be sure to include several test cases
 
 // EXAMPLE LOG:
-//   console.log("Q7 getPrimesUpTo: ", number, isPrime(number));
+//   console.log("Q7 getPrimesUpTo: ", number, getPrimesUpTo(number));
 // EXAMPLE OUTPUT:
 //   Q7 getPrimesUpTo: 13 [2,3,5,7,11,13]
 
@@ -114,6 +113,9 @@
 // C: 70–79
 // D: 60–69
 // F: below 60
+// NOTE: Averages like 75.5 are fine to compare directly, but if calculateAverage ever returns a long decimal
+// (e.g. 97.66666666666667), it's good practice to round it before displaying it to a user.
+// Look up the .toFixed() method and consider using it when you log your average in Question 11.
 
 // EXAMPLE LOG:
 //   console.log("Q9 getLetterGrade: ", getLetterGrade(95));
@@ -146,26 +148,57 @@
 // PUT YOUR CODE HERE
 
 
+// ---------------------------------------------------------------
+// A NOTE BEFORE QUESTIONS 12 - 14: FUNCTIONS AS VALUES
+// ---------------------------------------------------------------
+// So far, every function you've written has been *called* directly, like multiplyThese(2, 3).
+// But in JavaScript, a function is also just a value — like a number or a string — which means
+// you can store it in a variable, put it in an array, or hand it to ANOTHER function as an argument.
+//
+// A function that is passed into another function to be run later is called a "callback."
+// Callbacks are everywhere in JavaScript — they're how you tell code what to do when a button is
+// clicked, when data finishes loading, or when a timer runs out.
+//
+// Before jumping into callbacks, let's warm up with the idea of functions as values.
+
 // ---------- QUESTION 12 ----------
+// Create a simple function called 'sayHello' that logs "Hello!" to the console.
+// Then, WITHOUT calling sayHello() yourself, pass it directly into setTimeout so that it runs
+// automatically after 1 second (1000 milliseconds).
+// Notice that you are passing the function itself (sayHello), not the result of calling it (sayHello()).
+
+// EXAMPLE CALL:
+//   setTimeout(sayHello, 1000);
+
+// EXAMPLE OUTPUT (after about 1 second):
+//   Q12: Hello!
+
+// PUT YOUR CODE HERE
+
+
+// ---------- QUESTION 13 ----------
 // Now, let's see how to use a callback.  First, create a function that simulates pushing a button.  Name the function buttonPushed and log the message "The button was pushed!" in the function.
 
 // EXAMPLE CALL: (the log is within the function, so you do not need to log the call)
 //    buttonPushed();
 
 // EXAMPLE OUTPUT: (we're using this function in the next question as well)
-//   Q12, Q13: The button was pushed!
+//   Q13, Q14: The button was pushed!
 
 // PUT YOUR CODE HERE
 
 
-// ---------- QUESTION 13 ----------
-// Now, create a function called simulateButtonPush and pass the function created in question 12 to that function.
+// ---------- QUESTION 14 ----------
+// Now, create a function called simulateButtonPush that takes a function as a parameter, and calls
+// that function inside of it. Then pass the buttonPushed function (created in Question 12) into it.
+// This is the same pattern you just used with setTimeout — simulateButtonPush doesn't know or care
+// what buttonPushed does, it just knows it received a function and that its job is to call it.
 
 // EXAMPLE CALL: (the log is within the function, so you do not need to log the call)
 //    simulateButtonPush(buttonPushed);
 
 // EXAMPLE OUTPUT: 
-//   The button was pushed!
+//   Q13, Q14: The button was pushed!
 
 // PUT YOUR CODE HERE
 
