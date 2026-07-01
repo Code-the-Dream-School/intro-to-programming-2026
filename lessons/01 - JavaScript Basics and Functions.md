@@ -90,13 +90,17 @@ Running your code is the process where the instructions you have written cause t
 - Hitting the red "< RUN" button from within the Learns App  (this is how you will run your first 4 javascript lessons)
 - Clicking the "Run" button in Visual Studio Code
 
-**The steps in completing the first 4 JavaScript assignments are:**:
-- Write your code
-- Run your code with debugging statements so that you can see the output of those statements in the console
-- Make corrections based on the console output 
-- Once you feel the code is correct based on those debug statements, run the AI Reivewer 
-- Make additional corrections based on the AI Reviewer
-- Submit your code
+**The steps in completing the first 4 JavaScript assignments are as follows:**:
+- For each question you should:
+
+  - Write your code 
+  - Run your code with debugging statements so that you can see the output of those statements in the console
+  - Make corrections based on the console output 
+  - Once you feel the code is correct based on those debug statements, move onto the next question
+- Once you have completed all of the questions in this manner:
+  - Run the AI Reviewer
+  - Make additional corrections based on the AI Reviewer
+  - Submit your code
 
 # 1.5 Debugging Basics
 
