@@ -16,7 +16,7 @@
 // - Write your code
 // - Run your code with debugging statements (console.log) so that you can see the output of those statements in the console
 // - Make corrections based on the console output 
-// - Once you feel the console output is correct, move onto the next questions
+// - Once you feel the console output is correct, move onto the next question
 
 // ---------- QUESTION 1 ----------
 // Declaring and giving string values to variables.
