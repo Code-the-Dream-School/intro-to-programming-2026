@@ -35,21 +35,13 @@
 - [ ] Save and refresh your browser
   - You should see the text your name and the current year at the bottom of the page.
 
-### Add to your Skills Section
-- [ ] Open your `index.html` file
-- [ ] Above the "Connect" section, add a new `<section>` element with an `id` attribute of value "skills"
-- [ ] Inside the new section, add a `<h2>` element that says "Skills"
-- [ ] After the `<h2>` element, add an empty unordered list (`<ul>`) element
-- [ ] Save and refresh your browser _(or just check your browser for changes if using live extension)_
-  - You should see the new "Skills" heading
-
 ### Create List of Skills
 - [ ] Open your `index.js` file
 - [ ] List your technical skills by creating an Array of String values and store it in a variable named `skills`.  You did something very similar in Assignment 2.
   - Example: `["JavaScript", "HTML", "CSS", "Adobe Photoshop", "GitHub"]`
 - [ ] Create a variable named `skillsSection` and use "DOM Selection" to select the skills section by id
   - hint: `querySelector` or `getElementById` method
-- [ ] Create a variable named `skillsList`. Use 'DOM Selection' to query `skillsSection` — not the entire document — and select the `<ul>` element.
+- [ ] Create a variable named `skillsList`. Use 'DOM Selection' to query `skillsSection` — not the entire document — and select the `<ul>` element.  
 - [ ] Create a `for` loop to iterate over your `skills` Array
 - [ ] Inside the loop, create a variable named `skill` to create a new list item (`li`) element
   - hint: `createElement` method
@@ -62,7 +54,7 @@
  
 ### Style your skills
  - [ ] Open your `index.css` file
- - [ ] Use flexbox or grid to organize and adjust the layout of your list of skills.  Remember to include any adjustments in your media query sections.
+ - [ ] Use flexbox or grid to organize and adjust the layout of your list of skills.  
 
 **_By the end of this assignment, you should have a js folder with an index.js in it.  The code you wrote in your index.js should have written a footer with your name and the current year to the html document.  Also, an array list of skills in your index.js file should be written to the skills section you created in your html document and should be styled using flexbox or grid._**
 

@@ -77,6 +77,7 @@ Once you've made the above changes to your html file, follow the below instructi
    - [ ] Run `git status` again to see how things have changed.  You should get a response indicating changes staged for commit.
    - [ ] Create a commit message for reference.  You can use a different message if you wish.  Run `git commit -m "boilerplate and content added"`
    - [ ] Push these changes to your GitHub repository from your local computer by running `git push`
+   - [ ] Note: If you get a fatal: The current branch... error, read the message carefully — it will include the exact command to run.
 
 ## Submit Assignment
 Now let's make sure that lesson branch will be reviewed.

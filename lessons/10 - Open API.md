@@ -15,7 +15,6 @@ You may use any of these. The dog and cat APIs include clear fetch examples in t
  
 * [Open-Meteo](https://open-meteo.com/) – a weather API
 * [Swapi.Tech](https://www.swapi.tech/) – an API about Star Wars films
-* [Marvel](https://developer.marvel.com/) – an API about the Marvel fandom
 * [ARTIC](https://api.artic.edu/docs/#introduction) – an art API from the Art Institute of Chicago
 * [TheDogAPI](https://thedogapi.com/) or the [TheCatAPI](https://thecatapi.com/) – APIs about (you guessed it!) Dogs or Cats
 * [Soccer](https://api-sports.io/documentation/football/v3) - a sports data API
