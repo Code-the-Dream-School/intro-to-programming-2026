@@ -8,7 +8,7 @@
 
 #### Create a Message Form
 - [ ] Open your `index.html` file
-- [ ] Above the `<footer>` element, add an empty `<section>` element
+- [ ] Above the `<script>` element, add an empty `<section>` element   Note: the Message Form should be the last section on your portfolio page above the footer.  The footer was added in javascript, so it will not be in the index.html.
 - [ ] Inside the new `<section>` element, create a level-two heading that says "Leave a Message"
 - [ ] After the heading, create an HTML `<form>` element with a `name` attribute that equals "leave_message"
 - [ ] Inside the `<form>` element, add the following:
