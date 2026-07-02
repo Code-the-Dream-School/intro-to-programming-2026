@@ -54,7 +54,7 @@
  
 ### Style your skills
  - [ ] Open your `index.css` file
- - [ ] Use flexbox or grid to organize and adjust the layout of your list of skills.  Remember to include any adjustments in your media query sections.
+ - [ ] Use flexbox or grid to organize and adjust the layout of your list of skills.  
 
 **_By the end of this assignment, you should have a js folder with an index.js in it.  The code you wrote in your index.js should have written a footer with your name and the current year to the html document.  Also, an array list of skills in your index.js file should be written to the skills section you created in your html document and should be styled using flexbox or grid._**
 
