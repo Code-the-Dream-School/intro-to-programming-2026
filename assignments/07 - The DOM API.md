@@ -41,7 +41,7 @@
   - Example: `["JavaScript", "HTML", "CSS", "Adobe Photoshop", "GitHub"]`
 - [ ] Create a variable named `skillsSection` and use "DOM Selection" to select the skills section by id
   - hint: `querySelector` or `getElementById` method
-- [ ] Create a variable named `skillsList`. Use 'DOM Selection' to query `skillsSection` — not the entire document — and select the `<ul>` element.
+- [ ] Create a variable named `skillsList`. Use 'DOM Selection' to query `skillsSection` — not the entire document — and select the `<ul>` element.  
 - [ ] Create a `for` loop to iterate over your `skills` Array
 - [ ] Inside the loop, create a variable named `skill` to create a new list item (`li`) element
   - hint: `createElement` method
