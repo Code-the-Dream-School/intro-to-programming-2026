@@ -35,14 +35,6 @@
 - [ ] Save and refresh your browser
   - You should see the text your name and the current year at the bottom of the page.
 
-### Add to your Skills Section
-- [ ] Open your `index.html` file
-- [ ] Above the "Connect" section, add a new `<section>` element with an `id` attribute of value "skills"
-- [ ] Inside the new section, add a `<h2>` element that says "Skills"
-- [ ] After the `<h2>` element, add an empty unordered list (`<ul>`) element
-- [ ] Save and refresh your browser _(or just check your browser for changes if using live extension)_
-  - You should see the new "Skills" heading
-
 ### Create List of Skills
 - [ ] Open your `index.js` file
 - [ ] List your technical skills by creating an Array of String values and store it in a variable named `skills`.  You did something very similar in Assignment 2.
