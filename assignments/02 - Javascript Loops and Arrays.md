@@ -220,3 +220,7 @@
 // your code itself, including the two commented-out lines that demonstrate scope errors.
 
 // PUT YOUR CODE HERE
+
+// ---------- GITHUB TASK ----------
+// This week, you cloned the new GitHub repository from week 1. 
+// Confirm that you followed the GitHub cloning instructions in the lesson portion. There is no code or a link to submit for this section. 
