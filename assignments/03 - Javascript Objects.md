@@ -183,9 +183,10 @@
 // PUT YOUR CODE HERE
 
 //---------- GITHUB TASK ----------
-// This week, you made the first changes to your GitHub repository via the terminal. Confirm that:
+// This week, you made the first changes to your GitHub repository via the terminal. To do this, you created a new branch. Confirm that:
 // - You have updated your README.md file to contain your full name.
 // - You have created an index.html file at the main level of your repository.
+// - These changes are in the `lesson-3` branch rather than your `main` branch.
 
-// Paste the link to your GitHub repository in the "second link to assignment" field in the assignment submission form.
+// Paste the link to the `lesson-3` branch in the "second link to assignment" field in the assignment submission form. Confirm that it's the `lesson-3` branch — if you paste the link to your `main` branch, your link will not reflect the changes you made in this assignment.
 // NO CODE FOR THIS TASK
