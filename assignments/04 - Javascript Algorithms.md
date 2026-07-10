@@ -202,5 +202,11 @@
 
 // PUT YOUR CODE HERE
 
+// ---------- GITHUB TASK ----------
+// This week, you merged your lesson-3 branch into the main branch of your practice GitHub repository.
+// - Confirm that your main branch contains the `index.html` file from Lesson 3.
+// - Then, from GitHub's web editor, copy the link to the main branch of the repository and paste it into the "second link to assignment field" in your assignment submission form.
+// NO CODE FOR THIS SECTION
+
 
 ```
