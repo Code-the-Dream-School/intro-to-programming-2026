@@ -304,3 +304,13 @@
 //   Q15 Magic 8 Ball: Absolutely not
 
 // PUT YOUR CODE HERE
+
+// ---------- GITHUB TASK ----------
+
+// In this week's lesson content, you created your first GitHub repository. Confirm that your GitHub profile has a repository that:
+// - Is named with your name and class name.
+// - Is public.
+// - Contains a blank README.md file
+
+// Submit the link to the GitHub repository in the URL2 field in your assignment submission form.
+// NO CODE FOR THIS TASK
