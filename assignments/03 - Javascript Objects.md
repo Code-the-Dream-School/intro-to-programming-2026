@@ -181,3 +181,11 @@
 //    Q10 Day: 13
 
 // PUT YOUR CODE HERE
+
+//---------- GITHUB TASK ----------
+// This week, you made the first changes to your GitHub repository via the terminal. Confirm that:
+// - You have updated your README.md file to contain your full name.
+// - You have created an index.html file at the main level of your repository.
+
+// Paste the link to your GitHub repository in the "second link to assignment" field in the assignment submission form.
+// NO CODE FOR THIS TASK
