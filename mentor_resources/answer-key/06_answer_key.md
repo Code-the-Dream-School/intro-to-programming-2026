@@ -2,7 +2,6 @@
 
 ## Setup & submission
 
-- **This is an HTML/CSS assignment, not JavaScript.** It builds on the portfolio `index.html` started in Week 5 — students add an external stylesheet, style the page, add navigation, and add two new (empty) sections.
 - **Git workflow (do first):**
   1. Merge the open **lesson-5** pull request on GitHub (Pull Requests tab → open PR → **Merge pull request** → confirm). This updates `main` with last week's work.
   2. In the terminal, switch to main: `git checkout main`.
