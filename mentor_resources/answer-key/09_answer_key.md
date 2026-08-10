@@ -2,7 +2,6 @@
 
 ## Setup & submission
 
-- **No numbered questions** — this is a checklist-driven build that continues the portfolio site, editing `index.js` (and `index.css`), wrapped in the standard Git workflow. Work is added **below** the previous lesson's code in `index.js`.
 - **Git setup (do first):** merge the open **lesson-8** PR on GitHub (Pull Requests tab → open PR → "Merge pull request" → confirm), then in the terminal: `git checkout main` → `git pull origin main` → `git checkout -b lesson-9`. This branches lesson-9 off an up-to-date main so no stale work carries over.
 - **Git backup + submit (do last):** `git status` → `git add .` → `git status` → `git commit -m "API fetch completed"` → `git push`. Then on GitHub click "Compare & pull request" → "Create pull request", copy the PR URL, and paste it into the submission form. **Non-coding — just confirm the PR link exists and targets the lesson-9 branch.** Open-API-project work-in-progress can optionally be flagged in the "questions" field for the reviewer.
 - **Runs in the browser now** (not the Learns App) — the fetch and DOM work must be viewed via a live server / browser refresh with the console open.
