@@ -2,7 +2,6 @@
 
 ## Setup & submission
 
-- **This is a portfolio build, not numbered questions.** Students add JavaScript to their existing portfolio site and manipulate the page via the DOM. Work runs in the **browser** (open `index.html`, or use the **Live Server** VS Code extension for auto-refresh) — no more Learns App "RUN" button.
 - **Git workflow (start), taken from the assignment — verify each step happened:**
   1. Merge last week's open **lesson-6** PR on GitHub (Pull Requests tab → open PR → **Merge pull request** → confirm).
   2. In the terminal, be on `main`: `git checkout main`.
