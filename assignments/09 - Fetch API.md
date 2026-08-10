@@ -15,7 +15,7 @@
 
 #### Handle your JSON data
 - [ ] Chain another `then` method and pass it a callback function to parse the response and store it in a variable named `repositories`
-  - hint: JSON.parse(this.response)
+  - hint: the value passed into this callback is already the parsed JSON (from the `.then` above) — just assign it to `repositories`
 - [ ] Console.log the value of repositories to better see the data returned from your API fetch
 - [ ] Save and refresh your browser _(or just check your browser for changes if using live extension)_
   - You should see the list of your GitHub repositories displayed in your console.
