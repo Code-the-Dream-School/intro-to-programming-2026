@@ -2,7 +2,6 @@
 
 ## Setup & submission
 
-- **Not numbered questions** — this week is a single build deliverable: an `index.html` portfolio page written from scratch, wrapped in a full Git workflow. Lessons 5+ run **locally in VS Code** (no more Learns App "RUN" button); students open `index.html` in a browser to view it.
 - **Git workflow (from the assignment — walk through this, don't grade content in it):**
   1. Create the lesson branch: `git checkout -b lesson-5` (creates and switches to it).
   2. Open `README.md` and add full name; create `index.html` at the repo root (same level as `README.md`).
