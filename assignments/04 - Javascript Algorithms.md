@@ -36,7 +36,7 @@
 // EXAMPLE LOG:
 //    console.log("Q3 tipCalculator: ", tipCalculator (20, .20));
 // EXAMPLE OUTPUT:
-//    Q3 tipCalculator: 50 0.2 60
+//    Q3 tipCalculator: 24
 
 // PUT YOUR CODE HERE
 
