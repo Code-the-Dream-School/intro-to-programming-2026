@@ -1,3 +1,6 @@
+
+# Debugging Basics
+
 Software debugging is the process of finding and fixing errors (bugs) in computer programs. It is a crucial (and large) part of software development. Proper debugging ensures programs function as intended and are reliable.
 
 The most basic method of debugging is to log data directly from your program. You will use these logs to see what the code you have written is actually doing.
