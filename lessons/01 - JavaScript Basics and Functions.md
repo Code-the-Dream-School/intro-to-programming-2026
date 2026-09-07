@@ -79,7 +79,7 @@ Before running it:
 
 ### Read this page on Naming and Style Conventions:
 
-[Naming and Style Conventions](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Naming-Conventions)
+[Naming and Style Conventions](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Naming-Conventions.md)
 
 # 1.4 Running Your Code
 
@@ -105,7 +105,7 @@ Running your code is the process where the instructions you have written cause t
 
 ### Read this page on debugging basics:
 
-[Debugging Basics](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/Debugging-Basics)
+[Debugging Basics](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Debugging-Basics.md)
 
 ### Watch this video on debugging basics:
 
@@ -153,8 +153,7 @@ Create a new repository in your GitHub account by following these steps:
 ## Computer File Structure
 As you start using git, it's important to understand computer file structure.
 
-- [File-Structure](https://github.com/Code-the-Dream-School/intro-to-programming-2026/wiki/File-Structure)
-
+- [File-Structure](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-File-Structure.md)
 
 ## Why Do We Even Use a Version Control System?
 
@@ -176,7 +175,7 @@ Version control systems like Git:
 The following image shows the entire workflow involved in using Git and GitHub. Pay attention to where files are located in each step - either on your local machine or remote in GitHub.
 
 In this lesson, we have completed the portion of the workflow outlined with the red dashed line. We will work on the remaining workflow in Lessons 2, 3 and 4.
-![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/assets/Lesson01/GitFlow-Lesson01.jpg?raw=true)
+![image](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/GitFlow-Lesson01.jpg?raw=true)
 
 ---
 
