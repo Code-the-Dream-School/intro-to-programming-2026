@@ -1,7 +1,7 @@
 ## Get organized and write some code!
    - [ ] Create a new local branch to house just the work you'll do for this assignment by running `git checkout -b lesson-5` in the terminal which creates a new branch and automatically switches to it
    - [ ] Open the README.md file in your code editor and add your full name.
-   - [ ] Create a new file in your project directory (at same level as your README.md file) and title it `index.html`
+   - [ ] You should already have an `index.html` file at the same level as your README.md file, created back in Lesson 3 — open it now (it should currently be empty). If you don't have one yet, create it there.
 
 ## Assignment: Task List / Deliverables
 In your `index.html`, you will write the HTML "boilerplate" - the standard, required structure used as a starting point for all web pages. While copying and pasting this code is common in professional development, you will write it from scratch this week to fully understand how each element functions. 
@@ -41,7 +41,7 @@ The "body" of an HTML document contains all the page's visible content.
      - [ ] The word 'Experience' in an `h2` element
      - [ ] Your listed experiences in a `ul` element, with each individual item in a `li` element.  Experiences can be courses you've taken, coding/tech languages you've learned, technologies you've worked with, or other experiences that highlight your value.
      - [ ] The word 'Connect' in an `h2` element
-     - [ ] Your social media links in `a` elements, and you can also wrap them in `ul` and `li` tags if you wish.  Include at least two, your GitHub and LinkedIn profiles.  You can include more (Facebook, YouTube, Instagram, WhatsApp, TikTok, Discord, X, etc.) if you like.
+     - [ ] Your social media links in `a` elements, and you can also wrap them in `ul` and `li` tags if you wish.  Include at least two links: your GitHub profile is required, plus at least one other profile of your choice.  LinkedIn is a good option for that second link, but you can use any other profile you like (Facebook, YouTube, Instagram, WhatsApp, TikTok, Discord, X, etc.).  You can include more than two if you want to.
 
 #### - Additional Elements
 HTML describes the structure of a webpage using various semantic elements, such as: headings, paragraphs, lists, and more, as you just saw by writing content for the body of your page.  Now let's organize that content...
@@ -56,7 +56,7 @@ HTML describes the structure of a webpage using various semantic elements, such 
    </p>
 </section>
 ```
-   - [ ] STRETCH GOAL (optional):  Feel free to use even more HTML elements by adding images, navigation menus, etc.
+   - [ ] OPTIONAL: Feel free to use even more HTML elements by adding images, navigation menus, etc.
 
 By the end of this lesson, your `index.html` file must include:
 
@@ -68,7 +68,7 @@ By the end of this lesson, your `index.html` file must include:
 * **Your Name** as the main heading.
 * **About Section:** An "About" header followed by a short paragraph about yourself.
 * **Experience Section:** An "Experience" header followed by a list of your professional or personal experiences.
-* **Connect Section:** A "Connect" header containing at least two working links (e.g., your LinkedIn or GitHub).
+* **Connect Section:** A "Connect" header containing at least two working links: your GitHub profile, plus at least one other profile of your choice (for example, LinkedIn).
 
 ## Back up to the cloud
 Once you've made the above changes to your html file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment.  Confirm that your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
@@ -88,3 +88,29 @@ Now let's make sure that lesson branch will be reviewed.
 ## What next?
    - If you are ready to start on the next lesson and have not gotten your review comments back yet, you can go ahead and merge your pull request and continue working.
    - if you are unsure about your work this week, schedule a 1:1 session with a mentor and review your work together before merging.
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **File location** — `index.html`, edited in place (it already exists from Lesson 3, at the same level as `README.md`). If the reviewer cannot verify file location/placement, grade only the file's content, not its exact path in the repo. The student opens the existing file rather than creating a new one — do not fail a student whose `index.html` already existed.
+- **Boilerplate structure** — `<!DOCTYPE html>` on line 1; a root `<html>` element; a `<head>` element (before body content, after the opening `<html>` tag) containing a `<title>` element and at least two additional `<meta>` elements (any valid meta tags satisfy this — Example); a `<body>` element positioned correctly, closed just before `</html>`.
+- **Body content, in this exact order:**
+  - Student's name in an `h1` element — Example value (their own name), but the element type and position are required.
+  - The word "About" in an `h2` element — use exactly as written (the literal word "About").
+  - A paragraph about the student in a `p` element — Example content (their own bio).
+  - The word "Experience" in an `h2` element — use exactly as written.
+  - The student's experiences in a `ul` element with each item in an `li` — Example content (their own experiences).
+  - The word "Connect" in an `h2` element — use exactly as written.
+  - At least two social profile links as `a` elements. A **GitHub** profile link is required. A second profile link is also required, but the platform is the student's choice — LinkedIn, Facebook, YouTube, Instagram, WhatsApp, TikTok, Discord, X, or any other profile all satisfy this. Do NOT fail a student whose second link is not LinkedIn — LinkedIn is only an example.
+- **Sectioning** — The About, Experience, and Connect content each wrapped in a `<section>` element, each with an `id` attribute matching its section name exactly (e.g., `id="About"`) — use exactly as written for the id values (they must match the literal section words).
+- **Submission** — A pull request from the `lesson-5` branch, with its link submitted in the assignment form. This is verified by the submitted link, not by code content beyond the `index.html` file itself.
+
+### Optional Deliverables/Tasks
+
+- Adding further HTML elements beyond the required structure — images, navigation menus, and additional profile links beyond the two required ones.
+
+</details>
