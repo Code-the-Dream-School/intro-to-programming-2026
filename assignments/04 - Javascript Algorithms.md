@@ -210,3 +210,32 @@
 
 
 ```
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **Q1** — Function `convertTemp(celsius)` returning the Fahrenheit equivalent, called with several different values and logging both input and output. The input variable name is not specified in the prose — Example, any name is fine.
+- **Q2** — Function `reverseString(str)` reversing a string using a for loop (the loop is a required technique, not just any approach), called with several strings including an empty string, logging input and output. The input variable name is Example/flexible.
+- **Q3** — Function `tipCalculator(billTotal, tipPercentage)` returning the total bill including tip. Use exactly as written (parameter names are given explicitly in the prompt).
+- **Q4** — Variables `num1`, `num2` (student's own integers — Example) and function `multiplyThese(a, b)` returning their product. Use exactly as written (variable names).
+- **Q5** — Function `getAverage(a, b)` returning the average of two numbers.
+- **Q6** — Function `isPrime(n)` returning true/false; tested with several prime and non-prime numbers plus 0 and 1 (required test coverage, explicitly stated).
+- **Q7** — Function `getPrimesUpTo(n)` reusing `isPrime`, returning an array of all primes up to and including n; tested with several cases (required, explicitly stated).
+- **Q8** — Function `calculateAverage(scores)` averaging an array of scores, ignoring values outside 0–100, and handling an empty/all-invalid array without error (no divide-by-zero). Use exactly as written (function name).
+- **Q9** — Function `getLetterGrade(average)` mapping to A/B/C/D/F using the exact stated boundaries (A: 90–100, B: 80–89, C: 70–79, D: 60–69, F: below 60); tested with several averages. Rounding the average with `.toFixed()` before logging is a suggestion ("good practice"), not required — do not fail unrounded output.
+- **Q10** — Function `passed(letterGrade)` returning true for A/B/C and false otherwise, and handling unexpected inputs (values other than A–F) without crashing.
+- **Q11** — Function `printClassResult(className, student, scores)` that uses all three prior functions (`calculateAverage`, `getLetterGrade`, `passed`) and prints "yes"/"no" for passed. Use exactly as written (function name and parameter names — given explicitly). The exact wording/format of the printed sentence is Example/illustrative; what's required is that the class name, student name, computed average, computed grade, and yes/no passed status are all present and correct.
+- **Q12** — Function `sayHello` logging `"Hello!"`, passed directly (not called) into `setTimeout` to run after 1000ms. Use exactly as written (function name); the specific delay of 1000ms is required as stated.
+- **Q13** — Function `buttonPushed` logging the exact phrase `"The button was pushed!"`. Use exactly as written (function name and phrase).
+- **Q14** — Function `simulateButtonPush` taking a function parameter and calling it, invoked with `buttonPushed` passed in. Use exactly as written (function name).
+- **GitHub Task** — Confirming `index.html` from Lesson 3 exists on `main` after merging, and submitting the link to `main`. This is verified by the submitted link, not by code — do not look for or require code for this task.
+
+### Optional Deliverables/Tasks
+
+None.
+
+</details>
