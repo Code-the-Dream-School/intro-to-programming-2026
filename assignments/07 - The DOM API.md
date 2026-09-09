@@ -6,6 +6,8 @@
 
 ## Assignment: Task List / Deliverables
 
+**NOTE:** This week builds on the work from Assignments 5 and 6. Keep your existing `index.html` content and your `css/index.css` styles — this assignment adds a `js` folder and new JavaScript behavior to that page. The Skills and Projects sections you created in Assignment 6 should still be there, including the empty `<ul>` in your Skills section.
+
 ### Create a JavaScript file
 - [ ] Create a folder called `js` at the same level as your index.html, readme.md, and your css folder.
 - [ ] Inside the js folder, create a JavaScript file called `index.js`
@@ -31,7 +33,7 @@
   - hint: use the `copyright` variable and the `thisYear` variable from earlier
 - [ ] Append the `copyright` element to the footer using "DOM Manipulation"
   - hint: `appendChild` method or similar
-- [ ] STRETCH GOAL: Use unicode to also include the copyright symbol ( &copy; ) in your footer content
+- [ ] OPTIONAL: Use unicode to also include the copyright symbol ( &copy; ) in your footer content
 - [ ] Save and refresh your browser
   - You should see the text your name and the current year at the bottom of the page.
 
@@ -77,3 +79,34 @@ Now let's make sure that lesson branch will be reviewed.
 ## What next?
    - If you are ready to start on the next lesson and have not gotten your review comments back yet, you can go ahead and merge your pull request and continue working.
    - if you are unsure about your work this week, schedule a 1:1 session with a mentor and review your work together before merging.
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **Cumulative work** — This assignment builds on Assignments 5 and 6. The existing `index.html` content and `css/index.css` styles must still be present, including the Skills and Projects sections from Assignment 6. Do NOT treat prior-week content as stray or tell the student to remove it.
+
+- **Create a JavaScript file** — A folder named `js` at the same level as `index.html`, `README.md`, and the `css` folder, containing a file named `index.js`. Use exactly as written (later assignments reference these names). In `index.html`, before the closing `</body>`, a `<script>` element whose `src` points to that file (`js/index.js`). Grade the `<script>` element from the HTML, which is visible; if the reviewer cannot see the repository file tree, do NOT fail the student on folder placement, which is unverifiable.
+
+- **Add a footer element** — A `footer` element added to the page **by DOM manipulation in `index.js`**, positioned so it renders at the bottom of the page. Do NOT fail a student for having no `<footer>` in `index.html` — building it in JavaScript is exactly what this assignment asks for. The specific method used (`append`, `appendChild`, etc.) is the student's choice.
+
+- **Insert copyright text in the footer** — In `index.js`, variables named `today` (a new Date object), `thisYear` (the current year read from that date object using a method), `footer` (the footer element selected from the DOM), and `copyright` (a newly created `p` element). Use exactly as written for all four names. The `copyright` element's content must include the student's name and the current year, and must be appended to the footer. The year must come from the Date object — a hardcoded year does not satisfy this, and the assignment says so explicitly. The exact wording/format of the copyright line is the student's own — Example.
+
+- **Create the list of skills** — In `index.js`, a variable named `skills` holding an array of strings; `skillsSection` selecting the Skills section by id; `skillsList` selecting the `<ul>` **from within `skillsSection`**, not from the whole document; a `for` loop over `skills`; and inside the loop, a variable named `skill` holding a newly created `li` whose text is the current array element, appended to `skillsList`. Use exactly as written for all variable names. The skills themselves are the student's own — Example, adapt to your own skills; the sample array `["JavaScript", "HTML", "CSS", "Adobe Photoshop", "GitHub"]` is illustrative only and must not be required.
+
+- **Style your skills** — In `index.css`, Flexbox **or** Grid used to lay out the skills list. Either technique satisfies this; do not require one over the other. The specific layout is the student's own design choice — Example.
+
+- **Submission** — A pull request from the `lesson-7` branch, with its link submitted in the assignment form. Verified by the submitted link, not by code beyond `index.html`, `css/index.css`, and `js/index.js`.
+
+- **Not deliverables** — DOM method hints are given as "or similar," so `getElementById` for `querySelector`, `append` for `appendChild`, and `textContent` for `innerHTML` are all acceptable. The Live Server VS Code extension is optional tooling advice ("If you are using VS Code, you can install...") — do not require it or any particular editor. The advice about storing elements in variables is a readability suggestion, not a requirement. The note that students "did something very similar in Assignment 2" is context only — the full requirement is stated in this assignment, so do not look to Assignment 2 to grade it.
+
+### Optional Deliverables/Tasks
+
+Do not fail a student for omitting this. The assignment marks it as "Optional" (originally "Stretch Goal").
+
+- Including the copyright symbol (`&copy;`) in the footer content using unicode.
+
+</details>
