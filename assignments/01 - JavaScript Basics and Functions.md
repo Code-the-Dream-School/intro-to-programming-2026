@@ -46,9 +46,9 @@
 // - One named "integer" with the value of any integer number you choose.  
 // - One named "negative" with the value of any negative number you choose.  
 
-// STRETCH GOAL: You'll see "Stretch Goal"s throughout the course. Stretch Goals are optional, but are encouraged as they help you try your hand at something a little more advanced for the week/assignment/question. 
+// OPTIONAL: You'll see "Optional" tasks throughout the course. These are optional, but are encouraged as they help you try your hand at something a little more advanced for the week/assignment/question. 
 
-// STRETCH GOAL:
+// OPTIONAL:
 // - Create a fourth variable titled "bigNumber" that is 16 or more numbers long. Write your console.log and see if the value displayed in the console matches exactly what you typed.  
 
 // EXAMPLE LOG:
@@ -126,7 +126,7 @@
 // - One named "capitalize" containing your first name in all capital letters
 // Use the firstName variable from QUESTION 1.
 
-// STRETCH GOAL: 
+// OPTIONAL: 
 // - Create a variable named "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names. Both these letters should also be capitalized in "weirdInitials".  Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
 
 // EXAMPLE LOG:
@@ -149,7 +149,7 @@
 // - Declare a variable named 'answer'.  
 // - Create a conditional if-then-else statement that assigns the value true to 'answer' if the  integer from Q2 is greater than 10 and assigns it false if it is not.
 
-// STRETCH GOAL: 
+// OPTIONAL: 
 // - Define a new variable named 'stretchAnswer'
 // - Make an if-then-else if-else statement that assigns 'stretchAnswer' the value of "less than" if the integer from Q2 is less than 10, "equal to" if it's equal, and "greater than" if it's greater.
 // What type is each of your variables?  You can find out by logging typeof(variable).
@@ -176,7 +176,7 @@
 // - Assign it the value of your age in years
 // - Create a conditional statement that will log the phrase "Age is just a number!" if your age is less than or equal to 30 and "Young at heart!" if your age is greater than 30.
 
-// STRETCH GOAL: Combine your skills!  Use template literals to log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
+// OPTIONAL: Combine your skills!  Use template literals to log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
 
 // EXAMPLE LOG:
 //   Your logs will be part of the if-then-else
@@ -249,7 +249,9 @@
 // - Create two variables named 'word1' and 'word2' and assign them any strings you want.  
 // - Then, create a function called 'biggestStringLength' that takes word1 and word2 as parameters and returns the length of the longer string. 
 // - If they are of equal length, just return that length.  
-// - Stretch your skills by making an empty string and seeing what happens in that situation.
+
+// OPTIONAL:
+// - Test your function with an empty string as one of the inputs, and see what happens in that situation.
 
 // EXAMPLE LOG:
 //   console.log("Q13: ", biggestStringLength(word1, word2));
@@ -314,3 +316,40 @@
 
 // Submit the link to the GitHub repository in the URL2 field in your assignment submission form.
 // NO CODE FOR THIS TASK
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **Intro note** — Example console.log message text throughout (e.g., `"Q1: My first name is "`) is illustrative only; do not fail a student for phrasing log messages differently. Where a question states an exact required phrase or return value (Q4, Q8, Q10, Q11, Q15), that phrase is graded exactly — see below.
+- **Q1** — Variables `firstName`, `lastName`, `country`. Use exactly as written (later tasks depend on these names). Values are the student's own name/birth country — Example, adapt to your own.
+- **Q2** — Variables `floatingPoint`, `integer`, `negative`. Use exactly as written (later tasks depend on these names). Values are the student's own numbers — Example, adapt to your own.
+- **Q3** — Two boolean variables, one `true` and one `false`. Names are the student's choice — Example, any descriptive name is fine.
+- **Q4** — Variables `firstHelloString` (built with `+`) and `secondHelloString` (built with a template literal), both reusing the Q1 variables (not new values). The sentence pattern "Hello, my name is [firstName] [lastName] and I was born in [country]." is required — use exactly as written; the name/country values inside it are the student's own from Q1.
+- **Q5** — Two variables holding (floatingPoint − integer) and (integer + negative) from Q2. The assignment text does not specify names for these (only the example log does) — Example, any reasonable variable names are acceptable; do not fail for not using `subtractionVariable`/`additionVariable`.
+- **Q6** — Variables `nameLength`, `firstInitial`, `lastInitial`, `capitalize`, all derived from the Q1 `firstName`. Use exactly as written. Note: `lastInitial` is the last letter of the **first** name, not the last name — do not fail a student for using firstName here.
+- **Q7** — Variable `answer`, set via if/else comparing Q2's `integer` to 10. Use exactly as written.
+- **Q8** — Variable `age` (student's own age — Example). Conditional must log the exact phrase `"Age is just a number!"` (age ≤ 30) or `"Young at heart!"` (age > 30) — use exactly as written.
+- **Q9** — Variable `exampleNum`, a floating-point number with 4 decimal places, rounded to 2 decimals using `toFixed()`. Use exactly as written (name); the number itself is the student's own — Example.
+- **Q10** — Function `assignMessageString`, with internal variable `message` set to `"Welcome to Code the Dream!"`, returned. Use exactly as written (name and returned string).
+- **Q11** — Function `combineStrings`, with internal variables `string1` and `string2` assigned `'Good'` and `'Evening'` respectively, returned concatenated with a space. Use exactly as written — these values are required, not the student's choice.
+- **Q12** — Function `useParams` taking one parameter and returning it fully capitalized. Use exactly as written (function name); the example call `useParams("hello")` is illustrative only.
+- **Q13** — Variables `word1`/`word2` (any strings — Example), and function `biggestStringLength(word1, word2)` returning the length of the longer string (or the shared length if equal). Use exactly as written (names).
+- **Q14** — Function `returnRandomNum` returning a random integer 1–3 inclusive. Use exactly as written.
+- **Q15** — Function `shakeMagic8Ball`, using the Q14 function, returning `"It is certain"` (1), `"Perhaps"` (2), or `"Absolutely not"` (3). Use exactly as written (function name and returned phrases).
+- **GitHub Task** — A public GitHub repository named with the student's name and the class name, containing a blank `README.md`, submitted as a link in the URL2 field. This is verified by the submitted link, not by code — do not look for or require code for this task.
+
+### Optional Deliverables/Tasks
+
+Do not fail a student for omitting any of these. The assignment marks all of them as "Optional" (originally "Stretch Goal").
+
+- **Q2** — Variable `bigNumber`, 16+ digits long, checked against console output for precision loss.
+- **Q6** — Variable `weirdInitials`: the capitalized last letters of any first/last name pair.
+- **Q7** — Variable `stretchAnswer` using if/else-if/else against 10 ("less than"/"equal to"/"greater than"), plus `typeof` logging for `answer` and `stretchAnswer`.
+- **Q8** — A template-literal version of the phrase that includes the student's own first name (e.g., "Sally, age is just a number!") — the example names are illustrative only.
+- **Q13** — Testing `biggestStringLength` with an empty string as one of the inputs.
+
+</details>
