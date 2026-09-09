@@ -65,7 +65,7 @@
 // EXAMPLE OUTPUT:
 //    Q4: Teddy is a brown ferret.
 
-//Stretch goal: Use "this" keyword.  Instead of referencing the object name directly (e.g., myPet.name), update your method to use the this keyword to access the object's properties. This makes your method more flexible and reusable.
+// OPTIONAL: Use the "this" keyword. Instead of referencing the object name directly (e.g., myPet.name), update your method to use the this keyword to access the object's properties. This makes your method more flexible and reusable.
 
 // PUT YOUR CODE HERE
 
@@ -190,3 +190,28 @@
 
 // Paste the link to the `lesson-3` branch in the "second link to assignment" field in the assignment submission form. Confirm that it's the `lesson-3` branch — if you paste the link to your `main` branch, your link will not reflect the changes you made in this assignment.
 // NO CODE FOR THIS TASK
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **Q1** — Object `myPet` with properties `name`, `species`, `color`, logged both as a whole object and per-property. Property names are exact (`myPet`, `name`, `species`, `color` — later questions depend on them); the values are the student's own pet — Example.
+- **Q2** — `myPet.name` updated to a new value, different from Q1, verified by logging. The new value is the student's own — Example.
+- **Q3** — A `for...in` loop over `myPet` logging each property in the exact format `Q3: propertyName: propertyValue` — use exactly as written (the log format); the property names/values come from the student's own `myPet`.
+- **Q4** — A `describe` method on `myPet`, taking no parameters, returning a template-literal sentence built from `name`, `color`, and `species`. The example phrasing ("Teddy is a brown ferret.") is illustrative — Example; any sentence that meaningfully incorporates all three properties via a template literal satisfies this.
+- **Q5** — `color` property removed from `myPet`, with deletion verified via `hasOwnProperty('color')` (or equivalent) logged as a boolean.
+- **Q6** — Variable `pets`: an array of three pet objects, each with `name`/`species`/`color` (values are the student's own — Example). Function `printPets` using `forEach` to log each pet. Use exactly as written (variable/function names).
+- **Q7** — Constructor function `Dog` with `name`, `breed`, `age` properties. Two instances created and logged. Use exactly as written for the constructor name `Dog`; instance names `dog1`/`dog2` are required exact names because Q8 explicitly reuses them.
+- **Q8** — Function `isSameBreed(dog1, dog2)` returning true/false by comparing `breed`. Reuses `dog1`/`dog2` from Q7, plus a new `dog3` (same breed as `dog1`, different name/age) — use exactly as written (`dog3` is named explicitly in the prompt).
+- **Q9** — Variable `currentDate` assigned `new Date()`. Use exactly as written (Q10 depends on this name).
+- **Q10** — Three values extracted from `currentDate` via `.getFullYear()`, `.getMonth()`, `.getDate()`, each logged with a descriptive label. The prose doesn't require specific variable names for these (only the example log uses `year`/`month`/`day`) — Example, any reasonable names are acceptable. Note `.getMonth()` is zero-indexed; don't fail a correct zero-indexed value.
+- **GitHub Task** — Confirming the student updated `README.md` with their full name, added `index.html` at the repo root, and made these changes on the `lesson-3` branch (not `main`), submitted as a branch link. This is verified by the submitted link, not by code — do not look for or require code for this task.
+
+### Optional Deliverables/Tasks
+
+- **Q4** — Using the `this` keyword inside the `describe` method instead of referencing `myPet` directly.
+
+</details>
