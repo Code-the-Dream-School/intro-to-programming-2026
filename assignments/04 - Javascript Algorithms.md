@@ -5,14 +5,14 @@
 //----------------------------------
 
 // ---------- QUESTION 1 ----------
-// Create a function called 'convertTemp' that takes 1 temperatue parameter in celsius and return the temperature in Fahrenheit.  Log both the input and output values
+// Create a function called 'convertTemp' that takes 1 temperature parameter in celsius and return the temperature in Fahrenheit.  Log both the input and output values
 
 // EXAMPLE LOG:
 //    console.log("Q1 convertTemp: ", celsiusTemp, convertTemp(celsiusTemp));
 // EXAMPLE OUTPUT:
 //    Q1 convertTemp: 0 32
 
-// Call convertTemp with several different celsium temperatures
+// Call convertTemp with several different celsius temperatures
 
 // PUT YOUR CODE HERE
 
