@@ -1,215 +1,93 @@
-``` javascript
-
-//----------------------------------
-// LESSON 4 ALGORITHMS
-//----------------------------------
-
-// ---------- QUESTION 1 ----------
-// Create a function called 'convertTemp' that takes 1 temperatue parameter in celsius and return the temperature in Fahrenheit.  Log both the input and output values
-
-// EXAMPLE LOG:
-//    console.log("Q1 convertTemp: ", celsiusTemp, convertTemp(celsiusTemp));
-// EXAMPLE OUTPUT:
-//    Q1 convertTemp: 0 32
-
-// Call convertTemp with several different celsium temperatures
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 2 ----------
-// Create a function called 'reverseString' that takes 1 string parameter and returns the reverseString.  Use a for loop.  Log both the input and output values.
-
-// EXAMPLE LOG:
-//    console.log("Q2 reverseString: ", inputString, reverseString(inputString));
-// EXAMPLE OUTPUT:
-//    Q2 reverseString: HelloWorld dlroWolleH
-
-// Call reverseString with several different strings.  Make sure it works for an empty string.
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 3 ----------
-// Let's make a useful math problem - create a tip calculator!  Create a function named tipCalculator that takes two parameters - billTotal and tipPercentage.   Return the total bill amount
-
-// EXAMPLE LOG:
-//    console.log("Q3 tipCalculator: ", tipCalculator (20, .20));
-// EXAMPLE OUTPUT:
-//    Q3 tipCalculator: 24
-
-// PUT YOUR CODE HERE
-
-// Don't forget your console.logs!
-
-
-// ---------- QUESTION 4 ----------
-// Create two variables named 'num1' and 'num2' and assign them integer values. Create a function called 'multiplyThese' that takes 2 parameters and returns the product  of the two parameters (as a reminder, a product is the resulting number when two numbers are multiplied together).
-
-// EXAMPLE LOG:
-//    console.log("Q4: ", num1, num2, multiplyThese(num1, num2));
-// EXAMPLE OUTPUT: 
-//    Q4 multiplyThese: 10 10 100
-
-// PUT YOUR CODE HERE
-
-
-
-// ---------- QUESTION 5 ----------
-// Create a function called 'getAverage' that takes 2 parameters and returns their average.  NOTE: In some programming languages, the types of numbers you use in equations can affect what type of number (integer/floating point) you get as a result.  We suggest using 2.0 instead of 2 as you're calculating the average.
-
-// EXAMPLE LOG:
-//    console.log("Q5 getAverage: ", 3, 6, getAverage(3.0, 6.0));
-// EXAMPLE OUTPUT: 
-//    Q5 getAverage: 3 6 4.5
-
-// PUT YOUR CODE HERE
-
-
-
-// ---------- QUESTION 6 ----------
-// Create a function named 'isPrime' that returns true or false based on whether the number is prime or not.
-// Hint: Prime numbers are numbers that are divisible by any number from 2 up to the square root of the number.  0 and 1 are not prime numbers. Wikipedia has a handy list of the first 1,000 prime numbers in an article called "List of prime numbers."
-// Make sure you test several prime and non prime numbers along with 0 and 1.
-
-// EXAMPLE LOG:
-//   console.log("Q6 isPrime: ", number, isPrime(number));
-// EXAMPLE OUTPUT: 
-//   Q6 isPrime: 12 false
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 7 ----------
-// Using the 'isPrime' function created in the previous question, create another function named 'getPrimesUpTo' that takes an integer as an input and returns an array of all primes up to and including the input number. 
-// Be sure to include several test cases
-
-// EXAMPLE LOG:
-//   console.log("Q7 getPrimesUpTo: ", number, getPrimesUpTo(number));
-// EXAMPLE OUTPUT:
-//   Q7 getPrimesUpTo: 13 [2,3,5,7,11,13]
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 8 ----------
-// Now, we're going to write several functions that calculate a student's grade.  
-// First, write a function named 'calculateAverage' that takes an input array of scores and calculates a student's average based on those scores.
-// Check all of the grades in the array and ignore any values that are not in the range 0 - 100.
-// Also, make sure that an empty array or no valid values in the array do not result in an error (hint: watch out for dividing by zero)
-
-// EXAMPLE LOG:
-//   console.log("Q8 calculateAverage: ", calculateAverage(scores));
-// EXAMPLE OUTPUT:
-//   Q8 calculateAverage: 85  // input array let scores = [90, 80, 85];
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 9 ----------
-// Now, create a function - getLetterGrade(average) - that takes a grade average and returns a letter grade based on the following scale.  Make sure you test with several averages.
-// A: 90–100
-// B: 80–89
-// C: 70–79
-// D: 60–69
-// F: below 60
-// NOTE: Averages like 75.5 are fine to compare directly, but if calculateAverage ever returns a long decimal
-// (e.g. 97.66666666666667), it's good practice to round it before displaying it to a user.
-// Look up the .toFixed() method and consider using it when you log your average in Question 11.
-
-// EXAMPLE LOG:
-//   console.log("Q9 getLetterGrade: ", getLetterGrade(95));
-// EXAMPLE OUTPUT:
-//   Q9 getLetterGrade(95): A
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 10 ----------
-// Create a 3rd function named - passed(letterGrade) - that returns true if a student's grade is A, B or C, false otherwise.  Handle unexpected input values other than A,B,C,D or F.
-
-// EXAMPLE LOG:
-//   console.log("Q10 passed('A'): ", passed('A'));
-// EXAMPLE OUTPUT:
-//   Q10 passed('A''): true
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 11 ----------
-// Create a function named printClassResult (className, student, scores) that utilizes all three functions to output information on a student.
-// Print yes if they have passed and no if they did not.
-
-// EXAMPLE LOG:
-//   console.log("Q11: ", printClassResult ("History 101", "Yuki Kawamura", [60, 70, 85, 87]));  
-// EXAMPLE OUTPUT:
-//   Q11: History 101 - Student: Yuki Kawamura, Average: 75.5, Grade: C, Passed: yes
-
-// PUT YOUR CODE HERE
-
-
-// ---------------------------------------------------------------
-// A NOTE BEFORE QUESTIONS 12 - 14: FUNCTIONS AS VALUES
-// ---------------------------------------------------------------
-// So far, every function you've written has been *called* directly, like multiplyThese(2, 3).
-// But in JavaScript, a function is also just a value — like a number or a string — which means
-// you can store it in a variable, put it in an array, or hand it to ANOTHER function as an argument.
-//
-// A function that is passed into another function to be run later is called a "callback."
-// Callbacks are everywhere in JavaScript — they're how you tell code what to do when a button is
-// clicked, when data finishes loading, or when a timer runs out.
-//
-// Before jumping into callbacks, let's warm up with the idea of functions as values.
-
-// ---------- QUESTION 12 ----------
-// Create a simple function called 'sayHello' that logs "Hello!" to the console.
-// Then, WITHOUT calling sayHello() yourself, pass it directly into setTimeout so that it runs
-// automatically after 1 second (1000 milliseconds).
-// Notice that you are passing the function itself (sayHello), not the result of calling it (sayHello()).
-
-// EXAMPLE CALL:
-//   setTimeout(sayHello, 1000);
-
-// EXAMPLE OUTPUT (after about 1 second):
-//   Q12: Hello!
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 13 ----------
-// Now, let's see how to use a callback.  First, create a function that simulates pushing a button.  Name the function buttonPushed and log the message "The button was pushed!" in the function.
-
-// EXAMPLE CALL: (the log is within the function, so you do not need to log the call)
-//    buttonPushed();
-
-// EXAMPLE OUTPUT: (we're using this function in the next question as well)
-//   Q13, Q14: The button was pushed!
-
-// PUT YOUR CODE HERE
-
-
-// ---------- QUESTION 14 ----------
-// Now, create a function called simulateButtonPush that takes a function as a parameter, and calls
-// that function inside of it. Then pass the buttonPushed function (created in Question 12) into it.
-// This is the same pattern you just used with setTimeout — simulateButtonPush doesn't know or care
-// what buttonPushed does, it just knows it received a function and that its job is to call it.
-
-// EXAMPLE CALL: (the log is within the function, so you do not need to log the call)
-//    simulateButtonPush(buttonPushed);
-
-// EXAMPLE OUTPUT: 
-//   Q13, Q14: The button was pushed!
-
-// PUT YOUR CODE HERE
-
-// ---------- GITHUB TASK ----------
-// This week, you merged your lesson-3 branch into the main branch of your practice GitHub repository.
-// - Confirm that your main branch contains the `index.html` file from Lesson 3.
-// - Then, from GitHub's web editor, copy the link to the main branch of the repository and paste it into the "second link to assignment field" in your assignment submission form.
-// NO CODE FOR THIS SECTION
-
-
+## Get organized and write some code!
+   - [ ] Create a new local branch to house just the work you'll do for this assignment by running `git checkout -b lesson-5` in the terminal which creates a new branch and automatically switches to it
+   - [ ] Open the README.md file in your code editor and add your full name.
+   - [ ] You should already have an `index.html` file at the same level as your README.md file, created back in Lesson 3 — open it now (it should currently be empty). If you don't have one yet, create it there.
+
+## Assignment: Task List / Deliverables
+In your `index.html`, you will write the HTML "boilerplate" - the standard, required structure used as a starting point for all web pages. While copying and pasting this code is common in professional development, you will write it from scratch this week to fully understand how each element functions. 
+
+Below is a line-by-line breakdown of the HTML boilerplate:
+
+> **Quick Review: HTML Anatomy**
+> 
+> Before diving into the breakdown, remember these three key concepts:
+> 
+> * **Elements vs. Tags:** An **element** is the whole package. It usually consists of an **opening tag**, the **content**, and a **closing tag**. 
+>   * *Example:* `<title>My Web Page</title>` is a `<title>` element.
+> * **Self-Closing Tags:** Some elements don't wrap around text and close themselves in a single tag.
+>   * *Example:* `<meta charset="utf-8">` or `<img src="logo.png">`
+> * **The Visible Page:** The boilerplate contains background setup data, but the bulk of your actual website content (what users see) will always live inside the `<body>` element.
+
+### HTML Boilerplate
+
+#### - Doctype
+First let's define what type of document the browser will be reading.
+   - [ ] Define the document type at the top of the file by typing in `<!DOCTYPE html>` on line 1.
+
+#### - Head Element
+The "head" of an HTML document contains all the page's meta information, such as title and description.  This information helps with web searches and displays the page title in the browser tab.
+   - [ ] Before your name, but after the `<html>` opening tag, insert a `<head>` element.
+   - [ ] Inside the `<head>` element, add a `<title>` element to title your webpage (ex. Maria Santiago's Portfolio)
+   - [ ] Below your `<title>` element, add additional `<meta>` elements (at least two) from the meta elements you've learned about and/or find at this resource: [W3Schools HTML Head](https://www.w3schools.com/html/html_head.asp))
+
+#### - Body Element
+The "body" of an HTML document contains all the page's visible content.
+   - [ ] After the closing `</head>` tag, begin the body of your page by adding the opening `<body>` element. 
+   - [ ] Close the body of your page by adding the closing `</body>` element right before the closing `</html>` tag
+   - [ ] Confirm that all of the following content is inside the `<body>` tags, in this order:
+     - [ ] Your name in an `h1` element
+     - [ ] The word 'About' in an `h2` element
+     - [ ] A paragraph about you in a `p` element
+     - [ ] The word 'Experience' in an `h2` element
+     - [ ] Your listed experiences in a `ul` element, with each individual item in a `li` element.  Experiences can be courses you've taken, coding/tech languages you've learned, technologies you've worked with, or other experiences that highlight your value.
+     - [ ] The word 'Connect' in an `h2` element
+     - [ ] Your social media links in `a` elements, and you can also wrap them in `ul` and `li` tags if you wish.  Include at least two links: your GitHub profile is required, plus at least one other profile of your choice.  LinkedIn is a good option for that second link, but you can use any other profile you like (Facebook, YouTube, Instagram, WhatsApp, TikTok, Discord, X, etc.).  You can include more than two if you want to.
+
+#### - Additional Elements
+HTML describes the structure of a webpage using various semantic elements, such as: headings, paragraphs, lists, and more, as you just saw by writing content for the body of your page.  Now let's organize that content...
+   - [ ] Wrap each of the About, Experience, and Connect sections in a `<section>` element.  You’ll use this later when styling your webpage to stay organized and apply different style settings to each section.
+   - [ ] Give each of these sections an "id" property with the same name as the section.  Example:  The About section would look like this:
+
+``` jsx
+<section id="About">
+   <h2>About</h2>
+   <p>
+      This is a paragraph about me.  Here's more info about me.
+   </p>
+</section>
 ```
+   - [ ] OPTIONAL: Feel free to use even more HTML elements by adding images, navigation menus, etc.
+
+By the end of this lesson, your `index.html` file must include:
+
+**1. Page Setup & Metadata**
+* The HTML boilerplate code so the browser knows how to render the page.
+* Metadata about your page (such as the `<title>` and keywords).
+
+**2. Visible Page Content**
+* **Your Name** as the main heading.
+* **About Section:** An "About" header followed by a short paragraph about yourself.
+* **Experience Section:** An "Experience" header followed by a list of your professional or personal experiences.
+* **Connect Section:** A "Connect" header containing at least two working links: your GitHub profile, plus at least one other profile of your choice (for example, LinkedIn).
+
+## Back up to the cloud
+Once you've made the above changes to your html file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment.  Confirm that your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
+   - [ ] Check the status of the changes you just made (editing the index.html file) by running `git status` in your terminal
+   - [ ] Stage all your changes for commit by running `git add .` in your terminal
+   - [ ] Run `git status` again to see how things have changed.  You should get a response indicating changes staged for commit.
+   - [ ] Create a commit message for reference.  You can use a different message if you wish.  Run `git commit -m "boilerplate and content added"`
+   - [ ] Push these changes to your GitHub repository from your local computer by running `git push`
+   - [ ] Note: If you get a fatal: The current branch... error, read the message carefully — it will include the exact command to run.
+
+## Submit Assignment
+Now let's make sure that lesson branch will be reviewed.
+   - [ ] Go to your GitHub repository page in your web browser now, and you should see a "lesson-5 has a recent push" notice with a green "Compare & pull request" button.  Click that button
+   - [ ] Feel free to put notes to yourself or notes for your reviewer in the description (be sure you're including any questions to your reviewer in your assignment submission form though!) and click the green "Create pull request" button.
+   - [ ] Copy the address of your pull request page (should look like `https://github.com/yourUsername/name-classname/pull/#`) and paste it into your assignment submission form.
+
+## What next?
+   - If you are ready to start on the next lesson and have not gotten your review comments back yet, you can go ahead and merge your pull request and continue working.
+   - if you are unsure about your work this week, schedule a 1:1 session with a mentor and review your work together before merging.
 
 ---
 
@@ -218,24 +96,21 @@
 
 ### Required Deliverables/Tasks
 
-- **Q1** — Function `convertTemp(celsius)` returning the Fahrenheit equivalent, called with several different values and logging both input and output. The input variable name is not specified in the prose — Example, any name is fine.
-- **Q2** — Function `reverseString(str)` reversing a string using a for loop (the loop is a required technique, not just any approach), called with several strings including an empty string, logging input and output. The input variable name is Example/flexible.
-- **Q3** — Function `tipCalculator(billTotal, tipPercentage)` returning the total bill including tip. Use exactly as written (parameter names are given explicitly in the prompt).
-- **Q4** — Variables `num1`, `num2` (student's own integers — Example) and function `multiplyThese(a, b)` returning their product. Use exactly as written (variable names).
-- **Q5** — Function `getAverage(a, b)` returning the average of two numbers.
-- **Q6** — Function `isPrime(n)` returning true/false; tested with several prime and non-prime numbers plus 0 and 1 (required test coverage, explicitly stated).
-- **Q7** — Function `getPrimesUpTo(n)` reusing `isPrime`, returning an array of all primes up to and including n; tested with several cases (required, explicitly stated).
-- **Q8** — Function `calculateAverage(scores)` averaging an array of scores, ignoring values outside 0–100, and handling an empty/all-invalid array without error (no divide-by-zero). Use exactly as written (function name).
-- **Q9** — Function `getLetterGrade(average)` mapping to A/B/C/D/F using the exact stated boundaries (A: 90–100, B: 80–89, C: 70–79, D: 60–69, F: below 60); tested with several averages. Rounding the average with `.toFixed()` before logging is a suggestion ("good practice"), not required — do not fail unrounded output.
-- **Q10** — Function `passed(letterGrade)` returning true for A/B/C and false otherwise, and handling unexpected inputs (values other than A–F) without crashing.
-- **Q11** — Function `printClassResult(className, student, scores)` that uses all three prior functions (`calculateAverage`, `getLetterGrade`, `passed`) and prints "yes"/"no" for passed. Use exactly as written (function name and parameter names — given explicitly). The exact wording/format of the printed sentence is Example/illustrative; what's required is that the class name, student name, computed average, computed grade, and yes/no passed status are all present and correct.
-- **Q12** — Function `sayHello` logging `"Hello!"`, passed directly (not called) into `setTimeout` to run after 1000ms. Use exactly as written (function name); the specific delay of 1000ms is required as stated.
-- **Q13** — Function `buttonPushed` logging the exact phrase `"The button was pushed!"`. Use exactly as written (function name and phrase).
-- **Q14** — Function `simulateButtonPush` taking a function parameter and calling it, invoked with `buttonPushed` passed in. Use exactly as written (function name).
-- **GitHub Task** — Confirming `index.html` from Lesson 3 exists on `main` after merging, and submitting the link to `main`. This is verified by the submitted link, not by code — do not look for or require code for this task.
+- **File location** — `index.html`, edited in place (it already exists from Lesson 3, at the same level as `README.md`). If the reviewer cannot verify file location/placement, grade only the file's content, not its exact path in the repo. The student opens the existing file rather than creating a new one — do not fail a student whose `index.html` already existed.
+- **Boilerplate structure** — `<!DOCTYPE html>` on line 1; a root `<html>` element; a `<head>` element (before body content, after the opening `<html>` tag) containing a `<title>` element and at least two additional `<meta>` elements (any valid meta tags satisfy this — Example); a `<body>` element positioned correctly, closed just before `</html>`.
+- **Body content, in this exact order:**
+  - Student's name in an `h1` element — Example value (their own name), but the element type and position are required.
+  - The word "About" in an `h2` element — use exactly as written (the literal word "About").
+  - A paragraph about the student in a `p` element — Example content (their own bio).
+  - The word "Experience" in an `h2` element — use exactly as written.
+  - The student's experiences in a `ul` element with each item in an `li` — Example content (their own experiences).
+  - The word "Connect" in an `h2` element — use exactly as written.
+  - At least two social profile links as `a` elements. A **GitHub** profile link is required. A second profile link is also required, but the platform is the student's choice — LinkedIn, Facebook, YouTube, Instagram, WhatsApp, TikTok, Discord, X, or any other profile all satisfy this. Do NOT fail a student whose second link is not LinkedIn — LinkedIn is only an example.
+- **Sectioning** — The About, Experience, and Connect content each wrapped in a `<section>` element, each with an `id` attribute matching its section name exactly (e.g., `id="About"`) — use exactly as written for the id values (they must match the literal section words).
+- **Submission** — A pull request from the `lesson-5` branch, with its link submitted in the assignment form. This is verified by the submitted link, not by code content beyond the `index.html` file itself.
 
 ### Optional Deliverables/Tasks
 
-None.
+- Adding further HTML elements beyond the required structure — images, navigation menus, and additional profile links beyond the two required ones.
 
 </details>
