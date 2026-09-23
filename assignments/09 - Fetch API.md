@@ -6,6 +6,8 @@
 
 ### Assignment: Task List / Deliverables
 
+**NOTE:** This week builds on the work from Assignments 5 through 8. Keep your existing `index.html` sections, your `css/index.css` styles, and the JavaScript you already wrote in `js/index.js` — this assignment adds to them. Your new code goes below the code you wrote last week, and it fills the empty `<ul>` in the Projects section you created in Assignment 6.
+
 #### Creating your fetch
 - [ ] Open your `index.js` file, starting below the code from the previous lesson
 - [ ] Using the Fetch API, create a "GET" request to `https://api.github.com/users/{GITHUB_USERNAME}/repos` where `{GITHUB_USERNAME}` is your username for your GitHub account
@@ -39,10 +41,9 @@
 #### Style your Repository List
  - [ ] Open your `index.css` file
  - [ ] Add styling to your projects list, be sure to account for any changes you want in media queries
- - [ ] STRETCH GOAL: Use flexbox (or grid) to style your list of repositories
+ - [ ] OPTIONAL: Use flexbox (or grid) to style your list of repositories
 
-**_By the end of this assignment, you should have a working API fetch to your GitHub account and be able to see a list of your repository names in the Projects section of your portfolio.  Were there to be a server error during the API fetch, your site would return an error message.  Your project list should be styled using flexbos or grid._**
-</details>
+**_By the end of this assignment, you should have a working API fetch to your GitHub account and be able to see a list of your repository names in the Projects section of your portfolio.  Were there to be a server error during the API fetch, your site would return an error message.  Your project list should also have styling in your index.css file.  If you attempted the optional task, your list should be styled using flexbox or grid._**
 
 ### Backup to the cloud
 Once you've made the above changes to your index.js file, follow the below instructions to push a copy from your local machine like you did at the end of last assignment. Confirm your code gets copied to GitHub by adding changes to staging, committing the staged changes, and pushing them from your local machine to GitHub:
@@ -65,3 +66,38 @@ Now let's make sure that lesson branch will be reviewed.
 - If you're behind or are working ahead:
   - if you're confident your work is accurate, merge your pull request and continue working through class.
   - if you're not sure about your work this week, schedule a 1:1 session with a mentor and review your work together before merging.
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **Cumulative work** — This assignment builds on Assignments 5 through 8. The existing `index.html` sections, `css/index.css` styles, and `js/index.js` code (footer, skills list, message form handling) must still be present; this week adds to them. Do NOT treat prior-week content as stray or tell the student to remove it. The new code belongs below the previous lesson's code, and it fills the empty `<ul>` in the Projects section created in Assignment 6.
+
+- **The fetch call (`index.js`)** — A Fetch API "GET" request to `https://api.github.com/users/{GITHUB_USERNAME}/repos`. **The URL is a template:** `{GITHUB_USERNAME}` is replaced by the student's own GitHub username — Example, adapt to your own account. Do NOT expect the literal text `{GITHUB_USERNAME}` in the submitted code, and do NOT fail a student for using their real username, which is exactly what the assignment asks for. Because "GET" is the default method for `fetch`, code that omits an explicit method is correct.
+
+- **Chained `then` for JSON** — A `then` chained to the fetch, passed a function that returns the response's JSON data.
+
+- **Chained `then` for the data** — A second `then` whose callback stores the parsed data in a variable named `repositories` (use exactly as written), plus a `console.log` of that variable. The log's format is the student's own — Example.
+
+- **Error handling** — A `catch()` chained to the fetch call to handle server errors. Either handling approach satisfies this: logging the error, or displaying a message to the user. Do NOT fail a student whose catch logs the error rather than rendering an on-page message.
+
+- **Display repositories in list (`index.js`)** — Variables named `projectSection` (selecting the Projects section by id) and `projectList` (querying **within `projectSection`**, not the whole document, for the `<ul>`). Use exactly as written for both names. A `for` loop over the `repositories` array starting at index 0; inside the loop, a variable named `project` holding a newly created `li` (use exactly as written) whose inner text is set to the current array element's `name` property, appended to `projectList`.
+
+- **Where this code lives** — `repositories` exists inside the `then` callback, so the display code must be positioned where that variable is in scope. Accept any correct structure — code written directly inside the `then`, or a function defined elsewhere and called from it — as long as the data is in scope when it is used.
+
+- **Style the repository list (`index.css`)** — Styling added for the projects list. Media queries are discretionary here: the assignment says "account for any changes you want in media queries," so do NOT fail a student who has no `@media` block. All specific values and design choices are the student's own — Example.
+
+- **Submission** — A pull request from the `lesson-9` branch, with its link submitted in the assignment form. Verified by the submitted link, not by code beyond `index.js` and `index.css`.
+
+- **Not deliverables** — The "Save and refresh your browser" steps are actions the student performs while working; they leave no trace in the code and cannot be verified, so do NOT grade them. This assignment calls a live external API, which the reviewer cannot run: grade the structure and correctness of the fetch chain, not whether repository names actually appear. DOM and Fetch method hints are flexible — `getElementById` for `querySelector` and `append` for `appendChild` are both acceptable — but the `then`/`catch` chaining pattern is explicitly required by the assignment.
+
+### Optional Deliverables/Tasks
+
+Do not fail a student for omitting this. The assignment marks it as "Optional" (originally "Stretch Goal").
+
+- Using flexbox (or grid) to style the list of repositories.
+
+</details>

@@ -39,7 +39,10 @@
 // PUT YOUR CODE HERE
 
 // ---------- QUESTION 3 ----------
-// Write a function called 'noVowels' that take a string parameter and removes vowels from that string using a loop. Assume the input will be lowercase, but bonus if you handle uppercase too.
+// Write a function called 'noVowels' that take a string parameter and removes vowels from that string using a loop. Assume the input will be lowercase.
+
+// OPTIONAL:
+// - Handle uppercase vowels too.
 
 // EXAMPLE LOG:
 //    console.log("Q3: ", noVowels("adventurous"));
@@ -224,3 +227,33 @@
 // ---------- GITHUB TASK ----------
 // This week, you cloned the new GitHub repository from week 1. 
 // Confirm that you followed the GitHub cloning instructions in the lesson portion. There is no code or a link to submit for this section. 
+
+---
+
+<details>
+<summary>Rubric (for AirHub reviewer and mentors)</summary>
+
+### Required Deliverables/Tasks
+
+- **Q1** — Function `repeat(n)` that logs `"Hello World!"` n times from inside the function; invoked directly (not wrapped in console.log). Use exactly as written (function name).
+- **Q2** — Function `pyramidCounting(n)` returning the sum of 0 through n inclusive.
+- **Q3** — Function `noVowels(str)` removing vowels via a loop; only lowercase input is required (see Optional below for uppercase).
+- **Q4** — Function `vowelCount(str)` returning the number of vowels, counting both uppercase and lowercase — this one requires both cases.
+- **Q5** — Function `numOfOdds(n)` returning the count of odd numbers from 0 to n inclusive.
+- **Q6** — Variables `empty` (empty array) and `full` (array of strings/numbers — Example, student's own values), and function `arrayChecker(arr)` returning boolean `true`/`false` (not strings). Use exactly as written (names — later questions depend on them).
+- **Q7** — Function `getElementAt(arr, index)` returning the element at that index, or `null` (not `undefined`) if out of range. Tested with `full`.
+- **Q8** — Function `insertInArray(arr)` returning a NEW array with `0` inserted at index 1 (second position), without mutating the original; original `full` is logged again to show it's unchanged.
+- **Q9** — Function `compareArrays(arr1, arr2)` returning true/false via strict (`===`), elementwise comparison, checking length first. Testing with `empty`/`full` is expected; testing with additional variables named `compare`/`part` is Example/suggested scaffolding — do not fail a student who demonstrates correct same/different/partial-length behavior with different variable names or fewer test cases.
+- **Q10** — Variable `numbers` (array of 3+ numbers — Example, student's own) and function `calculateTotal(arr)` returning the sum of all elements. Use exactly as written (names).
+- **Q11** — Functions `findEvens(arr)` and `findOdds(arr)`, each returning a NEW array of the matching numbers.
+- **Q12** — Function `makeSquares(arr)` returning a NEW array of squared values.
+- **Q13** — Function `displaySkills(arr)` that prints (not returns) each skill; the skills array content is the student's own — Example.
+- **Q14** — Function `fizzBuzz()` with no parameters, looping 1–15, returning an array with "fizz"/"buzz"/"fizzbuzz" substituted per the stated divisibility rules.
+- **Q15** — Function `testScope` demonstrating global/function/block scope via `globalVar`, `functionVar`, `blockVar`, including two commented-out lines that would error if uncommented. The deliverable is the code structure itself, not a single output. The assignment's sample value `"globarVar"` appears to be a typo for `"globalVar"` — do not fail either spelling.
+- **GitHub Task** — Confirming the student followed the repo-cloning steps from the lesson. No code or link is submitted for this task — do not require code or a link.
+
+### Optional Deliverables/Tasks
+
+- **Q3** — Handling uppercase vowels in `noVowels`, in addition to lowercase.
+
+</details>
