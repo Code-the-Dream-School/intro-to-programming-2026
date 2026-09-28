@@ -217,11 +217,11 @@ There is a lot of freedom on this page to be creative.  You may structure and st
 <details>
 <summary>Rubric (for AirHub reviewer and mentors)</summary>
 
-### Required Deliverables/Tasks
-
 - **What is being graded** — This is the final project: the portfolio site built across Assignments 5 through 9 plus the Open API page from Assignment 10. No new features are added this week. Do NOT treat any prior-week work as stray, and do NOT expect new code for this assignment.
 
 - **General** — The project lives on a public GitHub repository (verified by the submitted URL, not by code) and runs without errors in the browser. The reviewer cannot run the code: grade its structure and correctness, not observed output.
+
+### Required Deliverables/Tasks
 
 - **Project structure** — `README.md`, `index.html`, a `css` folder containing `index.css`, and a `js` folder containing `index.js`. Use exactly as written for these names. If the reviewer cannot see the repository file tree, grade from file contents and links rather than failing on placement. The README must exist; it does NOT need to contain instructions for running the code — the Portfolio rubric explicitly says so, so do NOT fail a student for a sparse README.
 
