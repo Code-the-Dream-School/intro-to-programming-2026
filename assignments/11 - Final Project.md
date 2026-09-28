@@ -37,9 +37,6 @@ You can record your presentation in any of these three ways:
 
 ### Upload your video
 
-<details>
-<summary>Click here to expand detailed instructions on how to upload your recording</summary>
-<br>
 <h4>1. Make sure you're logged in to youtube.</h4>
  <p>If you don't have a youtube account, <a href="https://support.google.com/youtube/answer/161805?hl=en&co=GENIE.Platform%3DDesktop">create one by following these instructions</a>.</p>
  <p>You will know you're logged in if you have an initial/icon/other in the top right corner (where the M in the brown circle is on this screenshot):</p>
@@ -82,12 +79,10 @@ You can record your presentation in any of these three ways:
  - [ ] Lastly, click `Save` and copy your video link as seen here
 
 ![Save and copy](https://github.com/Code-the-Dream-School/intro-to-programming-2025/blob/d2f9b35d7206eeb0af24f85a8e8e5d97d43cbfad/images/Screenshot%202025-01-27%20at%204.05.09%E2%80%AFPM.png?raw=true)
- 
-</details>
 
 ---
 
-## Portfolio Project Rubric
+## Portfolio Project Checklist
 
 ### General
 - [ ] Project is published on a public GitHub repository
