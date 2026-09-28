@@ -25,7 +25,7 @@ There is a lot of freedom on this page to be creative.  You may structure and st
 - [ ] Issue new GET requests each time the user clicks a navigation link, meaning you should have 2 GET requests - one for each navigation, that requests only the needed information (Example: if using the weather app, clicking temperature navigation link should pull only data that allows user to see temperatures and clicking conditions navigation link should pull only data that allows user to see weather conditions)
 
 #### FUNCTIONALITY:
-- [ ] Code runs without issues by following the instructions in the README file
+- [ ] Code runs without issues
 - [ ] Navigation between the different endpoints behaves properly and is not slowed down by requesting more data than needs to be displayed (this is the reason for the 2 separate GET requests)
 - [ ] Code is readable and well structured
 - [ ] If applicable, error cases are appropriately handled
@@ -72,7 +72,7 @@ Now let's make sure that lesson branch will be reviewed.
 
 - **Two separate GET requests** — A new GET request issued on each navigation click — two requests total, one per navigation — each requesting only the data that navigation needs. A student who fetches everything once up front and filters client-side has not met this requirement, since the point is the separate targeted requests.
 
-- **Runs from the README** — The code runs without issues when someone follows the instructions in the README file, which means those instructions must exist. Their format and level of detail are the student's own — Example.
+- **Runs from the README** — The portfolio site portion's code runs without issues when someone follows the instructions in the README file of the portfolio project repository, which means those instructions must exist in the portfolio site only. Their format and level of detail are the student's own — Example.  No README file is required for the Open API project repository.
 
 - **Navigation performance** — Navigation between endpoints behaves properly and is not slowed by requesting more data than it displays.
 
