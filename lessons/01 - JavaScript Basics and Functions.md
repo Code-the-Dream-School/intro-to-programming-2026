@@ -13,7 +13,7 @@ If you have questions at any point, ask a question in the `discussion` Slack cha
 
 Read this short article on the most important skill in a software developer's toolkit: problem-solving. As you read, look for the three steps in the problem-solving process!
 
-- [Problem-Solving](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Debugging-Basics.md)
+- [Problem-Solving](https://github.com/TeresaSwarthout/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Problem-Solving.md)
 
 # 1.2 JavaScript Basics
 
@@ -105,7 +105,7 @@ Running your code is the process where the instructions you have written cause t
 
 ### Read this page on debugging basics:
 
-[Debugging Basics](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Problem-Solving.md)
+[Debugging Basics](https://github.com/TeresaSwarthout/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Debugging-Basics.md)
 
 ### Watch this video on debugging basics:
 
