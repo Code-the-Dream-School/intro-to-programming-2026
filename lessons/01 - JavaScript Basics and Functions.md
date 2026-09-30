@@ -105,7 +105,7 @@ Running your code is the process where the instructions you have written cause t
 
 ### Read this page on debugging basics:
 
-[Debugging Basics](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Debugging-Basics.md)
+[Debugging Basics](https://github.com/Code-the-Dream-School/intro-to-programming-2026/blob/main/lessons/01%20-%20JavaScript%20Basics%20and%20Functions/01-Problem-Solving.md)
 
 ### Watch this video on debugging basics:
 
