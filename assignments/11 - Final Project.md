@@ -19,12 +19,12 @@ Talking about your projects is an important skill for job interviews. Record a 3
  - [ ] Scroll the length of your portfolio to show your format and styling of your content
  - [ ] Demonstrate your form section by entering one or two user entries and showing if/how entries can be edited or deleted
  - [ ] Switch to your Open API page
- - [ ] Scroll the length of your Open API project to show your format and styling of your content
+ - [ ] Scroll the length of your Open API page to show your format and styling of your content
  - [ ] Demonstrate your navigation to show that both required endpoints are displaying to the user
  - [ ] Switch back to your portfolio page
  - [ ] Share what the most challenging part of either/both projects and what you enjoyed working on the most in either/both projects
 
-Rubric details for the Portfolio Project and the Open API Project are included at the bottom of this page.  Be sure both your projects meet the requirements specified for each.
+Checklists for the Portfolio Project and the Open API page are included at the bottom of this page. Be sure your work meets the requirements in both checklists.
 
 ### Record your presentation
 
@@ -97,18 +97,20 @@ You can record your presentation in any of these three ways:
   - [ ] index.js
 - [ ] (OPTIONAL) images folder
 
+_NOTE:_ You will also have the HTML, CSS, and JavaScript files for your Open API page from Assignment 10. Keep those files in your repository.
+
 ### index.html
 - [ ] Include proper boilerplate code
 - [ ] (OPTIONAL) Use a font-family or Google fonts
 - [ ] index.css and index.js file should be properly linked to this file
 - [ ] Level 1 heading with student's name
-- [ ] Navigation with working internal links to the following sections:
-  - [ ] About
-  - [ ] Experience
-  - [ ] Skills
-  - [ ] Projects
-  - [ ] Leave a Message
-  - [ ] Open API Page
+- [ ] Navigation with working links to the following sections and page:
+  - [ ] About section
+  - [ ] Experience section
+  - [ ] Skills section
+  - [ ] Projects section
+  - [ ] Leave a Message section
+  - [ ] Open API page
   - [ ] (OPTIONAL) Connect or Contact Me section to contain email and social media links
 - [ ] (OPTIONAL) Sticky/fixed navigation that stays in place when user scrolls down on the page
 - [ ] (OPTIONAL) Dark mode toggle switch to change coloring of background and text between default and dark mode
@@ -189,35 +191,32 @@ Everyone's style is different and we encourage students to let the style of thei
 - [ ] Styling is effective (example: font-sizes are not too small or large, colors are not too dark/light to be easily seen, etc.)
 - [ ] Remember to have appropriate contrast to your site - don't use a dark font on a dark background
 
-## Open API Project Rubric
+## Open API Page Checklist
 
-There is a lot of freedom on this page to be creative.  You may structure and style this page any way you would like.  It must meet the following minimal requirements.
+There is a lot of freedom on this page to be creative. You may structure and style the page any way you like, as long as it meets the requirements below.
 
-### STRUCTURE:
-- [ ] Linked to the page from the portfolio nav bar
-- [ ] Nav bar that allows navigation back to the portfolio page
-- [ ] An HTML document for the page
-- [ ] A CSS document to style the HTML page
-- [ ] A JavaScript file that retrieves data from one of several public API sources to display the data on your HTML page
+### Structure
+- [ ] A new HTML file, a new CSS file, and a new JavaScript file for your Open API page. The page may also link your portfolio's CSS file.
+- [ ] A link to the Open API page in your portfolio's nav bar
+- [ ] A nav bar on the Open API page with a link back to your portfolio
 
-### CONTENT:
-- [ ] Display the data for at least 2 endpoints in the API
-- [ ] Include navigation (e.g. button or link) from each type of data to the other (For Example: if using the weather app, one navigation button/link should display the temperature details and the second navigation button/link should display the weather condition)
-- [ ] Issue new GET requests each time the user clicks a navigation link, meaning you should have 2 GET requests - one for each navigation, that requests only the needed information (Example: if using the weather app, clicking temperature navigation link should pull only data that allows user to see temperatures and clicking conditions navigation link should pull only data that allows user to see weather conditions)
+### Content
+- [ ] Data from at least two different endpoints of a public API of your choice. Using more than two endpoints is optional.
+- [ ] A navigation button or link for each type of data, so the user can switch between them
+- [ ] A separate GET request for each navigation option. Each request calls only the endpoint needed for the data that option displays. You may load one type of data by default when the page first opens.
+- [ ] Each request checks `response.ok` and uses `.catch` (or `try`/`catch`). Errors are reported with a message on the page or in the console.
 
-### FUNCTIONALITY:
-- [ ] Code runs without issues by following the instructions in the README file
-- [ ] Navigation between the different endpoints behaves properly and is not slowed down by requesting more data than needs to be displayed (this is the reason for the 2 separate GET requests)
-- [ ] Code is readable and well structured
-- [ ] If applicable, error cases are appropriately handled
-- [ ] Styling is effective (example: font-sizes are not too small or large, colors are not too dark/light to be easily seen, etc.)
+### Functionality and Styling
+- [ ] Code runs without errors
+- [ ] Code is readable and well organized
+- [ ] Styling is effective: font sizes are not too small or too large, and text colors contrast clearly with the background
 
 ---
 
 <details>
 <summary>Rubric (for AirHub reviewer and mentors)</summary>
 
-- **What is being graded** — This is the final project: the portfolio site built across Assignments 5 through 9 plus the Open API page from Assignment 10. No new features are added this week. Do NOT treat any prior-week work as stray, and do NOT expect new code for this assignment.
+- **What is being graded** — This is the final project: the portfolio site built across Assignments 5 through 9 plus the Open API page from Assignment 10, including that page's own HTML, CSS, and JavaScript files. No new features are added this week. Do NOT treat any prior-week work as stray, and do NOT expect new code for this assignment.
 
 - **General** — The project lives on a public GitHub repository (verified by the submitted URL, not by code) and runs without errors in the browser. The reviewer cannot run the code: grade its structure and correctness, not observed output.
 
@@ -225,19 +224,19 @@ There is a lot of freedom on this page to be creative.  You may structure and st
 
 - **Project structure** — `README.md`, `index.html`, a `css` folder containing `index.css`, and a `js` folder containing `index.js`. Use exactly as written for these names. If the reviewer cannot see the repository file tree, grade from file contents and links rather than failing on placement. The README must exist; it does NOT need to contain instructions for running the code — the Portfolio rubric explicitly says so, so do NOT fail a student for a sparse README.
 
-- **`index.html` structure** — Proper boilerplate; `index.css` and `index.js` correctly linked; a level-1 heading with the student's name; navigation with working internal links to About, Experience, Skills, Projects, Leave a Message, and the Open API Page.
+- **`index.html` structure** — Proper boilerplate; `index.css` and `index.js` correctly linked; a level-1 heading with the student's name; navigation with working links to the About, Experience, Skills, Projects, and Leave a Message sections, and to the Open API page.
 
 - **About section** — A level-2 heading and one or more paragraphs of text.
 
 - **Experience section** — A level-2 heading, and either a list of previous work/experience or one or more paragraphs of related experience (both are acceptable — a student with no prior work experience is explicitly allowed to use paragraphs). If they used a list, it must be styled with grid or flexbox; if they used paragraphs, that styling requirement does not apply.
 
-- **Skills section** — A level-2 heading and a list of skills inserted by JavaScript from `index.js`, styled with grid or flexbox. The skills themselves are the student's own — Example.
+- **Skills section** — A level-2 heading and a list of skills inserted by JavaScript from `index.js`, styled with grid or flexbox. The skills themselves are the student's own choice. Do NOT fail a student for which skills they list.
 
-- **Projects section** — A level-2 heading and a list of GitHub repositories fetched with the GitHub API and inserted by JavaScript from `index.js`. The student's own username and repositories — Example.
+- **Projects section** — A level-2 heading and a list of GitHub repositories fetched with the GitHub API and inserted by JavaScript from `index.js`. The GitHub username and repositories are the student's own.
 
 - **Leave a Message section** — A level-2 heading for the form, with Name, Email Address, and Message fields, a submit button, and an event listener that adds the submitted input to the messages section. A level-2 heading for the messages, with the list of messages styled in grid or flexbox. Each message item must contain: the author's name as a clickable link that emails the address they entered, the message text, and a remove button that deletes that message.
 
-- **Contact links — location is flexible** — An email link and at least two social media profile links are required, but they may live EITHER in a Connect/Contact Me section OR in the page footer. The Connect section itself is optional. Do NOT fail a student who has no Connect section but has these links in the footer, and do NOT fail one who kept the Connect section from Assignment 5. Which platforms they link is the student's own choice — Example.
+- **Contact links — location is flexible** — An email link and at least two social media profile links are required, but they may live EITHER in a Connect/Contact Me section OR in the page footer. The Connect section itself is optional. Do NOT fail a student who has no Connect section but has these links in the footer, and do NOT fail one who kept the Connect section from Assignment 5. Which platforms they link is the student's own choice.
 
 - **Footer** — The copyright logo, current year, and student's name inserted by JavaScript from `index.js`. Plus the email and 2+ social icon/image links, if and only if the page has no Connect or Contact Me section.
 
@@ -247,9 +246,9 @@ There is a lot of freedom on this page to be creative.  You may structure and st
 
 - **Code comments** — "Comments in code as appropriate" is required in both `index.js` and `index.css`, but judge it generously: "as appropriate" sets no count or format, and this requirement appears for the first time at the final project. Some meaningful comments satisfy it; do NOT fail a student over comment density or wording.
 
-- **Styling** — Effective styling: font sizes neither too small nor too large, colors readable, adequate contrast (no dark font on a dark background). All specific design choices are the student's own — Example; the rubric explicitly encourages students to let their own style show.
+- **Styling** — Effective styling: font sizes neither too small nor too large, colors readable, adequate contrast (no dark font on a dark background). All specific design choices are the student's own. There is no correct design, and the checklist explicitly encourages students to let their own style show.
 
-- **Open API project** — All requirements from the Open API Project Rubric restated above: separate HTML, CSS, and JavaScript files; two-way navigation between the Open API page and the portfolio; data from at least two endpoints of a public API of the student's choosing; navigation between the data types; two separate GET requests, one per navigation, each requesting only the data it needs; readable, well-structured code; effective styling. Error handling here is conditional — the wording is "**If applicable**, error cases are appropriately handled" — so do NOT fail a student for its absence unless their page clearly calls for it.
+- **Open API page** — The requirements in the Open API Page Checklist above: new HTML, CSS, and JavaScript files for the page (names and locations are the student's choice; the page may also link the portfolio's CSS); two-way navigation between the Open API page and the portfolio; data from at least two different endpoints (different URLs, not one endpoint with different parameters) of any public API; a button or link for each data type; a separate GET request for each navigation option. Fetching all data in one request and filtering it does NOT meet this requirement. Do NOT fail a student for loading one data type by default, for storing a response so a repeated click does not fetch again, or because an endpoint returns more fields than the page displays. Error handling is required: each request checks `response.ok` (or equivalent) and catches failures with `.catch` or `try`/`catch`; reporting the error on the page or in the console are both acceptable. README running instructions are NOT required.
 
 - **Merged work** — All open pull requests merged into `main` before submission. Verified through GitHub, not code content.
 
@@ -259,7 +258,7 @@ There is a lot of freedom on this page to be creative.  You may structure and st
 
 ### Optional Deliverables/Tasks
 
-Do not fail a student for omitting any of these. Every item below is marked `(OPTIONAL)` in the Portfolio Project Rubric.
+Do not fail a student for omitting any of these. Every portfolio item below is marked `(OPTIONAL)` in the Portfolio Project Checklist.
 
 - An `images` folder (and, if images are used, keeping them there at the repository root with proper links and `alt` attributes).
 - Using a font-family or Google Fonts.
@@ -274,5 +273,6 @@ Do not fail a student for omitting any of these. Every item below is marked `(OP
 - An edit button on each message, letting the user change one or more of the form inputs.
 - Conditionally rendering (hiding/showing) the messages heading and section depending on whether any messages exist.
 - Using icons or images in place of text links for the email and social media links.
+- More than two endpoints on the Open API page.
 
 </details>
