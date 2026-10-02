@@ -1,8 +1,22 @@
 # The Fetch API
 
-`fetch` is a built-in JavaScript browser function for making HTTP requests. In other words, it lets your JavaScript ask a server for data (or send data to a server) and then read the server's reply.
+`fetch` is a built-in browser function for making HTTP requests. In other words, it lets your JavaScript ask a server for data (or send data to a server) and then read the server's reply.
 
-Because requests take time to complete, `fetch` is **asynchronous**: your code doesn't freeze while it waits. Instead, `fetch` returns a **Promise**, which is an object that stands for a result that will arrive later.  We will explain **Promise**s more in a later section.
+Because requests take time to complete, `fetch` is **asynchronous**: your code doesn't freeze while it waits. Instead, `fetch` returns a **Promise**, which is an object that stands for a result that will arrive later.
+
+## Promises
+
+A promise is a JavaScript object that represents a value you don't have yet but expect to get later. Network requests, timers, and file reads all take time, and a promise lets your code say "go do this, and here's what to do when it finishes" without freezing the page while it waits.
+
+Think of ordering food at a counter and getting a buzzer. The buzzer isn't your meal, but it's a placeholder that will eventually either light up (your food is ready) or tell you something went wrong (they're out of the dish).
+
+A promise is always in one of three states:
+
+- **Pending** - the work is still in progress.
+- **Fulfilled** - the work succeeded, and the promise now holds a result value.
+- **Rejected** - the work failed, and the promise holds an error.
+
+You'll also hear the word **resolved**. For now, treat "fulfilled" and "resolved" as meaning the same thing: the promise finished and has a value for you.
 
 ## Try it yourself
 
@@ -54,7 +68,7 @@ async function getPost() {
 getPost();
 ```
 
-`await` pauses the function until the Promise finishes, and it can only be used inside an `async` function.
+`await` pauses the function until the Promise finishes. In the code you write for this course, `await` can only be used inside an `async` function.
 
 ## Parameters
 
@@ -66,37 +80,63 @@ getPost();
    - `headers`: an object whose key-value pairs are header names and values
    - `body`: the data to send, as a string (usually created with `JSON.stringify`)
 
+### Example: sending data with POST
 
-## Promises
+```javascript
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    title: 'Hello',
+    body: 'My first post',
+    userId: 1
+  })
+})
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('An error occurred:', error));
+```
 
-The `fetch` function returns a Promise that will be fulfilled when a response comes back from the server. A promise is a JavaScript object that represents a value you don't have yet but expect to get later. Network requests, timers, and file reads all take time, and a promise lets your code say "go do this, and here's what to do when it finishes" without freezing the page while it waits.
+The `Content-Type` header tells the server that the body is JSON. (This example skips the `response.ok` check to keep it short. In real code, include it, as you'll see in the next topic.)
 
-Think of ordering food at a counter and getting a buzzer. The buzzer isn't your meal, but it's a placeholder that will eventually either light up (your food is ready) or tell you something went wrong (they're out of the dish).
+## The Response object
 
-A promise is always in one of three states:
-- **Pending** - the work is still in progress.
-- **Fulfilled** - the work succeeded, and the promise now holds a result value.
-- **Rejected** - the work failed, and the promise holds an error.
+`fetch` returns a Promise that is fulfilled with a [Response object](https://developer.mozilla.org/en-US/docs/Web/API/Response) as soon as the server's reply starts to arrive. Useful parts of the Response include:
 
-Useful parts of the Response include:
 - `response.ok`: `true` if the status code is 200-299
 - `response.status`: the numeric status code (e.g. `200`, `404`, `500`)
 - `response.json()`: reads the body and parses it as JSON (returns another Promise)
 - `response.text()`: reads the body as plain text (also returns a Promise)
 
-Error Handling is an important part of a fetch and will be discussed in the next section.
-
-## Scrimba Videos to Watch
-- **[Scrimba - JS Deep Dive - Async JS - Make Network Requests with fetch()](https://v2.scrimba.com/javascript-deep-dive-c0a/~02p)**
-- **[Scrimba - JS Deep Dive - Async JS - Challenge: Fetch API](https://v2.scrimba.com/javascript-deep-dive-c0a/~02q)**
-- **[Scrimba - JS Deep Dive - Async JS - Promises with async-await](https://v2.scrimba.com/javascript-deep-dive-c0a/~02r)**
-- **[Scrimba  - JS Deep Dive - Async JS - Catch Errors with async-await](https://v2.scrimba.com/javascript-deep-dive-c0a/~02s)**
-- **[Scrimba - Introduction to ES6+ - Async & Await](https://v2.scrimba.com/introduction-to-es6-c0t/~0u)**
+Error handling is an important part of using `fetch` and is covered in the next topic.
 
 ## AI Learning Prompt: Retrieval Practice
-1. Open your preferred AI chatbot (like CTD’s AI Reviewer).
-2. Explain the purpose of the fetch API in your own words, and list the three components you can define in the optional "options" parameter.
+
+1. Open your preferred AI chatbot (like CTD's AI Reviewer).
+2. Explain the purpose of the fetch API in your own words, and list three common components you can define in the optional "options" parameter.
 3. Ask the AI to give you feedback on your explanation and tell you what you got right or where your understanding of request components (like method, headers, and body) could be improved.
 
 **Example Prompt:**
 > "I just learned about the fetch API. Here's my understanding: it's used to [your explanation]. I also think the options object can include [list 3 components]. Can you tell me what I got right and what I should refine in my understanding?"
+
+## AI Learning Prompt: Predict-then-Check
+
+Study this code without running it:
+
+```javascript
+async function fetchData() {
+  console.log("A");
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+  console.log("B");
+}
+fetchData();
+console.log("C");
+```
+
+1. Predict the order in which "A", "B", and "C" will be printed to the console.
+2. Explain to an AI chatbot why you think that order will occur, specifically focusing on how the `await` keyword pauses execution inside the function.
+3. Ask: "Is my understanding of the `await` keyword and the order of execution correct here?"
+4. Run the code in your browser console and see if you were right.
+

@@ -56,6 +56,8 @@ Some APIs use **OAuth** instead, a system that lets one service act on your beha
 
 **Treat your API key like a password.** Don't share it, post it online, or paste it into code you might publish.
 
+> **A note for browser-only projects:** In a project that runs entirely in the browser, like your portfolio, anyone can open developer tools and read your JavaScript, so a key in your code is never truly secret. For now, use free keys that have no billing attached, and keep them out of public repositories. Hiding keys properly requires a server, which you'll learn about later.
+
 ## The 5-Step Workflow
 
 The process is the same whatever programming language you use.
@@ -63,7 +65,7 @@ The process is the same whatever programming language you use.
 | Step | What to do | Tips |
 | --- | --- | --- |
 | **1. Read the docs** | Find the API's documentation. Look up the endpoints, required parameters, and usage limits. | Search for "\[service name\] API documentation" or look for a developer portal. |
-| **2. Get credentials** | Create a free account and generate an API key. | Store the key in an environment variable, not directly in your code. |
+| **2. Get credentials** | Create a free account and generate an API key (if the API needs one). | In server-side projects, store the key in an environment variable instead of in your code. See the note above for browser projects. |
 | **3. Test manually** | Send one request by hand before writing any code. | You can use a browser. |
 | **4. Parse the response** | Turn the JSON text into data your program can use, and pick out the fields you need. | Most languages have a built-in JSON tool. |
 | **5. Handle errors** | Plan for failures: bad connections, missing data, rate limits. | Always check the status code before using the data. |
@@ -71,13 +73,14 @@ The process is the same whatever programming language you use.
 ## Example: Weather Data
 
 ### Step 1 - Read the Docs
-We'll use the free [Visual Crossing Timeline Weather API](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/). 
+
+We'll use the free [Visual Crossing Timeline Weather API](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/).
 
 ### Step 2 - Get Credentials
 
 Create a free Visual Crossing account. Your key appears on your account page. It is a long string of letters and numbers unique to you, which lets the service track how much data you request.
 
-### Step 3a - Test manually. First, try it without a key.
+### Step 3a - Test manually: first, try it without a key
 
 Paste this into your browser:
 
@@ -93,7 +96,7 @@ No session or key found.
 
 That's the API saying, "I don't know who you are." This is a `401`-type error: a problem with the request, not the server.
 
-### Step 3b: Test manually. Now, try it with a key.
+### Step 3b - Test manually: now, try it with a key
 
 Visual Crossing takes the key as a query parameter. Add `?key=` followed by your key, and replace `YOUR_API_KEY` below with your own:
 
@@ -102,21 +105,24 @@ https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timel
 ```
 
 Here is a shortened version of what comes back (the actual response is much longer):
+
 ```json
-{ "queryCost":1,
-  "latitude":51.5072,
-  "longitude":-0.1275,
-  "resolvedAddress":"london",
-  "address":"london",
-  "timezone":"Europe/London",
-  "tzoffset":1.0,
-  "description":"Cooling down with no rain expected.",
-  "days":[
-    {"datetime":"2026-10-02",
-    "datetimeEpoch":1790895600,
-    "tempmax":70.1,
-    "tempmin":52.0,
-    "temp":60.7,
+{
+  "queryCost": 1,
+  "latitude": 51.5072,
+  "longitude": -0.1275,
+  "resolvedAddress": "london",
+  "address": "london",
+  "timezone": "Europe/London",
+  "tzoffset": 1.0,
+  "description": "Cooling down with no rain expected.",
+  "days": [
+    {
+      "datetime": "2026-10-02",
+      "datetimeEpoch": 1790895600,
+      "tempmax": 70.1,
+      "tempmin": 52.0,
+      "temp": 60.7
     }
   ]
 }
@@ -124,6 +130,20 @@ Here is a shortened version of what comes back (the actual response is much long
 
 Notice the structure. The curly braces `{}` hold labeled values, and the square brackets `[]` hold a list. The `days` list contains one entry per day, and each day has its own labeled values.
 
-### Steps 4 and 5: Parse the Response and Handle Errors
+### Steps 4 and 5 - Parse the Response and Handle Errors
 
-We will cover this later in the lesson!
+We'll cover these in the next topics:
+
+- **JSON** shows how to turn the response text into data you can read (Step 4).
+- **The Fetch API** shows how to send requests from your own JavaScript code.
+- **Error Handling with Fetch** shows how to plan for things going wrong (Step 5).
+
+## AI Learning Prompt: Retrieval Practice
+
+1. Without looking back, write down in your own words what an API is, and what the difference is between a `4xx` and a `5xx` status code.
+2. Open your preferred AI chatbot and share your explanation.
+3. Ask it to tell you what you got right and what you should refine.
+
+**Example Prompt:**
+> "I just learned about APIs. Here's my understanding: an API is [your explanation]. I also think a 4xx status code means [your explanation] and a 5xx status code means [your explanation]. What did I get right, and what should I refine?"
+

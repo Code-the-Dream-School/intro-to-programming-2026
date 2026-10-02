@@ -162,46 +162,9 @@ async function loadPost(id) {
 }
 ```
 
-A good habit is to show a friendly message to the user and log the technical details for yourself.
+A good habit is to show a friendly message to the user and log the technical details for yourself.  
 
-## A reusable helper
-
-If you make many requests, repeat the checking logic once in a helper function:
-
-```javascript
-async function fetchJson(url, options) {
-  const response = await fetch(url, options);
-
-  if (!response.ok) {
-    throw new Error(`Request failed with status ${response.status}`);
-  }
-
-  return response.json();
-}
-
-// Now each use is short:
-try {
-  const post = await fetchJson('https://jsonplaceholder.typicode.com/posts/1');
-  console.log(post);
-} catch (error) {
-  console.error(error.message);
-}
-```
-
-## Optional: add a timeout
-
-By default, `fetch` can wait a very long time. Modern browsers let you give up after a set time:
-
-```javascript
-try {
-  const response = await fetch(url, { signal: AbortSignal.timeout(5000) }); // 5 seconds
-  // ...
-} catch (error) {
-  if (error.name === 'TimeoutError') {
-    console.error('The request took too long.');
-  }
-}
-```
+**Note:  Showing the user a meaningful error code is not required for your portfolio project.  Just understand that it is a software development best practice.**
 
 ## Common beginner mistakes
 
